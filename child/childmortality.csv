@@ -1,0 +1,3137 @@
+Country,Year,Morality,Continent
+Algeria,2017,24.11,Africa
+Angola,2017,71.04,Africa
+Benin,2017,89.8,Africa
+Botswana,2017,25.14,Africa
+Burkina Faso,2017,115.59,Africa
+Burundi,2017,86.61,Africa
+Cameroon,2017,78.71,Africa
+Central African Republic,2017,131.1,Africa
+Chad,1950,331.28,Africa
+Comoros,2017,50.19,Africa
+Congo,2017,59.9,Africa
+Djibouti,2017,48.82,Africa
+Egypt,2017,20.39,Africa
+Equatorial Guinea,2017,59.16,Africa
+Eritrea,2017,51.33,Africa
+Ethiopia,2017,60.58,Africa
+Gabon,2017,40.51,Africa
+Gambia,2017,51.2,Africa
+Ghana,2017,62.76,Africa
+Guinea,2017,103.06,Africa
+Guinea-Bissau,2017,80.62,Africa
+Kenya,2017,48.15,Africa
+Lesotho,2017,76.76,Africa
+Liberia,2017,78.9,Africa
+Libya,2017,14.6,Africa
+Madagascar,2017,78.11,Africa
+Malawi,2017,70.85,Africa
+Mali,2017,127.42,Africa
+Mauritania,2017,49.27,Africa
+Mauritius,2017,14.74,Africa
+Morocco,2017,21.93,Africa
+Mozambique,2017,79.13,Africa
+Namibia,2017,43.6,Africa
+Niger,2017,112,Africa
+Nigeria,2017,109.47,Africa
+Rwanda,2017,50.68,Africa
+Sao Tome and Principe,2017,34.06,Africa
+Senegal,2017,53.14,Africa
+Seychelles,2017,13.48,Africa
+Sierra Leone,2017,117.82,Africa
+Somalia,2017,110.4,Africa
+South Africa,2017,35.87,Africa
+South Sudan,2017,111.26,Africa
+Sudan,2017,52.66,Africa
+Swaziland,2017,49.92,Africa
+Togo,2017,72.99,Africa
+Tunisia,2017,11.72,Africa
+Uganda,2017,66.57,Africa
+Antigua and Barbuda,2017,12.81,Americas
+Argentina,2017,12.06,Americas
+Bahamas,2017,13.61,Americas
+Barbados,2017,13.59,Americas
+Belize,2017,19.67,Americas
+Bermuda,2017,5.82,Americas
+Brazil,2017,20.19,Americas
+Canada,2017,5.81,Americas
+Chile,2017,7.88,Americas
+Colombia,2017,15.61,Americas
+Costa Rica,2017,8.8,Americas
+Cuba,2017,5.71,Americas
+Dominica,2017,33.36,Americas
+Dominican Republic,2017,33.13,Americas
+Ecuador,2017,19.01,Americas
+El Salvador,2017,13.49,Americas
+Greenland,2017,14.79,Americas
+Grenada,2017,15.55,Americas
+Guatemala,2017,26.83,Americas
+Guyana,2017,28.64,Americas
+Haiti,2017,63.54,Americas
+Honduras,2017,15.92,Americas
+Jamaica,2017,15.6,Americas
+Mexico,2017,17.38,Americas
+Nicaragua,2017,17.19,Americas
+Panama,2017,18.62,Americas
+Paraguay,2017,15.52,Americas
+Peru,2017,17.16,Americas
+Puerto Rico,2017,10.68,Americas
+Saint Lucia,2017,15.08,Americas
+Saint Vincent and the Grenadines,2017,18.93,Americas
+Suriname,2017,31.56,Americas
+Trinidad and Tobago,2017,18.64,Americas
+Uruguay,2017,10.31,Americas
+Afghanistan,1950,278.38,Asia
+Armenia,2017,10.55,Asia
+Azerbaijan,2017,38.24,Asia
+Bahrain,2017,7.52,Asia
+Bangladesh,2017,34.26,Asia
+Bhutan,2017,30.07,Asia
+Cambodia,2017,34.9,Asia
+China,2017,13.16,Asia
+Cyprus,2017,3.2,Asia
+Georgia,2017,12.34,Asia
+India,2017,40.83,Asia
+Indonesia,2017,29.15,Asia
+Iraq,2017,25.65,Asia
+Israel,2017,3.85,Asia
+Japan,2017,2.76,Asia
+Jordan,2017,14.91,Asia
+Kazakhstan,2017,15.82,Asia
+Kuwait,2017,8.36,Asia
+Kyrgyzstan,2017,22.07,Asia
+Lebanon,2017,7.81,Asia
+Malaysia,2017,7.79,Asia
+Maldives,2017,8.47,Asia
+Mongolia,2017,29.35,Asia
+Myanmar,2017,48.97,Asia
+Nepal,2017,32.46,Asia
+Oman,2017,11.28,Asia
+Pakistan,2017,58.47,Asia
+Philippines,2017,29.4,Asia
+Qatar,2017,7.95,Asia
+Saudi Arabia,2017,8.23,Asia
+Singapore,2017,2.12,Asia
+Sri Lanka,2017,9.29,Asia
+Tajikistan,2017,52.39,Asia
+Thailand,2017,9.55,Asia
+Turkey,2017,15.21,Asia
+Turkmenistan,2017,32.89,Asia
+United Arab Emirates,2017,7.75,Asia
+Uzbekistan,2017,26.73,Asia
+Albania,2017,13.99,Europe
+Andorra,2017,2.11,Europe
+Austria,2017,3.81,Europe
+Belarus,2017,7.34,Europe
+Belgium,2017,4.12,Europe
+Bosnia and Herzegovina,2017,7.04,Europe
+Bulgaria,2017,8.56,Europe
+Croatia,2017,4.59,Europe
+Czech Republic,2017,3.26,Europe
+Denmark,2017,4.05,Europe
+Estonia,2017,3.18,Europe
+Finland,2017,2.4,Europe
+France,2017,4.25,Europe
+Germany,2017,3.88,Europe
+Greece,2017,4.92,Europe
+Hungary,2017,5.23,Europe
+Iceland,2017,2.46,Europe
+Ireland,2017,3.73,Europe
+Italy,2017,3.5,Europe
+Latvia,2017,5.54,Europe
+Lithuania,2017,5.17,Europe
+Luxembourg,2017,2.37,Europe
+Malta,2017,6.56,Europe
+Montenegro,2017,4.26,Europe
+Netherlands,2017,4.27,Europe
+Norway,2017,2.87,Europe
+Poland,2017,4.81,Europe
+Portugal,2017,3.94,Europe
+Romania,2017,9.63,Europe
+Serbia,2017,5.61,Europe
+Slovakia,2017,6.52,Europe
+Slovenia,2017,2.32,Europe
+Spain,2017,3.47,Europe
+Sweden,2017,3.03,Europe
+Switzerland,2017,4.04,Europe
+Ukraine,2017,10.55,Europe
+American Samoa,2017,11.5,Oceania
+Australia,2017,4.17,Oceania
+Fiji,2017,27.9,Oceania
+Guam,2017,14.78,Oceania
+Kiribati,2017,45.25,Oceania
+Marshall Islands,2017,24.75,Oceania
+New Zealand,2017,4.96,Oceania
+Northern Mariana Islands,2017,9.41,Oceania
+Papua New Guinea,2017,57.46,Oceania
+Samoa,2017,15.71,Oceania
+Solomon Islands,2017,28.83,Oceania
+Tonga,2017,19.65,Oceania
+Vanuatu,2017,32.5,Oceania
+Andean Latin America,2017,20.91,#N/A
+Australasia,2017,4.3,#N/A
+Bolivia,2017,32.44,#N/A
+Brunei,2017,9.97,#N/A
+Cape Verde,2017,23.31,#N/A
+Caribbean,2017,38.69,#N/A
+Central Asia,2017,28.73,#N/A
+Central Europe,2017,6.28,#N/A
+Central Latin America,2017,17.57,#N/A
+Central Sub-Saharan Africa,2017,83.1,#N/A
+Cote d'Ivoire,2017,94.67,#N/A
+Democratic Republic of Congo,2017,87.31,#N/A
+East Asia,2017,13.24,#N/A
+Eastern Europe,2017,8.75,#N/A
+Eastern Sub-Saharan Africa,2017,68.32,#N/A
+High SDI,2017,5.26,#N/A
+High-income,2017,5.73,#N/A
+High-income North America,2017,7.23,#N/A
+High-middle SDI,2017,11.54,#N/A
+Iran,2017,15.91,#N/A
+Laos,2017,63.44,#N/A
+Latin America and the Caribbean,2017,20.4,#N/A
+Low SDI,2017,67.25,#N/A
+Low-middle SDI,2017,55.63,#N/A
+Macedonia,2017,10.22,#N/A
+Micronesia,2017,19.48,#N/A
+Middle SDI,2017,20.68,#N/A
+Moldova,2017,16.36,#N/A
+North Africa and Middle East,2017,27.96,#N/A
+North Korea,2017,24.92,#N/A
+Oceania,2017,51.86,#N/A
+Palestine,2017,14.56,#N/A
+Russia,2017,8.36,#N/A
+South Asia,2017,43.08,#N/A
+South Korea,2017,3.54,#N/A
+Southeast Asia,2017,26.89,#N/A
+Southern Latin America,2017,11,#N/A
+Southern Sub-Saharan Africa,2017,43.87,#N/A
+Sub-Saharan Africa,2017,84.07,#N/A
+Syria,2017,18.76,#N/A
+Taiwan,2017,5.06,#N/A
+Tanzania,2017,65.16,#N/A
+Timor,2017,39.07,#N/A
+Tropical Latin America,2017,19.97,#N/A
+United Kingdom,2017,4.93,#N/A
+United States,2017,7.37,#N/A
+United States Virgin Islands,2017,9.87,#N/A
+Venezuela,2017,17.12,
+Vietnam,2017,15.2,
+Western Europe,2017,4.04,
+Western Sub-Saharan Africa,2017,102.38,
+World,2017,40.6,
+Yemen,2017,46.98,
+Zambia,2017,70.48,
+Zimbabwe,2017,60.91,
+Algeria,2010,27.99,Africa
+Angola,2010,106.74,Africa
+Benin,2010,114.25,Africa
+Botswana,2010,34.6,Africa
+Burkina Faso,2010,142.47,Africa
+Burundi,2010,103.8,Africa
+Cameroon,2010,109.46,Africa
+Central African Republic,2010,160.73,Africa
+Chad,1955,314.27,Africa
+Comoros,2010,69.45,Africa
+Congo,2010,76.78,Africa
+Djibouti,2010,72.34,Africa
+Egypt,2010,29.8,Africa
+Equatorial Guinea,2010,84.42,Africa
+Eritrea,2010,70.95,Africa
+Ethiopia,2010,92.31,Africa
+Gabon,2010,62.8,Africa
+Gambia,2010,64.06,Africa
+Ghana,2010,84.97,Africa
+Guinea,2010,134.04,Africa
+Guinea-Bissau,2010,112.62,Africa
+Kenya,2010,61.55,Africa
+Lesotho,2010,92.66,Africa
+Liberia,2010,98.28,Africa
+Libya,2010,17.68,Africa
+Madagascar,2010,92.45,Africa
+Malawi,2010,97.81,Africa
+Mali,2010,150.67,Africa
+Mauritania,2010,66.51,Africa
+Mauritius,2010,15.57,Africa
+Morocco,2010,31.81,Africa
+Mozambique,2010,109.8,Africa
+Namibia,2010,55.91,Africa
+Niger,2010,143.45,Africa
+Nigeria,2010,137.41,Africa
+Rwanda,2010,74.41,Africa
+Sao Tome and Principe,2010,45.68,Africa
+Senegal,2010,73.48,Africa
+Seychelles,2010,15.06,Africa
+Sierra Leone,2010,160.99,Africa
+Somalia,2010,145.13,Africa
+South Africa,2010,58.07,Africa
+South Sudan,2010,124.07,Africa
+Sudan,2010,72.21,Africa
+Swaziland,2010,91.46,Africa
+Togo,2010,101.69,Africa
+Tunisia,2010,18.73,Africa
+Uganda,2010,95,Africa
+Antigua and Barbuda,2010,14.32,Americas
+Argentina,2010,15.52,Americas
+Bahamas,2010,14.66,Americas
+Barbados,2010,14.65,Americas
+Belize,2010,22.94,Americas
+Bermuda,2010,6.22,Americas
+Brazil,2010,27.23,Americas
+Canada,2010,6.16,Americas
+Chile,2010,9.63,Americas
+Colombia,2010,20.23,Americas
+Costa Rica,2010,11.67,Americas
+Cuba,2010,6.67,Americas
+Dominica,2010,27.97,Americas
+Dominican Republic,2010,36.38,Americas
+Ecuador,2010,24.9,Americas
+El Salvador,2010,18.13,Americas
+Greenland,2010,16.97,Americas
+Grenada,2010,15.67,Americas
+Guatemala,2010,35.41,Americas
+Guyana,2010,35.39,Americas
+Haiti,2010,171.66,Americas
+Honduras,2010,23.67,Americas
+Jamaica,2010,17.5,Americas
+Mexico,2010,20.61,Americas
+Nicaragua,2010,23.54,Americas
+Panama,2010,21.19,Americas
+Paraguay,2010,23.34,Americas
+Peru,2010,24.33,Americas
+Puerto Rico,2010,9.56,Americas
+Saint Lucia,2010,18.23,Americas
+Saint Vincent and the Grenadines,2010,22.65,Americas
+Suriname,2010,37.48,Americas
+Trinidad and Tobago,2010,19.88,Americas
+Uruguay,2010,13.14,Americas
+Afghanistan,1955,265.58,Asia
+Armenia,2010,14.49,Asia
+Azerbaijan,2010,45.34,Asia
+Bahrain,2010,8.37,Asia
+Bangladesh,2010,52.95,Asia
+Bhutan,2010,46.75,Asia
+Cambodia,2010,51.54,Asia
+China,2010,18.7,Asia
+Cyprus,2010,4.09,Asia
+Georgia,2010,17.17,Asia
+India,2010,56.32,Asia
+Indonesia,2010,39.78,Asia
+Iraq,2010,33.14,Asia
+Israel,2010,4.87,Asia
+Japan,2010,3.42,Asia
+Jordan,2010,18.87,Asia
+Kazakhstan,2010,24.68,Asia
+Kuwait,2010,11.78,Asia
+Kyrgyzstan,2010,29.84,Asia
+Lebanon,2010,10.21,Asia
+Malaysia,2010,7.89,Asia
+Maldives,2010,13.93,Asia
+Mongolia,2010,39.49,Asia
+Myanmar,2010,72.8,Asia
+Nepal,2010,49.76,Asia
+Oman,2010,11.36,Asia
+Pakistan,2010,75.66,Asia
+Philippines,2010,34.73,Asia
+Qatar,2010,10.3,Asia
+Saudi Arabia,2010,13.55,Asia
+Singapore,2010,2.67,Asia
+Sri Lanka,2010,13.25,Asia
+Tajikistan,2010,56.39,Asia
+Thailand,2010,10.81,Asia
+Turkey,2010,22.21,Asia
+Turkmenistan,2010,43.69,Asia
+United Arab Emirates,2010,10.68,Asia
+Uzbekistan,2010,35.44,Asia
+Albania,2010,17.88,Europe
+Andorra,2010,3.09,Europe
+Austria,2010,5.11,Europe
+Belarus,2010,10.45,Europe
+Belgium,2010,4.99,Europe
+Bosnia and Herzegovina,2010,7.81,Europe
+Bulgaria,2010,12.37,Europe
+Croatia,2010,5.73,Europe
+Czech Republic,2010,3.86,Europe
+Denmark,2010,4.24,Europe
+Estonia,2010,5.04,Europe
+Finland,2010,3.26,Europe
+France,2010,4.65,Europe
+Germany,2010,4.56,Europe
+Greece,2010,4.65,Europe
+Hungary,2010,6.27,Europe
+Iceland,2010,2.94,Europe
+Ireland,2010,4.71,Europe
+Italy,2010,4.21,Europe
+Latvia,2010,8.38,Europe
+Lithuania,2010,6.26,Europe
+Luxembourg,2010,3.07,Europe
+Malta,2010,7.33,Europe
+Montenegro,2010,7.89,Europe
+Netherlands,2010,4.89,Europe
+Norway,2010,3.65,Europe
+Poland,2010,6.24,Europe
+Portugal,2010,4.02,Europe
+Romania,2010,12.69,Europe
+Serbia,2010,7.58,Europe
+Slovakia,2010,7.5,Europe
+Slovenia,2010,3.49,Europe
+Spain,2010,4.17,Europe
+Sweden,2010,3.36,Europe
+Switzerland,2010,4.71,Europe
+Ukraine,2010,11.94,Europe
+American Samoa,2010,13.44,Oceania
+Australia,2010,5.47,Oceania
+Fiji,2010,29.33,Oceania
+Guam,2010,14.79,Oceania
+Kiribati,2010,55.54,Oceania
+Marshall Islands,2010,30.81,Oceania
+New Zealand,2010,7.4,Oceania
+Northern Mariana Islands,2010,8.85,Oceania
+Papua New Guinea,2010,69.1,Oceania
+Samoa,2010,17.43,Oceania
+Solomon Islands,2010,36.18,Oceania
+Tonga,2010,23.23,Oceania
+Vanuatu,2010,36.36,Oceania
+Andean Latin America,2010,29.01,#N/A
+Australasia,2010,5.81,#N/A
+Bolivia,2010,45.72,#N/A
+Brunei,2010,10.25,#N/A
+Cape Verde,2010,31.89,#N/A
+Caribbean,2010,79.43,#N/A
+Central Asia,2010,36.24,#N/A
+Central Europe,2010,8.08,#N/A
+Central Latin America,2010,21.6,#N/A
+Central Sub-Saharan Africa,2010,116.27,#N/A
+Cote d'Ivoire,2010,121.35,#N/A
+Democratic Republic of Congo,2010,120.47,#N/A
+East Asia,2010,18.84,#N/A
+Eastern Europe,2010,11.31,#N/A
+Eastern Sub-Saharan Africa,2010,92.97,#N/A
+High SDI,2010,5.89,#N/A
+High-income,2010,6.48,#N/A
+High-income North America,2010,7.7,#N/A
+High-middle SDI,2010,16.55,#N/A
+Iran,2010,29.57,#N/A
+Laos,2010,92.02,#N/A
+Latin America and the Caribbean,2010,28.83,#N/A
+Low SDI,2010,89.55,#N/A
+Low-middle SDI,2010,72.09,#N/A
+Macedonia,2010,10.18,#N/A
+Micronesia,2010,23.44,#N/A
+Middle SDI,2010,28.18,#N/A
+Moldova,2010,20.15,#N/A
+North Africa and Middle East,2010,36.75,#N/A
+North Korea,2010,33.77,#N/A
+Oceania,2010,61.03,#N/A
+Palestine,2010,22.54,#N/A
+Russia,2010,11.15,#N/A
+South Asia,2010,58.77,#N/A
+South Korea,2010,4.39,#N/A
+Southeast Asia,2010,35.79,#N/A
+Southern Latin America,2010,14,#N/A
+Southern Sub-Saharan Africa,2010,65.8,#N/A
+Sub-Saharan Africa,2010,110.05,#N/A
+Syria,2010,14.15,#N/A
+Taiwan,2010,5.37,#N/A
+Tanzania,2010,84.82,#N/A
+Timor,2010,47.72,#N/A
+Tropical Latin America,2010,27.08,#N/A
+United Kingdom,2010,5.64,#N/A
+United States,2010,7.85,#N/A
+United States Virgin Islands,2010,10.12,#N/A
+Venezuela,2010,19.91,
+Vietnam,2010,20.99,
+Western Europe,2010,4.66,
+Western Sub-Saharan Africa,2010,129.11,
+World,2010,53.48,
+Yemen,2010,57.24,
+Zambia,2010,93.59,
+Zimbabwe,2010,84.91,
+Algeria,2005,30.36,Africa
+Angola,2005,151.05,Africa
+Benin,2005,128.33,Africa
+Botswana,2005,56.31,Africa
+Burkina Faso,2005,164.48,Africa
+Burundi,2005,138.44,Africa
+Cameroon,2005,129.93,Africa
+Central African Republic,2005,178.89,Africa
+Chad,1960,296.97,Africa
+Comoros,2005,82.71,Africa
+Congo,2005,96.57,Africa
+Djibouti,2005,89.31,Africa
+Egypt,2005,36.28,Africa
+Equatorial Guinea,2005,105.32,Africa
+Eritrea,2005,82.29,Africa
+Ethiopia,2005,120.3,Africa
+Gabon,2005,73.85,Africa
+Gambia,2005,77.73,Africa
+Ghana,2005,98.34,Africa
+Guinea,2005,156.28,Africa
+Guinea-Bissau,2005,151.87,Africa
+Kenya,2005,76.7,Africa
+Lesotho,2005,115.88,Africa
+Liberia,2005,122.17,Africa
+Libya,2005,22.55,Africa
+Madagascar,2005,97.82,Africa
+Malawi,2005,125.08,Africa
+Mali,2005,172.08,Africa
+Mauritania,2005,84.7,Africa
+Mauritius,2005,17.25,Africa
+Morocco,2005,39.38,Africa
+Mozambique,2005,135.18,Africa
+Namibia,2005,75.07,Africa
+Niger,2005,181.11,Africa
+Nigeria,2005,164.62,Africa
+Rwanda,2005,113.09,Africa
+Sao Tome and Principe,2005,65.39,Africa
+Senegal,2005,97.97,Africa
+Seychelles,2005,15.14,Africa
+Sierra Leone,2005,195.47,Africa
+Somalia,2005,145.02,Africa
+South Africa,2005,82.22,Africa
+South Sudan,2005,133.16,Africa
+Sudan,2005,86.37,Africa
+Swaziland,2005,108.47,Africa
+Togo,2005,118.33,Africa
+Tunisia,2005,22.4,Africa
+Uganda,2005,121.29,Africa
+Antigua and Barbuda,2005,16.17,Americas
+Argentina,2005,16.95,Americas
+Bahamas,2005,15.42,Americas
+Barbados,2005,15.43,Americas
+Belize,2005,25.74,Americas
+Bermuda,2005,6.49,Americas
+Brazil,2005,35.59,Americas
+Canada,2005,6.74,Americas
+Chile,2005,10.96,Americas
+Colombia,2005,24.48,Americas
+Costa Rica,2005,11.95,Americas
+Cuba,2005,8.26,Americas
+Dominica,2005,23.08,Americas
+Dominican Republic,2005,42.44,Americas
+Ecuador,2005,30.37,Americas
+El Salvador,2005,22.5,Americas
+Greenland,2005,18.53,Americas
+Grenada,2005,16.31,Americas
+Guatemala,2005,43.36,Americas
+Guyana,2005,41.31,Americas
+Haiti,2005,94.43,Americas
+Honduras,2005,31.05,Americas
+Jamaica,2005,18.06,Americas
+Mexico,2005,23.38,Americas
+Nicaragua,2005,30.34,Americas
+Panama,2005,23.62,Americas
+Paraguay,2005,28.44,Americas
+Peru,2005,31.83,Americas
+Puerto Rico,2005,10.86,Americas
+Saint Lucia,2005,20.39,Americas
+Saint Vincent and the Grenadines,2005,24.88,Americas
+Suriname,2005,43.09,Americas
+Trinidad and Tobago,2005,23.73,Americas
+Uruguay,2005,16.38,Americas
+Afghanistan,1960,254.43,Asia
+Armenia,2005,19.19,Asia
+Azerbaijan,2005,57.18,Asia
+Bahrain,2005,10.46,Asia
+Bangladesh,2005,69.23,Asia
+Bhutan,2005,63.15,Asia
+Cambodia,2005,72.92,Asia
+China,2005,26.09,Asia
+Cyprus,2005,5.41,Asia
+Georgia,2005,25.63,Asia
+India,2005,67.93,Asia
+Indonesia,2005,47.65,Asia
+Iraq,2005,39.89,Asia
+Israel,2005,5.93,Asia
+Japan,2005,4.03,Asia
+Jordan,2005,22.75,Asia
+Kazakhstan,2005,31.96,Asia
+Kuwait,2005,11.62,Asia
+Kyrgyzstan,2005,42.58,Asia
+Lebanon,2005,13.11,Asia
+Malaysia,2005,8.77,Asia
+Maldives,2005,20.61,Asia
+Mongolia,2005,50.92,Asia
+Myanmar,2005,97.84,Asia
+Nepal,2005,64.4,Asia
+Oman,2005,9.99,Asia
+Pakistan,2005,85.22,Asia
+Philippines,2005,38.63,Asia
+Qatar,2005,12.36,Asia
+Saudi Arabia,2005,19.89,Asia
+Singapore,2005,3.19,Asia
+Sri Lanka,2005,19.77,Asia
+Tajikistan,2005,63.17,Asia
+Thailand,2005,15.04,Asia
+Turkey,2005,30.5,Asia
+Turkmenistan,2005,51.33,Asia
+United Arab Emirates,2005,11.71,Asia
+Uzbekistan,2005,42.89,Asia
+Albania,2005,23.55,Europe
+Andorra,2005,3.75,Europe
+Austria,2005,5.5,Europe
+Belarus,2005,14.95,Europe
+Belgium,2005,5.52,Europe
+Bosnia and Herzegovina,2005,8.76,Europe
+Bulgaria,2005,14.23,Europe
+Croatia,2005,7.17,Europe
+Czech Republic,2005,4.8,Europe
+Denmark,2005,5.46,Europe
+Estonia,2005,8.23,Europe
+Finland,2005,4.47,Europe
+France,2005,4.91,Europe
+Germany,2005,5.19,Europe
+Greece,2005,4.93,Europe
+Hungary,2005,8.19,Europe
+Iceland,2005,3.53,Europe
+Ireland,2005,5.28,Europe
+Italy,2005,4.84,Europe
+Latvia,2005,11.35,Europe
+Lithuania,2005,9.59,Europe
+Luxembourg,2005,3.87,Europe
+Malta,2005,7.6,Europe
+Montenegro,2005,11.26,Europe
+Netherlands,2005,6.22,Europe
+Norway,2005,4.42,Europe
+Poland,2005,8.21,Europe
+Portugal,2005,5.37,Europe
+Romania,2005,19.96,Europe
+Serbia,2005,15.01,Europe
+Slovakia,2005,9.47,Europe
+Slovenia,2005,4.93,Europe
+Spain,2005,5.14,Europe
+Sweden,2005,3.65,Europe
+Switzerland,2005,5.49,Europe
+Ukraine,2005,13.62,Europe
+American Samoa,2005,15.76,Oceania
+Australia,2005,6.51,Oceania
+Fiji,2005,30.14,Oceania
+Guam,2005,13.9,Oceania
+Kiribati,2005,62.83,Oceania
+Marshall Islands,2005,35.36,Oceania
+New Zealand,2005,7.12,Oceania
+Northern Mariana Islands,2005,8.37,Oceania
+Papua New Guinea,2005,74.47,Oceania
+Samoa,2005,18.06,Oceania
+Solomon Islands,2005,40.48,Oceania
+Tonga,2005,23.92,Oceania
+Vanuatu,2005,38.99,Oceania
+Andean Latin America,2005,37.2,#N/A
+Australasia,2005,6.62,#N/A
+Bolivia,2005,59.68,#N/A
+Brunei,2005,10.51,#N/A
+Cape Verde,2005,43.49,#N/A
+Caribbean,2005,50.5,#N/A
+Central Asia,2005,44.4,#N/A
+Central Europe,2005,11.72,#N/A
+Central Latin America,2005,24.94,#N/A
+Central Sub-Saharan Africa,2005,140.94,#N/A
+Cote d'Ivoire,2005,138.92,#N/A
+Democratic Republic of Congo,2005,139.21,#N/A
+East Asia,2005,26.1,#N/A
+Eastern Europe,2005,15.52,#N/A
+Eastern Sub-Saharan Africa,2005,114.55,#N/A
+High SDI,2005,6.88,#N/A
+High-income,2005,7.46,#N/A
+High-income North America,2005,8.85,#N/A
+High-middle SDI,2005,21.24,#N/A
+Iran,2005,35.8,#N/A
+Laos,2005,120.66,#N/A
+Latin America and the Caribbean,2005,31.84,#N/A
+Low SDI,2005,105.68,#N/A
+Low-middle SDI,2005,85.44,#N/A
+Macedonia,2005,14.34,#N/A
+Micronesia,2005,25.85,#N/A
+Middle SDI,2005,34.83,#N/A
+Moldova,2005,22.56,#N/A
+North Africa and Middle East,2005,45.1,#N/A
+North Korea,2005,38.47,#N/A
+Oceania,2005,65.01,#N/A
+Palestine,2005,28.44,#N/A
+Russia,2005,16.14,#N/A
+South Asia,2005,70.43,#N/A
+South Korea,2005,5.81,#N/A
+Southeast Asia,2005,44.31,#N/A
+Southern Latin America,2005,15.56,#N/A
+Southern Sub-Saharan Africa,2005,84.77,#N/A
+Sub-Saharan Africa,2005,132.42,#N/A
+Syria,2005,14.59,#N/A
+Taiwan,2005,6.77,#N/A
+Tanzania,2005,101.77,#N/A
+Timor,2005,66.51,#N/A
+Tropical Latin America,2005,35.33,#N/A
+United Kingdom,2005,6.59,#N/A
+United States,2005,9.03,#N/A
+United States Virgin Islands,2005,10.94,#N/A
+Venezuela,2005,19.82,
+Vietnam,2005,24.99,
+Western Europe,2005,5.36,
+Western Sub-Saharan Africa,2005,153.19,
+World,2005,63.52,
+Yemen,2005,70.36,
+Zambia,2005,126.62,
+Zimbabwe,2005,90.23,
+Algeria,2000,36.04,Africa
+Angola,2000,190.58,Africa
+Benin,2000,147.97,Africa
+Botswana,2000,68.48,Africa
+Burkina Faso,2000,188.06,Africa
+Burundi,2000,176.09,Africa
+Cameroon,2000,141.91,Africa
+Central African Republic,2000,190.19,Africa
+Chad,1965,281.62,Africa
+Comoros,2000,102.08,Africa
+Congo,2000,114.24,Africa
+Djibouti,2000,108.34,Africa
+Egypt,2000,45.82,Africa
+Equatorial Guinea,2000,146.55,Africa
+Eritrea,2000,99.02,Africa
+Ethiopia,2000,153.48,Africa
+Gabon,2000,78.17,Africa
+Gambia,2000,93.17,Africa
+Ghana,2000,108.58,Africa
+Guinea,2000,180.12,Africa
+Guinea-Bissau,2000,175.59,Africa
+Kenya,2000,93.77,Africa
+Lesotho,2000,107.35,Africa
+Liberia,2000,177.89,Africa
+Libya,2000,27.95,Africa
+Madagascar,2000,115.31,Africa
+Malawi,2000,165.25,Africa
+Mali,2000,199.04,Africa
+Mauritania,2000,98.5,Africa
+Mauritius,2000,19.13,Africa
+Morocco,2000,49.25,Africa
+Mozambique,2000,168.28,Africa
+Namibia,2000,70.87,Africa
+Niger,2000,229.05,Africa
+Nigeria,2000,189.06,Africa
+Rwanda,2000,166.04,Africa
+Sao Tome and Principe,2000,80.17,Africa
+Senegal,2000,126.17,Africa
+Seychelles,2000,14.84,Africa
+Sierra Leone,2000,223.98,Africa
+Somalia,2000,167.98,Africa
+South Africa,2000,81.9,Africa
+South Sudan,2000,152.77,Africa
+Sudan,2000,104.49,Africa
+Swaziland,2000,100.58,Africa
+Togo,2000,131.84,Africa
+Tunisia,2000,29.94,Africa
+Uganda,2000,149.87,Africa
+Antigua and Barbuda,2000,17.2,Americas
+Argentina,2000,21.34,Americas
+Bahamas,2000,16.45,Americas
+Barbados,2000,15.44,Americas
+Belize,2000,30.69,Americas
+Bermuda,2000,6.34,Americas
+Brazil,2000,45.66,Americas
+Canada,2000,6.6,Americas
+Chile,2000,12.38,Americas
+Colombia,2000,28.19,Americas
+Costa Rica,2000,13.8,Americas
+Cuba,2000,9.62,Americas
+Dominica,2000,21.29,Americas
+Dominican Republic,2000,46.14,Americas
+Ecuador,2000,37.44,Americas
+El Salvador,2000,30.69,Americas
+Greenland,2000,21.23,Americas
+Grenada,2000,18.2,Americas
+Guatemala,2000,53.67,Americas
+Guyana,2000,42.61,Americas
+Haiti,2000,108.98,Americas
+Honduras,2000,38.78,Americas
+Jamaica,2000,21.37,Americas
+Mexico,2000,27.85,Americas
+Nicaragua,2000,39.49,Americas
+Panama,2000,25.4,Americas
+Paraguay,2000,31.72,Americas
+Peru,2000,41.5,Americas
+Puerto Rico,2000,12.07,Americas
+Saint Lucia,2000,20.03,Americas
+Saint Vincent and the Grenadines,2000,27.06,Americas
+Suriname,2000,46.81,Americas
+Trinidad and Tobago,2000,28.81,Americas
+Uruguay,2000,18.47,Americas
+Afghanistan,1965,243.63,Asia
+Armenia,2000,30.76,Asia
+Azerbaijan,2000,69.78,Asia
+Bahrain,2000,12.15,Asia
+Bangladesh,2000,87.63,Asia
+Bhutan,2000,83.25,Asia
+Cambodia,2000,101.48,Asia
+China,2000,35.71,Asia
+Cyprus,2000,7.77,Asia
+Georgia,2000,37.93,Asia
+India,2000,80.25,Asia
+Indonesia,2000,59.09,Asia
+Iraq,2000,44.4,Asia
+Israel,2000,7.3,Asia
+Japan,2000,4.81,Asia
+Jordan,2000,28.04,Asia
+Kazakhstan,2000,39.76,Asia
+Kuwait,2000,12.09,Asia
+Kyrgyzstan,2000,49.19,Asia
+Lebanon,2000,17.26,Asia
+Malaysia,2000,10.13,Asia
+Maldives,2000,31.71,Asia
+Mongolia,2000,67.62,Asia
+Myanmar,2000,119.11,Asia
+Nepal,2000,80.71,Asia
+Oman,2000,17.03,Asia
+Pakistan,2000,88.89,Asia
+Philippines,2000,42.8,Asia
+Qatar,2000,15.35,Asia
+Saudi Arabia,2000,27.78,Asia
+Singapore,2000,3.62,Asia
+Sri Lanka,2000,17.45,Asia
+Tajikistan,2000,78.15,Asia
+Thailand,2000,19,Asia
+Turkey,2000,43.14,Asia
+Turkmenistan,2000,62.74,Asia
+United Arab Emirates,2000,11.52,Asia
+Uzbekistan,2000,49.93,Asia
+Albania,2000,30.24,Europe
+Andorra,2000,3.75,Europe
+Austria,2000,6.33,Europe
+Belarus,2000,20.32,Europe
+Belgium,2000,6.76,Europe
+Bosnia and Herzegovina,2000,12.32,Europe
+Bulgaria,2000,18.74,Europe
+Croatia,2000,9.02,Europe
+Czech Republic,2000,5.87,Europe
+Denmark,2000,6.14,Europe
+Estonia,2000,12.56,Europe
+Finland,2000,4.87,Europe
+France,2000,6.09,Europe
+Germany,2000,5.88,Europe
+Greece,2000,6.86,Europe
+Hungary,2000,11.47,Europe
+Iceland,2000,4.43,Europe
+Ireland,2000,7.83,Europe
+Italy,2000,5.76,Europe
+Latvia,2000,14.72,Europe
+Lithuania,2000,11.88,Europe
+Luxembourg,2000,5.3,Europe
+Malta,2000,8.59,Europe
+Montenegro,2000,15.37,Europe
+Netherlands,2000,6.98,Europe
+Norway,2000,5.42,Europe
+Poland,2000,10.19,Europe
+Portugal,2000,8.13,Europe
+Romania,2000,24.71,Europe
+Serbia,2000,18.67,Europe
+Slovakia,2000,10.67,Europe
+Slovenia,2000,6.05,Europe
+Spain,2000,5.92,Europe
+Sweden,2000,4.36,Europe
+Switzerland,2000,6.47,Europe
+Ukraine,2000,16.82,Europe
+American Samoa,2000,16.48,Oceania
+Australia,2000,7,Oceania
+Fiji,2000,29.11,Oceania
+Guam,2000,12.24,Oceania
+Kiribati,2000,69.69,Oceania
+Marshall Islands,2000,40.43,Oceania
+New Zealand,2000,8.59,Oceania
+Northern Mariana Islands,2000,8.12,Oceania
+Papua New Guinea,2000,73.52,Oceania
+Samoa,2000,18.81,Oceania
+Solomon Islands,2000,41.63,Oceania
+Tonga,2000,24.92,Oceania
+Vanuatu,2000,37.13,Oceania
+Andean Latin America,2000,47.65,#N/A
+Australasia,2000,7.3,#N/A
+Bolivia,2000,75.65,#N/A
+Brunei,2000,10.68,#N/A
+Cape Verde,2000,55.34,#N/A
+Caribbean,2000,53.95,#N/A
+Central Asia,2000,53.91,#N/A
+Central Europe,2000,14.98,#N/A
+Central Latin America,2000,30.04,#N/A
+Central Sub-Saharan Africa,2000,164.53,#N/A
+Cote d'Ivoire,2000,150.98,#N/A
+Democratic Republic of Congo,2000,159.02,#N/A
+East Asia,2000,37.49,#N/A
+Eastern Europe,2000,20.82,#N/A
+Eastern Sub-Saharan Africa,2000,143.11,#N/A
+High SDI,2000,7.52,#N/A
+High-income,2000,8.25,#N/A
+High-income North America,2000,8.98,#N/A
+High-middle SDI,2000,27.76,#N/A
+Iran,2000,43.61,#N/A
+Laos,2000,148.9,#N/A
+Latin America and the Caribbean,2000,39,#N/A
+Low SDI,2000,125.83,#N/A
+Low-middle SDI,2000,97.28,#N/A
+Macedonia,2000,16.11,#N/A
+Micronesia,2000,37.77,#N/A
+Middle SDI,2000,42.3,#N/A
+Moldova,2000,32.47,#N/A
+North Africa and Middle East,2000,55.37,#N/A
+North Korea,2000,125.72,#N/A
+Oceania,2000,63.5,#N/A
+Palestine,2000,30.02,#N/A
+Russia,2000,22.17,#N/A
+South Asia,2000,82.13,#N/A
+South Korea,2000,6.97,#N/A
+Southeast Asia,2000,53.94,#N/A
+Southern Latin America,2000,18.98,#N/A
+Southern Sub-Saharan Africa,2000,82.77,#N/A
+Sub-Saharan Africa,2000,155.49,#N/A
+Syria,2000,22.68,#N/A
+Taiwan,2000,8.41,#N/A
+Tanzania,2000,127.69,#N/A
+Timor,2000,85.66,#N/A
+Tropical Latin America,2000,45.14,#N/A
+United Kingdom,2000,7.27,#N/A
+United States,2000,9.19,#N/A
+United States Virgin Islands,2000,13.17,#N/A
+Venezuela,2000,24.84,
+Vietnam,2000,31.35,
+Western Europe,2000,6.33,
+Western Sub-Saharan Africa,2000,176.12,
+World,2000,73.48,
+Yemen,2000,89.53,
+Zambia,2000,152.65,
+Zimbabwe,2000,83.52,
+Algeria,1995,41.18,Africa
+Angola,1995,219.85,Africa
+Benin,1995,166.84,Africa
+Botswana,1995,61.87,Africa
+Burkina Faso,1995,207,Africa
+Burundi,1995,191.43,Africa
+Cameroon,1995,147.2,Africa
+Central African Republic,1995,187.16,Africa
+Chad,1970,271.92,Africa
+Comoros,1995,112.55,Africa
+Congo,1995,110.01,Africa
+Djibouti,1995,117.59,Africa
+Egypt,1995,61.67,Africa
+Equatorial Guinea,1995,209.52,Africa
+Eritrea,1995,123.32,Africa
+Ethiopia,1995,182.84,Africa
+Gabon,1995,82.85,Africa
+Gambia,1995,108.22,Africa
+Ghana,1995,118.35,Africa
+Guinea,1995,207.13,Africa
+Guinea-Bissau,1995,200.41,Africa
+Kenya,1995,102.56,Africa
+Lesotho,1995,96.4,Africa
+Liberia,1995,224.84,Africa
+Libya,1995,33.35,Africa
+Madagascar,1995,135.18,Africa
+Malawi,1995,199.05,Africa
+Mali,1995,221.59,Africa
+Mauritania,1995,108.81,Africa
+Mauritius,1995,23.82,Africa
+Morocco,1995,60,Africa
+Mozambique,1995,203.91,Africa
+Namibia,1995,67.05,Africa
+Niger,1995,271.86,Africa
+Nigeria,1995,200.91,Africa
+Rwanda,1995,191.89,Africa
+Sao Tome and Principe,1995,96.83,Africa
+Senegal,1995,141,Africa
+Seychelles,1995,16.07,Africa
+Sierra Leone,1995,237.98,Africa
+Somalia,1995,187.88,Africa
+South Africa,1995,75.11,Africa
+South Sudan,1995,180.9,Africa
+Sudan,1995,125.39,Africa
+Swaziland,1995,80.1,Africa
+Togo,1995,144,Africa
+Tunisia,1995,40.63,Africa
+Uganda,1995,169.26,Africa
+Antigua and Barbuda,1995,17.27,Americas
+Argentina,1995,27.32,Americas
+Bahamas,1995,19.66,Americas
+Barbados,1995,16.83,Americas
+Belize,1995,32.66,Americas
+Bermuda,1995,8.68,Americas
+Brazil,1995,59.3,Americas
+Canada,1995,7.81,Americas
+Chile,1995,15.26,Americas
+Colombia,1995,32.91,Americas
+Costa Rica,1995,16.8,Americas
+Cuba,1995,13.45,Americas
+Dominica,1995,20.94,Americas
+Dominican Republic,1995,55.73,Americas
+Ecuador,1995,38.08,Americas
+El Salvador,1995,41.15,Americas
+Greenland,1995,27.35,Americas
+Grenada,1995,20.45,Americas
+Guatemala,1995,65.36,Americas
+Guyana,1995,49.28,Americas
+Haiti,1995,134.7,Americas
+Honduras,1995,48.41,Americas
+Jamaica,1995,25.15,Americas
+Mexico,1995,34.85,Americas
+Nicaragua,1995,54.71,Americas
+Panama,1995,27.4,Americas
+Paraguay,1995,35.36,Americas
+Peru,1995,59.88,Americas
+Puerto Rico,1995,15.04,Americas
+Saint Lucia,1995,22.16,Americas
+Saint Vincent and the Grenadines,1995,29.32,Americas
+Suriname,1995,50.33,Americas
+Trinidad and Tobago,1995,26.65,Americas
+Uruguay,1995,24.95,Americas
+Afghanistan,1970,232.78,Asia
+Armenia,1995,40.71,Asia
+Azerbaijan,1995,78.69,Asia
+Bahrain,1995,16.94,Asia
+Bangladesh,1995,110.81,Asia
+Bhutan,1995,104.51,Asia
+Cambodia,1995,119.22,Asia
+China,1995,44.48,Asia
+Cyprus,1995,11.93,Asia
+Georgia,1995,44.31,Asia
+India,1995,92.72,Asia
+Indonesia,1995,73.53,Asia
+Iraq,1995,53.21,Asia
+Israel,1995,8.98,Asia
+Japan,1995,6.35,Asia
+Jordan,1995,31.11,Asia
+Kazakhstan,1995,44.54,Asia
+Kuwait,1995,14.31,Asia
+Kyrgyzstan,1995,57.1,Asia
+Lebanon,1995,23.36,Asia
+Malaysia,1995,14.4,Asia
+Maldives,1995,46.74,Asia
+Mongolia,1995,85.76,Asia
+Myanmar,1995,136.48,Asia
+Nepal,1995,104.79,Asia
+Oman,1995,30.01,Asia
+Pakistan,1995,97.81,Asia
+Philippines,1995,48.81,Asia
+Qatar,1995,18.87,Asia
+Saudi Arabia,1995,36.61,Asia
+Singapore,1995,5.86,Asia
+Sri Lanka,1995,21.46,Asia
+Tajikistan,1995,87.43,Asia
+Thailand,1995,23.95,Asia
+Turkey,1995,58.9,Asia
+Turkmenistan,1995,71.03,Asia
+United Arab Emirates,1995,12.73,Asia
+Uzbekistan,1995,56.77,Asia
+Albania,1995,38.69,Europe
+Andorra,1995,4.96,Europe
+Austria,1995,7.32,Europe
+Belarus,1995,23.38,Europe
+Belgium,1995,8.53,Europe
+Bosnia and Herzegovina,1995,27.72,Europe
+Bulgaria,1995,20.08,Europe
+Croatia,1995,12.06,Europe
+Czech Republic,1995,9.76,Europe
+Denmark,1995,7.09,Europe
+Estonia,1995,18.35,Europe
+Finland,1995,5.52,Europe
+France,1995,6.89,Europe
+Germany,1995,7.22,Europe
+Greece,1995,9.44,Europe
+Hungary,1995,13.57,Europe
+Iceland,1995,7.15,Europe
+Ireland,1995,8.14,Europe
+Italy,1995,7.96,Europe
+Latvia,1995,20.96,Europe
+Lithuania,1995,16.27,Europe
+Luxembourg,1995,6.81,Europe
+Malta,1995,10.73,Europe
+Montenegro,1995,16.62,Europe
+Netherlands,1995,7.56,Europe
+Norway,1995,5.95,Europe
+Poland,1995,16.09,Europe
+Portugal,1995,10.62,Europe
+Romania,1995,27.88,Europe
+Serbia,1995,25.61,Europe
+Slovakia,1995,13.58,Europe
+Slovenia,1995,7.79,Europe
+Spain,1995,7.49,Europe
+Sweden,1995,5.04,Europe
+Switzerland,1995,6.87,Europe
+Ukraine,1995,20.91,Europe
+American Samoa,1995,17.44,Oceania
+Australia,1995,7.75,Oceania
+Fiji,1995,28.39,Oceania
+Guam,1995,12.45,Oceania
+Kiribati,1995,78.55,Oceania
+Marshall Islands,1995,34.68,Oceania
+New Zealand,1995,9.68,Oceania
+Northern Mariana Islands,1995,8.68,Oceania
+Papua New Guinea,1995,77.1,Oceania
+Samoa,1995,21.01,Oceania
+Solomon Islands,1995,45.11,Oceania
+Tonga,1995,26.12,Oceania
+Vanuatu,1995,36.34,Oceania
+Andean Latin America,1995,62.1,#N/A
+Australasia,1995,8.11,#N/A
+Bolivia,1995,96.21,#N/A
+Brunei,1995,11.51,#N/A
+Cape Verde,1995,79.07,#N/A
+Caribbean,1995,64.27,#N/A
+Central Asia,1995,61.02,#N/A
+Central Europe,1995,19.98,#N/A
+Central Latin America,1995,37.33,#N/A
+Central Sub-Saharan Africa,1995,175.77,#N/A
+Cote d'Ivoire,1995,164.2,#N/A
+Democratic Republic of Congo,1995,166.47,#N/A
+East Asia,1995,45.65,#N/A
+Eastern Europe,1995,23.78,#N/A
+Eastern Sub-Saharan Africa,1995,166.63,#N/A
+High SDI,1995,8.8,#N/A
+High-income,1995,9.56,#N/A
+High-income North America,1995,9.7,#N/A
+High-middle SDI,1995,33.34,#N/A
+Iran,1995,53.06,#N/A
+Laos,1995,174.48,#N/A
+Latin America and the Caribbean,1995,49.25,#N/A
+Low SDI,1995,144.73,#N/A
+Low-middle SDI,1995,107.01,#N/A
+Macedonia,1995,26.15,#N/A
+Micronesia,1995,39.66,#N/A
+Middle SDI,1995,50.71,#N/A
+Moldova,1995,36.48,#N/A
+North Africa and Middle East,1995,67.09,#N/A
+North Korea,1995,122.21,#N/A
+Oceania,1995,65.48,#N/A
+Palestine,1995,31.64,#N/A
+Russia,1995,24.61,#N/A
+South Asia,1995,95.54,#N/A
+South Korea,1995,6.94,#N/A
+Southeast Asia,1995,65.05,#N/A
+Southern Latin America,1995,23.91,#N/A
+Southern Sub-Saharan Africa,1995,76.84,#N/A
+Sub-Saharan Africa,1995,171.24,#N/A
+Syria,1995,35.76,#N/A
+Taiwan,1995,9.39,#N/A
+Tanzania,1995,149.49,#N/A
+Timor,1995,106.5,#N/A
+Tropical Latin America,1995,58.42,#N/A
+United Kingdom,1995,8.03,#N/A
+United States,1995,9.88,#N/A
+United States Virgin Islands,1995,16.21,#N/A
+Venezuela,1995,33.23,
+Vietnam,1995,42.02,
+Western Europe,1995,7.58,
+Western Sub-Saharan Africa,1995,190.45,
+World,1995,80.88,
+Yemen,1995,109.17,
+Zambia,1995,170.69,
+Zimbabwe,1995,81.29,
+Algeria,1990,51.4,Africa
+Angola,1990,238.42,Africa
+Benin,1990,191.72,Africa
+Botswana,1990,59.49,Africa
+Burkina Faso,1990,216.89,Africa
+Burundi,1990,187.26,Africa
+Cameroon,1990,143.94,Africa
+Central African Republic,1990,185.11,Africa
+Chad,1975,253.54,Africa
+Comoros,1990,128.67,Africa
+Congo,1990,103.95,Africa
+Djibouti,1990,122.61,Africa
+Egypt,1990,80.64,Africa
+Equatorial Guinea,1990,204.69,Africa
+Eritrea,1990,193.26,Africa
+Ethiopia,1990,208.41,Africa
+Gabon,1990,92.11,Africa
+Gambia,1990,124.18,Africa
+Ghana,1990,129.97,Africa
+Guinea,1990,231.67,Africa
+Guinea-Bissau,1990,226.74,Africa
+Kenya,1990,101.08,Africa
+Lesotho,1990,94.48,Africa
+Liberia,1990,232.06,Africa
+Libya,1990,41.67,Africa
+Madagascar,1990,154.12,Africa
+Malawi,1990,228.67,Africa
+Mali,1990,240.55,Africa
+Mauritania,1990,116.91,Africa
+Mauritius,1990,24.87,Africa
+Morocco,1990,75.44,Africa
+Mozambique,1990,226.8,Africa
+Namibia,1990,76.49,Africa
+Niger,1990,296.83,Africa
+Nigeria,1990,211.67,Africa
+Rwanda,1990,179.62,Africa
+Sao Tome and Principe,1990,108.44,Africa
+Senegal,1990,148.45,Africa
+Seychelles,1990,21.4,Africa
+Sierra Leone,1990,252.93,Africa
+Somalia,1990,199.75,Africa
+South Africa,1990,84.09,Africa
+South Sudan,1990,210.22,Africa
+Sudan,1990,147.34,Africa
+Swaziland,1990,77.41,Africa
+Togo,1990,152.83,Africa
+Tunisia,1990,52.51,Africa
+Uganda,1990,184.45,Africa
+Antigua and Barbuda,1990,15.4,Americas
+Argentina,1990,32.3,Americas
+Bahamas,1990,24.5,Americas
+Barbados,1990,19.72,Americas
+Belize,1990,42.16,Americas
+Bermuda,1990,11.52,Americas
+Brazil,1990,76.9,Americas
+Canada,1990,9.33,Americas
+Chile,1990,21.26,Americas
+Colombia,1990,36.93,Americas
+Costa Rica,1990,18.95,Americas
+Cuba,1990,15.02,Americas
+Dominica,1990,20.78,Americas
+Dominican Republic,1990,70.47,Americas
+Ecuador,1990,44.74,Americas
+El Salvador,1990,57.79,Americas
+Greenland,1990,34.85,Americas
+Grenada,1990,25.4,Americas
+Guatemala,1990,82.27,Americas
+Guyana,1990,58.08,Americas
+Haiti,1990,155.99,Americas
+Honduras,1990,57.41,Americas
+Jamaica,1990,28.18,Americas
+Mexico,1990,45.3,Americas
+Nicaragua,1990,71.48,Americas
+Panama,1990,29.27,Americas
+Paraguay,1990,38.84,Americas
+Peru,1990,81.88,Americas
+Puerto Rico,1990,17.05,Americas
+Saint Lucia,1990,25.46,Americas
+Saint Vincent and the Grenadines,1990,32.71,Americas
+Suriname,1990,55.32,Americas
+Trinidad and Tobago,1990,26.2,Americas
+Uruguay,1990,26.09,Americas
+Afghanistan,1975,223.17,Asia
+Armenia,1990,45.74,Asia
+Azerbaijan,1990,83.64,Asia
+Bahrain,1990,23.4,Asia
+Bangladesh,1990,138.02,Asia
+Bhutan,1990,131.78,Asia
+Cambodia,1990,128.78,Asia
+China,1990,51.56,Asia
+Cyprus,1990,15.43,Asia
+Georgia,1990,46.01,Asia
+India,1990,108.79,Asia
+Indonesia,1990,93.33,Asia
+Iraq,1990,56.22,Asia
+Israel,1990,12.49,Asia
+Japan,1990,7,Asia
+Jordan,1990,35.18,Asia
+Kazakhstan,1990,42.67,Asia
+Kuwait,1990,21.19,Asia
+Kyrgyzstan,1990,66.11,Asia
+Lebanon,1990,29.89,Asia
+Malaysia,1990,19.15,Asia
+Maldives,1990,67.59,Asia
+Mongolia,1990,102.93,Asia
+Myanmar,1990,153.89,Asia
+Nepal,1990,135.5,Asia
+Oman,1990,48.72,Asia
+Pakistan,1990,109.42,Asia
+Philippines,1990,61.54,Asia
+Qatar,1990,22.21,Asia
+Saudi Arabia,1990,48.45,Asia
+Singapore,1990,8.63,Asia
+Sri Lanka,1990,30.05,Asia
+Tajikistan,1990,94.58,Asia
+Thailand,1990,31.81,Asia
+Turkey,1990,74.35,Asia
+Turkmenistan,1990,77.33,Asia
+United Arab Emirates,1990,19.86,Asia
+Uzbekistan,1990,57.9,Asia
+Albania,1990,44.91,Europe
+Andorra,1990,6.58,Europe
+Austria,1990,10.61,Europe
+Belarus,1990,24.42,Europe
+Belgium,1990,11.13,Europe
+Bosnia and Herzegovina,1990,18.3,Europe
+Bulgaria,1990,20.82,Europe
+Croatia,1990,13.61,Europe
+Czech Republic,1990,13.73,Europe
+Denmark,1990,10.3,Europe
+Estonia,1990,19.64,Europe
+Finland,1990,7.61,Europe
+France,1990,10.05,Europe
+Germany,1990,9.76,Europe
+Greece,1990,11.38,Europe
+Hungary,1990,18.99,Europe
+Iceland,1990,7.19,Europe
+Ireland,1990,10.51,Europe
+Italy,1990,10.4,Europe
+Latvia,1990,19.01,Europe
+Lithuania,1990,15.97,Europe
+Luxembourg,1990,9.89,Europe
+Malta,1990,12.52,Europe
+Montenegro,1990,19.17,Europe
+Netherlands,1990,9.92,Europe
+Norway,1990,9.85,Europe
+Poland,1990,20.24,Europe
+Portugal,1990,15.8,Europe
+Romania,1990,35.83,Europe
+Serbia,1990,32.66,Europe
+Slovakia,1990,15.92,Europe
+Slovenia,1990,11.01,Europe
+Spain,1990,10.16,Europe
+Sweden,1990,7.67,Europe
+Switzerland,1990,9.43,Europe
+Ukraine,1990,23.07,Europe
+American Samoa,1990,18.99,Oceania
+Australia,1990,10.59,Oceania
+Fiji,1990,28.74,Oceania
+Guam,1990,13.13,Oceania
+Kiribati,1990,88.17,Oceania
+Marshall Islands,1990,36.61,Oceania
+New Zealand,1990,13.56,Oceania
+Northern Mariana Islands,1990,9.27,Oceania
+Papua New Guinea,1990,85.39,Oceania
+Samoa,1990,24.14,Oceania
+Solomon Islands,1990,52.21,Oceania
+Tonga,1990,27.49,Oceania
+Vanuatu,1990,38.79,Oceania
+Andean Latin America,1990,80.39,#N/A
+Australasia,1990,11.15,#N/A
+Bolivia,1990,118.39,#N/A
+Brunei,1990,12.67,#N/A
+Cape Verde,1990,68.64,#N/A
+Caribbean,1990,72.3,#N/A
+Central Asia,1990,63.47,#N/A
+Central Europe,1990,24.58,#N/A
+Central Latin America,1990,46.17,#N/A
+Central Sub-Saharan Africa,1990,178.84,#N/A
+Cote d'Ivoire,1990,162.77,#N/A
+Democratic Republic of Congo,1990,166.87,#N/A
+East Asia,1990,50.71,#N/A
+Eastern Europe,1990,23.49,#N/A
+Eastern Sub-Saharan Africa,1990,183.26,#N/A
+High SDI,1990,11.21,#N/A
+High-income,1990,12.1,#N/A
+High-income North America,1990,11.99,#N/A
+High-middle SDI,1990,38.44,#N/A
+Iran,1990,69.83,#N/A
+Laos,1990,196.11,#N/A
+Latin America and the Caribbean,1990,62.33,#N/A
+Low SDI,1990,163.81,#N/A
+Low-middle SDI,1990,117.76,#N/A
+Macedonia,1990,37.02,#N/A
+Micronesia,1990,47.26,#N/A
+Middle SDI,1990,61.69,#N/A
+Moldova,1990,38.45,#N/A
+North Africa and Middle East,1990,78.43,#N/A
+North Korea,1990,30.48,#N/A
+Oceania,1990,71.29,#N/A
+Palestine,1990,39.12,#N/A
+Russia,1990,23.32,#N/A
+South Asia,1990,112.8,#N/A
+South Korea,1990,9.24,#N/A
+Southeast Asia,1990,80.1,#N/A
+Southern Latin America,1990,28.79,#N/A
+Southern Sub-Saharan Africa,1990,81.27,#N/A
+Sub-Saharan Africa,1990,182.26,#N/A
+Syria,1990,47.6,#N/A
+Taiwan,1990,9.07,#N/A
+Tanzania,1990,160.55,#N/A
+Timor,1990,131.2,#N/A
+Tropical Latin America,1990,75.65,#N/A
+United Kingdom,1990,10.73,#N/A
+United States,1990,12.24,#N/A
+United States Virgin Islands,1990,19.79,#N/A
+Venezuela,1990,36.12,
+Vietnam,1990,54.45,
+Western Europe,1990,10.34,
+Western Sub-Saharan Africa,1990,200.96,
+World,1990,87.84,
+Yemen,1990,129.9,
+Zambia,1990,176.15,
+Zimbabwe,1990,75.42,
+Algeria,1985,77.25,Africa
+Angola,1985,247.62,Africa
+Benin,1985,216.22,Africa
+Botswana,1985,63.84,Africa
+Burkina Faso,1985,238.77,Africa
+Burundi,1985,197.32,Africa
+Cameroon,1985,156.85,Africa
+Central African Republic,1985,181.1,Africa
+Chad,1980,240.6,Africa
+Comoros,1985,149.67,Africa
+Congo,1985,106.05,Africa
+Djibouti,1985,128.94,Africa
+Egypt,1985,113.58,Africa
+Equatorial Guinea,1985,193.87,Africa
+Eritrea,1985,195.44,Africa
+Ethiopia,1985,228.43,Africa
+Gabon,1985,103.66,Africa
+Gambia,1985,139.5,Africa
+Ghana,1985,151.05,Africa
+Guinea,1985,255.27,Africa
+Guinea-Bissau,1985,258.62,Africa
+Kenya,1985,104.89,Africa
+Lesotho,1985,99.29,Africa
+Liberia,1985,236.13,Africa
+Libya,1985,49.91,Africa
+Madagascar,1985,173.32,Africa
+Malawi,1985,249.71,Africa
+Mali,1985,268.5,Africa
+Mauritania,1985,133.23,Africa
+Mauritius,1985,29.73,Africa
+Morocco,1985,99.85,Africa
+Mozambique,1985,265.01,Africa
+Namibia,1985,90.89,Africa
+Niger,1985,312.74,Africa
+Nigeria,1985,216.88,Africa
+Rwanda,1985,185.84,Africa
+Sao Tome and Principe,1985,129.43,Africa
+Senegal,1985,180.95,Africa
+Seychelles,1985,28.52,Africa
+Sierra Leone,1985,270.27,Africa
+Somalia,1985,218.85,Africa
+South Africa,1985,102.63,Africa
+South Sudan,1985,227.04,Africa
+Sudan,1985,219.42,Africa
+Swaziland,1985,99.43,Africa
+Togo,1985,164.77,Africa
+Tunisia,1985,67.58,Africa
+Uganda,1985,198.84,Africa
+Antigua and Barbuda,1985,16.64,Americas
+Argentina,1985,33.86,Americas
+Bahamas,1985,30.77,Americas
+Barbados,1985,24.1,Americas
+Belize,1985,52.82,Americas
+Bermuda,1985,14.15,Americas
+Brazil,1985,99.54,Americas
+Canada,1985,10.8,Americas
+Chile,1985,25.39,Americas
+Colombia,1985,48.58,Americas
+Costa Rica,1985,24.52,Americas
+Cuba,1985,23.3,Americas
+Dominica,1985,22.27,Americas
+Dominican Republic,1985,82.32,Americas
+Ecuador,1985,62.22,Americas
+El Salvador,1985,79.79,Americas
+Greenland,1985,41.97,Americas
+Grenada,1985,33.89,Americas
+Guatemala,1985,106.71,Americas
+Guyana,1985,63.65,Americas
+Haiti,1985,181.68,Americas
+Honduras,1985,74.46,Americas
+Jamaica,1985,32.87,Americas
+Mexico,1985,57.84,Americas
+Nicaragua,1985,96.18,Americas
+Panama,1985,32.87,Americas
+Paraguay,1985,49.38,Americas
+Peru,1985,114.82,Americas
+Puerto Rico,1985,18.88,Americas
+Saint Lucia,1985,31.3,Americas
+Saint Vincent and the Grenadines,1985,39.07,Americas
+Suriname,1985,61.07,Americas
+Trinidad and Tobago,1985,29.71,Americas
+Uruguay,1985,36.33,Americas
+Afghanistan,1980,216.38,Asia
+Armenia,1985,56.98,Asia
+Azerbaijan,1985,92.86,Asia
+Bahrain,1985,24.85,Asia
+Bangladesh,1985,168.87,Asia
+Bhutan,1985,167.75,Asia
+Cambodia,1985,148.36,Asia
+China,1985,61.6,Asia
+Cyprus,1985,20.75,Asia
+Georgia,1985,51.53,Asia
+India,1985,130.69,Asia
+Indonesia,1985,114.93,Asia
+Iraq,1985,71.89,Asia
+Israel,1985,14.77,Asia
+Japan,1985,8.15,Asia
+Jordan,1985,42.46,Asia
+Kazakhstan,1985,48.64,Asia
+Kuwait,1985,24.75,Asia
+Kyrgyzstan,1985,81.46,Asia
+Lebanon,1985,41.24,Asia
+Malaysia,1985,26.74,Asia
+Maldives,1985,96.47,Asia
+Mongolia,1985,122.66,Asia
+Myanmar,1985,174.02,Asia
+Nepal,1985,170.47,Asia
+Oman,1985,78.22,Asia
+Pakistan,1985,124.23,Asia
+Philippines,1985,77.31,Asia
+Qatar,1985,26.75,Asia
+Saudi Arabia,1985,61.08,Asia
+Singapore,1985,12.31,Asia
+Sri Lanka,1985,35.45,Asia
+Tajikistan,1985,108.18,Asia
+Thailand,1985,45.42,Asia
+Turkey,1985,98.57,Asia
+Turkmenistan,1985,89.59,Asia
+United Arab Emirates,1985,30.44,Asia
+Uzbekistan,1985,67.18,Asia
+Albania,1985,53.94,Europe
+Andorra,1985,7.9,Europe
+Austria,1985,14.73,Europe
+Belarus,1985,27.79,Europe
+Belgium,1985,13.06,Europe
+Bosnia and Herzegovina,1985,28.93,Europe
+Bulgaria,1985,21.01,Europe
+Croatia,1985,19.67,Europe
+Czech Republic,1985,16.44,Europe
+Denmark,1985,10.84,Europe
+Estonia,1985,22.35,Europe
+Finland,1985,8.15,Europe
+France,1985,11.37,Europe
+Germany,1985,12.31,Europe
+Greece,1985,16.4,Europe
+Hungary,1985,25.27,Europe
+Iceland,1985,8.47,Europe
+Ireland,1985,11.44,Europe
+Italy,1985,13.34,Europe
+Latvia,1985,19.43,Europe
+Lithuania,1985,19.55,Europe
+Luxembourg,1985,12.46,Europe
+Malta,1985,15.59,Europe
+Montenegro,1985,23.5,Europe
+Netherlands,1985,10.98,Europe
+Norway,1985,9.36,Europe
+Poland,1985,23.08,Europe
+Portugal,1985,23.44,Europe
+Romania,1985,36.13,Europe
+Serbia,1985,46.58,Europe
+Slovakia,1985,20.93,Europe
+Slovenia,1985,16.22,Europe
+Spain,1985,11.82,Europe
+Sweden,1985,7.98,Europe
+Switzerland,1985,9.86,Europe
+Ukraine,1985,26.93,Europe
+American Samoa,1985,19.57,Oceania
+Australia,1985,13.2,Oceania
+Fiji,1985,33.26,Oceania
+Guam,1985,14.36,Oceania
+Kiribati,1985,95.2,Oceania
+Marshall Islands,1985,42.44,Oceania
+New Zealand,1985,16.25,Oceania
+Northern Mariana Islands,1985,10.65,Oceania
+Papua New Guinea,1985,94.1,Oceania
+Samoa,1985,27.69,Oceania
+Solomon Islands,1985,57.79,Oceania
+Tonga,1985,31.63,Oceania
+Vanuatu,1985,43.01,Oceania
+Andean Latin America,1985,107.67,#N/A
+Australasia,1985,13.74,#N/A
+Bolivia,1985,141.65,#N/A
+Brunei,1985,16.02,#N/A
+Cape Verde,1985,91.26,#N/A
+Caribbean,1985,83.99,#N/A
+Central Asia,1985,72.41,#N/A
+Central Europe,1985,28.47,#N/A
+Central Latin America,1985,58.64,#N/A
+Central Sub-Saharan Africa,1985,184.87,#N/A
+Cote d'Ivoire,1985,167.73,#N/A
+Democratic Republic of Congo,1985,173.96,#N/A
+East Asia,1985,60.42,#N/A
+Eastern Europe,1985,28.74,#N/A
+Eastern Sub-Saharan Africa,1985,198.27,#N/A
+High SDI,1985,13.47,#N/A
+High-income,1985,14.12,#N/A
+High-income North America,1985,13.8,#N/A
+High-middle SDI,1985,46.53,#N/A
+Iran,1985,84.65,#N/A
+Laos,1985,215.93,#N/A
+Latin America and the Caribbean,1985,80.72,#N/A
+Low SDI,1985,188.01,#N/A
+Low-middle SDI,1985,136.21,#N/A
+Macedonia,1985,49.63,#N/A
+Micronesia,1985,55.97,#N/A
+Middle SDI,1985,76.99,#N/A
+Moldova,1985,48.84,#N/A
+North Africa and Middle East,1985,104.4,#N/A
+North Korea,1985,31.05,#N/A
+Oceania,1985,77.5,#N/A
+Palestine,1985,44.6,#N/A
+Russia,1985,29.07,#N/A
+South Asia,1985,134.97,#N/A
+South Korea,1985,14.01,#N/A
+Southeast Asia,1985,98.01,#N/A
+Southern Latin America,1985,31.71,#N/A
+Southern Sub-Saharan Africa,1985,95.97,#N/A
+Sub-Saharan Africa,1985,194.8,#N/A
+Syria,1985,51.58,#N/A
+Taiwan,1985,11.22,#N/A
+Tanzania,1985,171.69,#N/A
+Timor,1985,162.54,#N/A
+Tropical Latin America,1985,97.98,#N/A
+United Kingdom,1985,12.8,#N/A
+United States,1985,14.09,#N/A
+United States Virgin Islands,1985,24.95,#N/A
+Venezuela,1985,36.86,
+Vietnam,1985,65.98,
+Western Europe,1985,12.6,
+Western Sub-Saharan Africa,1985,213.92,
+World,1985,101.82,
+Yemen,1985,158.12,
+Zambia,1985,169.78,
+Zimbabwe,1985,82.65,
+Algeria,1980,125.76,Africa
+Angola,1980,250.74,Africa
+Benin,1980,230.54,Africa
+Botswana,1980,72.99,Africa
+Burkina Faso,1980,266.79,Africa
+Burundi,1980,220.87,Africa
+Cameroon,1980,179.05,Africa
+Central African Republic,1980,182.88,Africa
+Chad,1985,223.95,Africa
+Comoros,1980,177.06,Africa
+Congo,1980,134.83,Africa
+Djibouti,1980,131.4,Africa
+Egypt,1980,155.32,Africa
+Equatorial Guinea,1980,201.65,Africa
+Eritrea,1980,216.2,Africa
+Ethiopia,1980,249.15,Africa
+Gabon,1980,124.36,Africa
+Gambia,1980,161.45,Africa
+Ghana,1980,159.6,Africa
+Guinea,1980,275.74,Africa
+Guinea-Bissau,1980,279.37,Africa
+Kenya,1980,115.67,Africa
+Lesotho,1980,110.19,Africa
+Liberia,1980,250.96,Africa
+Libya,1980,62.47,Africa
+Madagascar,1980,173.21,Africa
+Malawi,1980,273.65,Africa
+Mali,1980,297.58,Africa
+Mauritania,1980,153.55,Africa
+Mauritius,1980,42.92,Africa
+Morocco,1980,134.1,Africa
+Mozambique,1980,241.43,Africa
+Namibia,1980,101.9,Africa
+Niger,1980,318.35,Africa
+Nigeria,1980,235.09,Africa
+Rwanda,1980,222.17,Africa
+Sao Tome and Principe,1980,118.74,Africa
+Senegal,1980,211.19,Africa
+Seychelles,1980,40.3,Africa
+Sierra Leone,1980,280.28,Africa
+Somalia,1980,221.43,Africa
+South Africa,1980,116.39,Africa
+South Sudan,1980,231.92,Africa
+Sudan,1980,189.58,Africa
+Swaziland,1980,121.96,Africa
+Togo,1980,180.98,Africa
+Tunisia,1980,88.32,Africa
+Uganda,1980,215.68,Africa
+Antigua and Barbuda,1980,24.57,Americas
+Argentina,1980,42.63,Americas
+Bahamas,1980,37.94,Americas
+Barbados,1980,28.63,Americas
+Belize,1980,66.55,Americas
+Bermuda,1980,18.59,Americas
+Brazil,1980,125.31,Americas
+Canada,1980,14.4,Americas
+Chile,1980,42.13,Americas
+Colombia,1980,58.14,Americas
+Costa Rica,1980,26.54,Americas
+Cuba,1980,25.7,Americas
+Dominica,1980,26.69,Americas
+Dominican Republic,1980,96.36,Americas
+Ecuador,1980,92.5,Americas
+El Salvador,1980,104.02,Americas
+Greenland,1980,48.01,Americas
+Grenada,1980,47.28,Americas
+Guatemala,1980,130.22,Americas
+Guyana,1980,70.52,Americas
+Haiti,1980,216.81,Americas
+Honduras,1980,92.58,Americas
+Jamaica,1980,40.92,Americas
+Mexico,1980,75.23,Americas
+Nicaragua,1980,115.99,Americas
+Panama,1980,39.53,Americas
+Paraguay,1980,61.03,Americas
+Peru,1980,138.99,Americas
+Puerto Rico,1980,23.66,Americas
+Saint Lucia,1980,41.08,Americas
+Saint Vincent and the Grenadines,1980,56.48,Americas
+Suriname,1980,69.94,Americas
+Trinidad and Tobago,1980,38.2,Americas
+Uruguay,1980,45.09,Americas
+Afghanistan,1985,199.12,Asia
+Armenia,1980,70.1,Asia
+Azerbaijan,1980,97.31,Asia
+Bahrain,1980,32.25,Asia
+Bangladesh,1980,191.62,Asia
+Bhutan,1980,203.6,Asia
+Cambodia,1980,170.42,Asia
+China,1980,74.55,Asia
+Cyprus,1980,30.3,Asia
+Georgia,1980,62.8,Asia
+India,1980,155.91,Asia
+Indonesia,1980,136.1,Asia
+Iraq,1980,83.66,Asia
+Israel,1980,19.34,Asia
+Japan,1980,10.88,Asia
+Jordan,1980,55.55,Asia
+Kazakhstan,1980,55.56,Asia
+Kuwait,1980,37.24,Asia
+Kyrgyzstan,1980,94.84,Asia
+Lebanon,1980,43.89,Asia
+Malaysia,1980,35.74,Asia
+Maldives,1980,137.78,Asia
+Mongolia,1980,133.59,Asia
+Myanmar,1980,199.55,Asia
+Nepal,1980,204.03,Asia
+Oman,1980,127.37,Asia
+Pakistan,1980,137.62,Asia
+Philippines,1980,87.03,Asia
+Qatar,1980,34.59,Asia
+Saudi Arabia,1980,78.63,Asia
+Singapore,1980,16.56,Asia
+Sri Lanka,1980,49.24,Asia
+Tajikistan,1980,119.64,Asia
+Thailand,1980,61.62,Asia
+Turkey,1980,132.8,Asia
+Turkmenistan,1980,97.9,Asia
+United Arab Emirates,1980,49.91,Asia
+Uzbekistan,1980,74.54,Asia
+Albania,1980,60.76,Europe
+Andorra,1980,9.04,Europe
+Austria,1980,19.4,Europe
+Belarus,1980,31.3,Europe
+Belgium,1980,16.51,Europe
+Bosnia and Herzegovina,1980,41.27,Europe
+Bulgaria,1980,26.98,Europe
+Croatia,1980,23.63,Europe
+Czech Republic,1980,21.06,Europe
+Denmark,1980,11.61,Europe
+Estonia,1980,25.71,Europe
+Finland,1980,9.99,Europe
+France,1980,14.15,Europe
+Germany,1980,17.13,Europe
+Greece,1980,21.57,Europe
+Hungary,1980,27.27,Europe
+Iceland,1980,10.86,Europe
+Ireland,1980,15.06,Europe
+Italy,1980,18.59,Europe
+Latvia,1980,24.06,Europe
+Lithuania,1980,22.02,Europe
+Luxembourg,1980,14.89,Europe
+Malta,1980,18.32,Europe
+Montenegro,1980,26.17,Europe
+Netherlands,1980,12.07,Europe
+Norway,1980,10.27,Europe
+Poland,1980,27.33,Europe
+Portugal,1980,32.13,Europe
+Romania,1980,37.99,Europe
+Serbia,1980,45.16,Europe
+Slovakia,1980,26.46,Europe
+Slovenia,1980,19.43,Europe
+Spain,1980,16.05,Europe
+Sweden,1980,8.89,Europe
+Switzerland,1980,12.07,Europe
+Ukraine,1980,33.21,Europe
+American Samoa,1980,25.25,Oceania
+Australia,1980,14.55,Oceania
+Fiji,1980,39.45,Oceania
+Guam,1980,18.23,Oceania
+Kiribati,1980,97.33,Oceania
+Marshall Islands,1980,50.27,Oceania
+New Zealand,1980,17.89,Oceania
+Northern Mariana Islands,1980,12.69,Oceania
+Papua New Guinea,1980,97.08,Oceania
+Samoa,1980,33.06,Oceania
+Solomon Islands,1980,69.86,Oceania
+Tonga,1980,37.71,Oceania
+Vanuatu,1980,51.32,Oceania
+Andean Latin America,1980,134.62,#N/A
+Australasia,1980,15.18,#N/A
+Bolivia,1980,167.14,#N/A
+Brunei,1980,23.9,#N/A
+Cape Verde,1980,96.31,#N/A
+Caribbean,1980,97.21,#N/A
+Central Asia,1980,80.33,#N/A
+Central Europe,1980,32.24,#N/A
+Central Latin America,1980,73.73,#N/A
+Central Sub-Saharan Africa,1980,198.69,#N/A
+Cote d'Ivoire,1980,179.24,#N/A
+Democratic Republic of Congo,1980,191.01,#N/A
+East Asia,1980,72.78,#N/A
+Eastern Europe,1980,32.41,#N/A
+Eastern Sub-Saharan Africa,1980,209.94,#N/A
+High SDI,1980,16.87,#N/A
+High-income,1980,18.1,#N/A
+High-income North America,1980,16.62,#N/A
+High-middle SDI,1980,58.24,#N/A
+Iran,1980,110.13,#N/A
+Laos,1980,249,#N/A
+Latin America and the Caribbean,1980,101.41,#N/A
+Low SDI,1980,209.99,#N/A
+Low-middle SDI,1980,157.1,#N/A
+Macedonia,1980,57.78,#N/A
+Micronesia,1980,64.91,#N/A
+Middle SDI,1980,93.53,#N/A
+Moldova,1980,61.13,#N/A
+North Africa and Middle East,1980,131.03,#N/A
+North Korea,1980,32.12,#N/A
+Oceania,1980,81.59,#N/A
+Palestine,1980,56.91,#N/A
+Russia,1980,31.6,#N/A
+South Asia,1980,158.87,#N/A
+South Korea,1980,20.24,#N/A
+Southeast Asia,1980,115.96,#N/A
+Southern Latin America,1980,42.64,#N/A
+Southern Sub-Saharan Africa,1980,111.22,#N/A
+Sub-Saharan Africa,1980,209.15,#N/A
+Syria,1980,63.54,#N/A
+Taiwan,1980,16.01,#N/A
+Tanzania,1980,182.21,#N/A
+Timor,1980,208.58,#N/A
+Tropical Latin America,1980,123.5,#N/A
+United Kingdom,1980,15.83,#N/A
+United States,1980,16.84,#N/A
+United States Virgin Islands,1980,29.72,#N/A
+Venezuela,1980,44.4,
+Vietnam,1980,77.98,
+Western Europe,1980,16.56,
+Western Sub-Saharan Africa,1980,231.78,
+World,1980,116.56,
+Yemen,1980,199.77,
+Zambia,1980,165.12,
+Zimbabwe,1980,102.21,
+Algeria,1975,147.85,Africa
+Angola,1975,251.19,Africa
+Benin,1975,255.68,Africa
+Botswana,1975,86.5,Africa
+Burkina Faso,1975,298.32,Africa
+Burundi,1975,239.93,Africa
+Cameroon,1975,197.36,Africa
+Central African Republic,1975,186.69,Africa
+Chad,1990,202.71,Africa
+Comoros,1975,198.16,Africa
+Congo,1975,166.9,Africa
+Djibouti,1975,138.7,Africa
+Egypt,1975,200.43,Africa
+Equatorial Guinea,1975,230.61,Africa
+Eritrea,1975,236.35,Africa
+Ethiopia,1975,268.45,Africa
+Gabon,1975,149.83,Africa
+Gambia,1975,183.96,Africa
+Ghana,1975,174.84,Africa
+Guinea,1975,297.25,Africa
+Guinea-Bissau,1975,304.8,Africa
+Kenya,1975,133.78,Africa
+Lesotho,1975,132.11,Africa
+Liberia,1975,277.82,Africa
+Libya,1975,83.02,Africa
+Madagascar,1975,177.42,Africa
+Malawi,1975,308.87,Africa
+Mali,1975,334.92,Africa
+Mauritania,1975,172.75,Africa
+Mauritius,1975,60.93,Africa
+Morocco,1975,171.43,Africa
+Mozambique,1975,251.15,Africa
+Namibia,1975,102.54,Africa
+Niger,1975,336.19,Africa
+Nigeria,1975,264.09,Africa
+Rwanda,1975,257.2,Africa
+Sao Tome and Principe,1975,118.32,Africa
+Senegal,1975,246.99,Africa
+Seychelles,1975,58.7,Africa
+Sierra Leone,1975,290.34,Africa
+Somalia,1975,249.73,Africa
+South Africa,1975,124.61,Africa
+South Sudan,1975,237.38,Africa
+Sudan,1975,207.12,Africa
+Swaziland,1975,144.22,Africa
+Togo,1975,207.07,Africa
+Tunisia,1975,121.28,Africa
+Uganda,1975,213.19,Africa
+Antigua and Barbuda,1975,33.06,Americas
+Argentina,1975,58.31,Americas
+Bahamas,1975,45.8,Americas
+Barbados,1975,37.26,Americas
+Belize,1975,82.11,Americas
+Bermuda,1975,23.56,Americas
+Brazil,1975,153.56,Americas
+Canada,1975,18.83,Americas
+Chile,1975,70.1,Americas
+Colombia,1975,77.77,Americas
+Costa Rica,1975,50.2,Americas
+Cuba,1975,33.27,Americas
+Dominica,1975,43.36,Americas
+Dominican Republic,1975,115.61,Americas
+Ecuador,1975,110.67,Americas
+El Salvador,1975,128.4,Americas
+Greenland,1975,52.34,Americas
+Grenada,1975,60.37,Americas
+Guatemala,1975,152.61,Americas
+Guyana,1975,86.87,Americas
+Haiti,1975,255.51,Americas
+Honduras,1975,117.78,Americas
+Jamaica,1975,52.86,Americas
+Mexico,1975,93.79,Americas
+Nicaragua,1975,152.32,Americas
+Panama,1975,48.47,Americas
+Paraguay,1975,74.2,Americas
+Peru,1975,163.39,Americas
+Puerto Rico,1975,26.27,Americas
+Saint Lucia,1975,58.46,Americas
+Saint Vincent and the Grenadines,1975,75.83,Americas
+Suriname,1975,78.64,Americas
+Trinidad and Tobago,1975,49.78,Americas
+Uruguay,1975,60.75,Americas
+Afghanistan,1990,147.62,Asia
+Armenia,1975,86.85,Asia
+Azerbaijan,1975,108.56,Asia
+Bahrain,1975,55.17,Asia
+Bangladesh,1975,216.07,Asia
+Bhutan,1975,230.98,Asia
+Cambodia,1975,259.09,Asia
+China,1975,92.27,Asia
+Cyprus,1975,45.01,Asia
+Georgia,1975,82.41,Asia
+India,1975,186.27,Asia
+Indonesia,1975,159.43,Asia
+Iraq,1975,108.23,Asia
+Israel,1975,29.11,Asia
+Japan,1975,14.26,Asia
+Jordan,1975,74.33,Asia
+Kazakhstan,1975,61.46,Asia
+Kuwait,1975,51.24,Asia
+Kyrgyzstan,1975,109.74,Asia
+Lebanon,1975,61.74,Asia
+Malaysia,1975,48.71,Asia
+Maldives,1975,174.62,Asia
+Mongolia,1975,140.33,Asia
+Myanmar,1975,230.57,Asia
+Nepal,1975,223.93,Asia
+Oman,1975,190.5,Asia
+Pakistan,1975,153.22,Asia
+Philippines,1975,96.19,Asia
+Qatar,1975,52.46,Asia
+Saudi Arabia,1975,101.72,Asia
+Singapore,1975,19.96,Asia
+Sri Lanka,1975,67.82,Asia
+Tajikistan,1975,140.59,Asia
+Thailand,1975,80.69,Asia
+Turkey,1975,168.16,Asia
+Turkmenistan,1975,104.96,Asia
+United Arab Emirates,1975,76.77,Asia
+Uzbekistan,1975,82.52,Asia
+Albania,1975,76.54,Europe
+Andorra,1975,10.42,Europe
+Austria,1975,26.97,Europe
+Belarus,1975,35.4,Europe
+Belgium,1975,21.11,Europe
+Bosnia and Herzegovina,1975,57.05,Europe
+Bulgaria,1975,30.74,Europe
+Croatia,1975,32.33,Europe
+Czech Republic,1975,24.59,Europe
+Denmark,1975,14.4,Europe
+Estonia,1975,25.49,Europe
+Finland,1975,14.53,Europe
+France,1975,17.64,Europe
+Germany,1975,24.57,Europe
+Greece,1975,27.98,Europe
+Hungary,1975,39.99,Europe
+Iceland,1975,14.89,Europe
+Ireland,1975,21.93,Europe
+Italy,1975,25.87,Europe
+Latvia,1975,28.02,Europe
+Lithuania,1975,26.23,Europe
+Luxembourg,1975,18.48,Europe
+Malta,1975,23.12,Europe
+Montenegro,1975,32.17,Europe
+Netherlands,1975,14.68,Europe
+Norway,1975,12.57,Europe
+Poland,1975,31.79,Europe
+Portugal,1975,45.68,Europe
+Romania,1975,45.26,Europe
+Serbia,1975,57.61,Europe
+Slovakia,1975,31.27,Europe
+Slovenia,1975,27.85,Europe
+Spain,1975,23.96,Europe
+Sweden,1975,11.33,Europe
+Switzerland,1975,15.37,Europe
+Ukraine,1975,36.46,Europe
+American Samoa,1975,33.35,Oceania
+Australia,1975,19.16,Oceania
+Fiji,1975,48,Oceania
+Guam,1975,25.13,Oceania
+Kiribati,1975,109.58,Oceania
+Marshall Islands,1975,61.64,Oceania
+New Zealand,1975,21.08,Oceania
+Northern Mariana Islands,1975,14.98,Oceania
+Papua New Guinea,1975,112.33,Oceania
+Samoa,1975,45.92,Oceania
+Solomon Islands,1975,99.61,Oceania
+Tonga,1975,41.04,Oceania
+Vanuatu,1975,66.75,Oceania
+Andean Latin America,1975,158.02,#N/A
+Australasia,1975,19.54,#N/A
+Bolivia,1975,198.68,#N/A
+Brunei,1975,40.09,#N/A
+Cape Verde,1975,135.62,#N/A
+Caribbean,1975,107,#N/A
+Central Asia,1975,90.18,#N/A
+Central Europe,1975,39.65,#N/A
+Central Latin America,1975,93.24,#N/A
+Central Sub-Saharan Africa,1975,209.24,#N/A
+Cote d'Ivoire,1975,209.3,#N/A
+Democratic Republic of Congo,1975,203.32,#N/A
+East Asia,1975,90.38,#N/A
+Eastern Europe,1975,34.71,#N/A
+Eastern Sub-Saharan Africa,1975,226,#N/A
+High SDI,1975,22,#N/A
+High-income,1975,24.29,#N/A
+High-income North America,1975,20.56,#N/A
+High-middle SDI,1975,72.66,#N/A
+Iran,1975,157.05,#N/A
+Laos,1975,275.86,#N/A
+Latin America and the Caribbean,1975,123.51,#N/A
+Low SDI,1975,234.11,#N/A
+Low-middle SDI,1975,184.06,#N/A
+Macedonia,1975,74.93,#N/A
+Micronesia,1975,79.3,#N/A
+Middle SDI,1975,113.15,#N/A
+Moldova,1975,70.31,#N/A
+North Africa and Middle East,1975,165.89,#N/A
+North Korea,1975,38.75,#N/A
+Oceania,1975,95.99,#N/A
+Palestine,1975,70.44,#N/A
+Russia,1975,33.19,#N/A
+South Asia,1975,187.02,#N/A
+South Korea,1975,35.24,#N/A
+Southeast Asia,1975,138.75,#N/A
+Southern Latin America,1975,61.65,#N/A
+Southern Sub-Saharan Africa,1975,119.49,#N/A
+Sub-Saharan Africa,1975,227.66,#N/A
+Syria,1975,85.68,#N/A
+Taiwan,1975,20.6,#N/A
+Tanzania,1975,197.98,#N/A
+Timor,1975,235.58,#N/A
+Tropical Latin America,1975,151.5,#N/A
+United Kingdom,1975,20.04,#N/A
+United States,1975,20.74,#N/A
+United States Virgin Islands,1975,31.7,#N/A
+Venezuela,1975,63.87,
+Vietnam,1975,95.83,
+Western Europe,1975,22.65,
+Western Sub-Saharan Africa,1975,257.51,
+World,1975,134.17,
+Yemen,1975,256.79,
+Zambia,1975,170.06,
+Zimbabwe,1975,106.38,
+Algeria,1970,159.98,Africa
+Angola,1970,258.91,Africa
+Benin,1970,282.24,Africa
+Botswana,1970,106.71,Africa
+Burkina Faso,1970,317.99,Africa
+Burundi,1970,253.37,Africa
+Cameroon,1970,222.16,Africa
+Central African Republic,1970,188.42,Africa
+Chad,1995,193.17,Africa
+Comoros,1970,220.06,Africa
+Congo,1970,196.02,Africa
+Djibouti,1970,150.26,Africa
+Egypt,1970,235.66,Africa
+Equatorial Guinea,1970,251.59,Africa
+Eritrea,1970,257.64,Africa
+Ethiopia,1970,278.65,Africa
+Gabon,1970,180.79,Africa
+Gambia,1970,204,Africa
+Ghana,1970,196.44,Africa
+Guinea,1970,308.51,Africa
+Guinea-Bissau,1970,336.22,Africa
+Kenya,1970,152.09,Africa
+Lesotho,1970,150.04,Africa
+Liberia,1970,310.4,Africa
+Libya,1970,113.84,Africa
+Madagascar,1970,190.58,Africa
+Malawi,1970,345.5,Africa
+Mali,1970,361.91,Africa
+Mauritania,1970,180.24,Africa
+Mauritius,1970,79.88,Africa
+Morocco,1970,199.74,Africa
+Mozambique,1970,270.67,Africa
+Namibia,1970,105.9,Africa
+Niger,1970,340.66,Africa
+Nigeria,1970,292.48,Africa
+Rwanda,1970,270,Africa
+Sao Tome and Principe,1970,147.73,Africa
+Senegal,1970,275.5,Africa
+Seychelles,1970,79.77,Africa
+Sierra Leone,1970,310.14,Africa
+Somalia,1970,235.44,Africa
+South Africa,1970,134.04,Africa
+South Sudan,1970,245.38,Africa
+Sudan,1970,215.68,Africa
+Swaziland,1970,171.52,Africa
+Togo,1970,238.74,Africa
+Tunisia,1970,166.44,Africa
+Uganda,1970,221.04,Africa
+Antigua and Barbuda,1970,41.67,Americas
+Argentina,1970,73.84,Americas
+Bahamas,1970,56.38,Americas
+Barbados,1970,49.91,Americas
+Belize,1970,102.33,Americas
+Bermuda,1970,30.04,Americas
+Brazil,1970,183.11,Americas
+Canada,1970,24.79,Americas
+Chile,1970,101.93,Americas
+Colombia,1970,94.01,Americas
+Costa Rica,1970,86.19,Americas
+Cuba,1970,47.34,Americas
+Dominica,1970,71.64,Americas
+Dominican Republic,1970,137.45,Americas
+Ecuador,1970,140.18,Americas
+El Salvador,1970,158.98,Americas
+Greenland,1970,61.8,Americas
+Grenada,1970,67.64,Americas
+Guatemala,1970,182.66,Americas
+Guyana,1970,97.52,Americas
+Haiti,1970,291.52,Americas
+Honduras,1970,138.42,Americas
+Jamaica,1970,67.7,Americas
+Mexico,1970,113.09,Americas
+Nicaragua,1970,186.78,Americas
+Panama,1970,64.8,Americas
+Paraguay,1970,84.64,Americas
+Peru,1970,209.3,Americas
+Puerto Rico,1970,35.78,Americas
+Saint Lucia,1970,79.85,Americas
+Saint Vincent and the Grenadines,1970,94.99,Americas
+Suriname,1970,83.01,Americas
+Trinidad and Tobago,1970,56.47,Americas
+Uruguay,1970,62.35,Americas
+Afghanistan,1995,134.7,Asia
+Armenia,1970,99.05,Asia
+Azerbaijan,1970,143.47,Asia
+Bahrain,1970,89.96,Asia
+Bangladesh,1970,252.24,Asia
+Bhutan,1970,262.76,Asia
+Cambodia,1970,198.13,Asia
+China,1970,115.65,Asia
+Cyprus,1970,52.12,Asia
+Georgia,1970,96.9,Asia
+India,1970,206.38,Asia
+Indonesia,1970,186.71,Asia
+Iraq,1970,135.42,Asia
+Israel,1970,28.76,Asia
+Japan,1970,19.47,Asia
+Jordan,1970,88.33,Asia
+Kazakhstan,1970,68.73,Asia
+Kuwait,1970,53.06,Asia
+Kyrgyzstan,1970,125.43,Asia
+Lebanon,1970,66.42,Asia
+Malaysia,1970,64.24,Asia
+Maldives,1970,215.09,Asia
+Mongolia,1970,165.75,Asia
+Myanmar,1970,277.73,Asia
+Nepal,1970,241.28,Asia
+Oman,1970,259.42,Asia
+Pakistan,1970,173.13,Asia
+Philippines,1970,108.22,Asia
+Qatar,1970,70.65,Asia
+Saudi Arabia,1970,137.07,Asia
+Singapore,1970,30.07,Asia
+Sri Lanka,1970,69.35,Asia
+Tajikistan,1970,162.3,Asia
+Thailand,1970,102.37,Asia
+Turkey,1970,205,Asia
+Turkmenistan,1970,110.06,Asia
+United Arab Emirates,1970,108.19,Asia
+Uzbekistan,1970,88.48,Asia
+Albania,1970,100.03,Europe
+Andorra,1970,12.46,Europe
+Austria,1970,32.58,Europe
+Belarus,1970,40.85,Europe
+Belgium,1970,27.57,Europe
+Bosnia and Herzegovina,1970,80.02,Europe
+Bulgaria,1970,34.31,Europe
+Croatia,1970,45.48,Europe
+Czech Republic,1970,27,Europe
+Denmark,1970,19.46,Europe
+Estonia,1970,25.51,Europe
+Finland,1970,18.27,Europe
+France,1970,20.46,Europe
+Germany,1970,27.99,Europe
+Greece,1970,33.89,Europe
+Hungary,1970,43.94,Europe
+Iceland,1970,18.05,Europe
+Ireland,1970,24.67,Europe
+Italy,1970,36.52,Europe
+Latvia,1970,25.15,Europe
+Lithuania,1970,25.54,Europe
+Luxembourg,1970,25.35,Europe
+Malta,1970,30.79,Europe
+Montenegro,1970,39.72,Europe
+Netherlands,1970,17.86,Europe
+Norway,1970,16.21,Europe
+Poland,1970,42.56,Europe
+Portugal,1970,76.9,Europe
+Romania,1970,59.15,Europe
+Serbia,1970,74.13,Europe
+Slovakia,1970,34.54,Europe
+Slovenia,1970,37.96,Europe
+Spain,1970,35.06,Europe
+Sweden,1970,14.72,Europe
+Switzerland,1970,20.81,Europe
+Ukraine,1970,37.85,Europe
+American Samoa,1970,41.08,Oceania
+Australia,1970,24.37,Oceania
+Fiji,1970,56.07,Oceania
+Guam,1970,30.86,Oceania
+Kiribati,1970,136.19,Oceania
+Marshall Islands,1970,76.68,Oceania
+New Zealand,1970,22.79,Oceania
+Northern Mariana Islands,1970,17.65,Oceania
+Papua New Guinea,1970,138,Oceania
+Samoa,1970,59,Oceania
+Solomon Islands,1970,121.32,Oceania
+Tonga,1970,44.59,Oceania
+Vanuatu,1970,85.97,Oceania
+Andean Latin America,1970,199.09,#N/A
+Australasia,1970,24.06,#N/A
+Bolivia,1970,237.64,#N/A
+Brunei,1970,57.99,#N/A
+Cape Verde,1970,179.32,#N/A
+Caribbean,1970,122.69,#N/A
+Central Asia,1970,102.84,#N/A
+Central Europe,1970,51.71,#N/A
+Central Latin America,1970,111.85,#N/A
+Central Sub-Saharan Africa,1970,221.94,#N/A
+Cote d'Ivoire,1970,242.39,#N/A
+Democratic Republic of Congo,1970,216.93,#N/A
+East Asia,1970,113.45,#N/A
+Eastern Europe,1970,35.36,#N/A
+Eastern Sub-Saharan Africa,1970,239.37,#N/A
+High SDI,1970,29.05,#N/A
+High-income,1970,31.86,#N/A
+High-income North America,1970,26.41,#N/A
+High-middle SDI,1970,91.2,#N/A
+Iran,1970,246.5,#N/A
+Laos,1970,309.3,#N/A
+Latin America and the Caribbean,1970,147.93,#N/A
+Low SDI,1970,255.68,#N/A
+Low-middle SDI,1970,207.3,#N/A
+Macedonia,1970,103.33,#N/A
+Micronesia,1970,95.26,#N/A
+Middle SDI,1970,137.44,#N/A
+Moldova,1970,81.24,#N/A
+North Africa and Middle East,1970,205.08,#N/A
+North Korea,1970,52.97,#N/A
+Oceania,1970,117.26,#N/A
+Palestine,1970,89.73,#N/A
+Russia,1970,32.79,#N/A
+South Asia,1970,209.28,#N/A
+South Korea,1970,55.68,#N/A
+Southeast Asia,1970,161.57,#N/A
+Southern Latin America,1970,81.3,#N/A
+Southern Sub-Saharan Africa,1970,129.35,#N/A
+Sub-Saharan Africa,1970,245.74,#N/A
+Syria,1970,102.02,#N/A
+Taiwan,1970,27.52,#N/A
+Tanzania,1970,215.98,#N/A
+Timor,1970,252.71,#N/A
+Tropical Latin America,1970,180.63,#N/A
+United Kingdom,1970,23.79,#N/A
+United States,1970,26.56,#N/A
+United States Virgin Islands,1970,35.73,#N/A
+Venezuela,1970,72.57,
+Vietnam,1970,119.76,
+Western Europe,1970,28.94,
+Western Sub-Saharan Africa,1970,282.9,
+World,1970,151.32,
+Yemen,1970,320.92,
+Zambia,1970,189.95,
+Zimbabwe,1970,112.76,
+Algeria,1965,159.99,Africa
+Angola,1965,274.43,Africa
+Benin,1965,302.75,Africa
+Botswana,1965,119.11,Africa
+Burkina Faso,1965,333.06,Africa
+Burundi,1965,268.59,Africa
+Cameroon,1965,247.14,Africa
+Central African Republic,1965,198.67,Africa
+Chad,2000,189.77,Africa
+Comoros,1965,246.68,Africa
+Congo,1965,217.47,Africa
+Djibouti,1965,158.63,Africa
+Egypt,1965,268.39,Africa
+Equatorial Guinea,1965,276.71,Africa
+Eritrea,1965,280.1,Africa
+Ethiopia,1965,294.9,Africa
+Gabon,1965,204.37,Africa
+Gambia,1965,229.33,Africa
+Ghana,1965,214.41,Africa
+Guinea,1965,317.23,Africa
+Guinea-Bissau,1965,367.76,Africa
+Kenya,1965,166.09,Africa
+Lesotho,1965,160.2,Africa
+Liberia,1965,348.79,Africa
+Libya,1965,169.65,Africa
+Madagascar,1965,201.58,Africa
+Malawi,1965,370.81,Africa
+Mali,1965,380.03,Africa
+Mauritania,1965,207.4,Africa
+Mauritius,1965,93.6,Africa
+Morocco,1965,238.41,Africa
+Mozambique,1965,289.56,Africa
+Namibia,1965,112.25,Africa
+Niger,1965,356.25,Africa
+Nigeria,1965,293.08,Africa
+Rwanda,1965,269,Africa
+Sao Tome and Principe,1965,175.92,Africa
+Senegal,1965,286.91,Africa
+Seychelles,1965,98.08,Africa
+Sierra Leone,1965,329.07,Africa
+Somalia,1965,238.38,Africa
+South Africa,1965,144.21,Africa
+South Sudan,1965,252.29,Africa
+Sudan,1965,223.96,Africa
+Swaziland,1965,202.54,Africa
+Togo,1965,277.23,Africa
+Tunisia,1965,209.24,Africa
+Uganda,1965,235.6,Africa
+Antigua and Barbuda,1965,60.19,Americas
+Argentina,1965,72.13,Americas
+Bahamas,1965,79.6,Americas
+Barbados,1965,67.14,Americas
+Belize,1965,121.31,Americas
+Bermuda,1965,39.12,Americas
+Brazil,1965,205.14,Americas
+Canada,1965,29.48,Americas
+Chile,1965,132.34,Americas
+Colombia,1965,110.79,Americas
+Costa Rica,1965,98.67,Americas
+Cuba,1965,48.21,Americas
+Dominica,1965,106.81,Americas
+Dominican Republic,1965,162.05,Americas
+Ecuador,1965,153.57,Americas
+El Salvador,1965,185.26,Americas
+Greenland,1965,81.94,Americas
+Grenada,1965,79.69,Americas
+Guatemala,1965,204.9,Americas
+Guyana,1965,109.53,Americas
+Haiti,1965,317.05,Americas
+Honduras,1965,166.09,Americas
+Jamaica,1965,80.33,Americas
+Mexico,1965,131.72,Americas
+Nicaragua,1965,220.93,Americas
+Panama,1965,79.65,Americas
+Paraguay,1965,93.91,Americas
+Peru,1965,228.15,Americas
+Puerto Rico,1965,55.98,Americas
+Saint Lucia,1965,110.06,Americas
+Saint Vincent and the Grenadines,1965,116.96,Americas
+Suriname,1965,92.09,Americas
+Trinidad and Tobago,1965,62.8,Americas
+Uruguay,1965,65.14,Americas
+Afghanistan,2000,119.8,Asia
+Armenia,1965,129.33,Asia
+Azerbaijan,1965,192.12,Asia
+Bahrain,1965,132.37,Asia
+Bangladesh,1965,261.9,Asia
+Bhutan,1965,306.59,Asia
+Cambodia,1965,199.96,Asia
+China,1965,141.1,Asia
+Cyprus,1965,61.63,Asia
+Georgia,1965,123.41,Asia
+India,1965,250.85,Asia
+Indonesia,1965,217.59,Asia
+Iraq,1965,159.75,Asia
+Israel,1965,33.88,Asia
+Japan,1965,26.3,Asia
+Jordan,1965,109.42,Asia
+Kazakhstan,1965,85.11,Asia
+Kuwait,1965,59.15,Asia
+Kyrgyzstan,1965,155.32,Asia
+Lebanon,1965,80.35,Asia
+Malaysia,1965,76.04,Asia
+Maldives,1965,265.93,Asia
+Mongolia,1965,197.03,Asia
+Myanmar,1965,312.2,Asia
+Nepal,1965,270.88,Asia
+Oman,1965,360.33,Asia
+Pakistan,1965,198.01,Asia
+Philippines,1965,123.99,Asia
+Qatar,1965,89.07,Asia
+Saudi Arabia,1965,163.53,Asia
+Singapore,1965,38.98,Asia
+Sri Lanka,1965,82.07,Asia
+Tajikistan,1965,203.45,Asia
+Thailand,1965,127.36,Asia
+Turkey,1965,243,Asia
+Turkmenistan,1965,133.76,Asia
+United Arab Emirates,1965,143.17,Asia
+Uzbekistan,1965,104.1,Asia
+Albania,1965,128.68,Europe
+Andorra,1965,15.04,Europe
+Austria,1965,36.95,Europe
+Belarus,1965,50.14,Europe
+Belgium,1965,30.6,Europe
+Bosnia and Herzegovina,1965,108.97,Europe
+Bulgaria,1965,39.74,Europe
+Croatia,1965,60.65,Europe
+Czech Republic,1965,30.49,Europe
+Denmark,1965,25.35,Europe
+Estonia,1965,30.03,Europe
+Finland,1965,23.76,Europe
+France,1965,24.07,Europe
+Germany,1965,31.68,Europe
+Greece,1965,40.08,Europe
+Hungary,1965,48.59,Europe
+Iceland,1965,22.01,Europe
+Ireland,1965,31.04,Europe
+Italy,1965,44.76,Europe
+Latvia,1965,27.52,Europe
+Lithuania,1965,33.24,Europe
+Luxembourg,1965,32.58,Europe
+Malta,1965,39.16,Europe
+Montenegro,1965,53.69,Europe
+Netherlands,1965,20.46,Europe
+Norway,1965,22.71,Europe
+Poland,1965,51.69,Europe
+Portugal,1965,92.91,Europe
+Romania,1965,56.96,Europe
+Serbia,1965,91.98,Europe
+Slovakia,1965,37.95,Europe
+Slovenia,1965,52.88,Europe
+Spain,1965,46.14,Europe
+Sweden,1965,17.91,Europe
+Switzerland,1965,24.84,Europe
+Ukraine,1965,43.27,Europe
+American Samoa,1965,50.66,Oceania
+Australia,1965,24.46,Oceania
+Fiji,1965,63.16,Oceania
+Guam,1965,36.16,Oceania
+Kiribati,1965,156.58,Oceania
+Marshall Islands,1965,92.65,Oceania
+New Zealand,1965,25.73,Oceania
+Northern Mariana Islands,1965,20.83,Oceania
+Papua New Guinea,1965,174.12,Oceania
+Samoa,1965,70.1,Oceania
+Solomon Islands,1965,151.33,Oceania
+Tonga,1965,49.3,Oceania
+Vanuatu,1965,104.36,Oceania
+Andean Latin America,1965,219.56,#N/A
+Australasia,1965,24.73,#N/A
+Bolivia,1965,273.52,#N/A
+Brunei,1965,73.65,#N/A
+Cape Verde,1965,143.1,#N/A
+Caribbean,1965,135.33,#N/A
+Central Asia,1965,127.84,#N/A
+Central Europe,1965,60.82,#N/A
+Central Latin America,1965,128.87,#N/A
+Central Sub-Saharan Africa,1965,239.22,#N/A
+Cote d'Ivoire,1965,273.24,#N/A
+Democratic Republic of Congo,1965,234.5,#N/A
+East Asia,1965,138.35,#N/A
+Eastern Europe,1965,39.57,#N/A
+Eastern Sub-Saharan Africa,1965,255.8,#N/A
+High SDI,1965,35.95,#N/A
+High-income,1965,38.18,#N/A
+High-income North America,1965,30.73,#N/A
+High-middle SDI,1965,110.98,#N/A
+Iran,1965,330.78,#N/A
+Laos,1965,336.95,#N/A
+Latin America and the Caribbean,1965,166.83,#N/A
+Low SDI,1965,284.02,#N/A
+Low-middle SDI,1965,236.72,#N/A
+Macedonia,1965,142.9,#N/A
+Micronesia,1965,113.76,#N/A
+Middle SDI,1965,166.92,#N/A
+Moldova,1965,102.45,#N/A
+North Africa and Middle East,1965,242.83,#N/A
+North Korea,1965,72.85,#N/A
+Oceania,1965,145.57,#N/A
+Palestine,1965,110.46,#N/A
+Russia,1965,35.59,#N/A
+South Asia,1965,248.35,#N/A
+South Korea,1965,76.04,#N/A
+Southeast Asia,1965,186.34,#N/A
+Southern Latin America,1965,91.93,#N/A
+Southern Sub-Saharan Africa,1965,139.97,#N/A
+Sub-Saharan Africa,1965,259.68,#N/A
+Syria,1965,121.64,#N/A
+Taiwan,1965,39.71,#N/A
+Tanzania,1965,237.83,#N/A
+Timor,1965,281,#N/A
+Tropical Latin America,1965,202.5,#N/A
+United Kingdom,1965,25.78,#N/A
+United States,1965,30.84,#N/A
+United States Virgin Islands,1965,42.05,#N/A
+Venezuela,1965,71.24,
+Vietnam,1965,132.49,
+Western Europe,1965,34.55,
+Western Sub-Saharan Africa,1965,293.76,
+World,1965,172.13,
+Yemen,1965,365.6,
+Zambia,1965,217.62,
+Zimbabwe,1965,122.44,
+Algeria,1960,167.96,Africa
+Angola,1960,289.1,Africa
+Benin,1960,323.84,Africa
+Botswana,1960,127.5,Africa
+Burkina Faso,1960,354.46,Africa
+Burundi,1960,285.31,Africa
+Cameroon,1960,285.11,Africa
+Central African Republic,1960,217.71,Africa
+Chad,2005,172.7,Africa
+Comoros,1960,273.15,Africa
+Congo,1960,238.2,Africa
+Djibouti,1960,166.55,Africa
+Egypt,1960,313.01,Africa
+Equatorial Guinea,1960,304.56,Africa
+Eritrea,1960,291.44,Africa
+Ethiopia,1960,309.1,Africa
+Gabon,1960,229.78,Africa
+Gambia,1960,247.81,Africa
+Ghana,1960,237.84,Africa
+Guinea,1960,333.56,Africa
+Guinea-Bissau,1960,392.78,Africa
+Kenya,1960,187.08,Africa
+Lesotho,1960,161.67,Africa
+Liberia,1960,381.5,Africa
+Libya,1960,237.24,Africa
+Madagascar,1960,210.24,Africa
+Malawi,1960,390.01,Africa
+Mali,1960,391.61,Africa
+Mauritania,1960,234.47,Africa
+Mauritius,1960,109.92,Africa
+Morocco,1960,281.39,Africa
+Mozambique,1960,303.67,Africa
+Namibia,1960,121.65,Africa
+Niger,1960,384.28,Africa
+Nigeria,1960,312.54,Africa
+Rwanda,1960,268.68,Africa
+Sao Tome and Principe,1960,260.03,Africa
+Senegal,1960,293.37,Africa
+Seychelles,1960,103.02,Africa
+Sierra Leone,1960,348.84,Africa
+Somalia,1960,244.87,Africa
+South Africa,1960,154.05,Africa
+South Sudan,1960,258.1,Africa
+Sudan,1960,228.37,Africa
+Swaziland,1960,236.11,Africa
+Togo,1960,307.8,Africa
+Tunisia,1960,258.33,Africa
+Uganda,1960,248.62,Africa
+Antigua and Barbuda,1960,81.98,Americas
+Argentina,1960,83.13,Americas
+Bahamas,1960,99.87,Americas
+Barbados,1960,93.04,Americas
+Belize,1960,146.22,Americas
+Bermuda,1960,46.75,Americas
+Brazil,1960,229.21,Americas
+Canada,1960,35.59,Americas
+Chile,1960,168.99,Americas
+Colombia,1960,134.43,Americas
+Costa Rica,1960,99.47,Americas
+Cuba,1960,50.66,Americas
+Dominica,1960,157.87,Americas
+Dominican Republic,1960,186.19,Americas
+Ecuador,1960,176.23,Americas
+El Salvador,1960,217.4,Americas
+Greenland,1960,95.84,Americas
+Grenada,1960,101.69,Americas
+Guatemala,1960,222.62,Americas
+Guyana,1960,128.53,Americas
+Haiti,1960,337.33,Americas
+Honduras,1960,190.55,Americas
+Jamaica,1960,101.35,Americas
+Mexico,1960,156.17,Americas
+Nicaragua,1960,263.01,Americas
+Panama,1960,95.67,Americas
+Paraguay,1960,102.09,Americas
+Peru,1960,282.98,Americas
+Puerto Rico,1960,60.56,Americas
+Saint Lucia,1960,151.21,Americas
+Saint Vincent and the Grenadines,1960,146.36,Americas
+Suriname,1960,101.33,Americas
+Trinidad and Tobago,1960,78.34,Americas
+Uruguay,1960,62.59,Americas
+Afghanistan,2005,97.28,Asia
+Armenia,1960,168.1,Asia
+Azerbaijan,1960,251.55,Asia
+Bahrain,1960,178.77,Asia
+Bangladesh,1960,294.63,Asia
+Bhutan,1960,349.69,Asia
+Cambodia,1960,219.53,Asia
+China,1960,582.24,Asia
+Cyprus,1960,72.67,Asia
+Georgia,1960,155.16,Asia
+India,1960,247.99,Asia
+Indonesia,1960,245.55,Asia
+Iraq,1960,185.96,Asia
+Israel,1960,39.52,Asia
+Japan,1960,42.81,Asia
+Jordan,1960,135.31,Asia
+Kazakhstan,1960,104.17,Asia
+Kuwait,1960,71.1,Asia
+Kyrgyzstan,1960,188.2,Asia
+Lebanon,1960,98.84,Asia
+Malaysia,1960,110.69,Asia
+Maldives,1960,319.66,Asia
+Mongolia,1960,242.75,Asia
+Myanmar,1960,348.63,Asia
+Nepal,1960,304.06,Asia
+Oman,1960,409.75,Asia
+Pakistan,1960,236.38,Asia
+Philippines,1960,144.07,Asia
+Qatar,1960,100.08,Asia
+Saudi Arabia,1960,188.12,Asia
+Singapore,1960,51.67,Asia
+Sri Lanka,1960,97.35,Asia
+Tajikistan,1960,244.76,Asia
+Thailand,1960,160.74,Asia
+Turkey,1960,293.66,Asia
+Turkmenistan,1960,161.45,Asia
+United Arab Emirates,1960,184.51,Asia
+Uzbekistan,1960,122.82,Asia
+Albania,1960,158.91,Europe
+Andorra,1960,18.08,Europe
+Austria,1960,49.13,Europe
+Belarus,1960,65.25,Europe
+Belgium,1960,39.03,Europe
+Bosnia and Herzegovina,1960,137.94,Europe
+Bulgaria,1960,59.37,Europe
+Croatia,1960,81.28,Europe
+Czech Republic,1960,27.22,Europe
+Denmark,1960,29.44,Europe
+Estonia,1960,41.74,Europe
+Finland,1960,29.19,Europe
+France,1960,30.49,Europe
+Germany,1960,45.61,Europe
+Greece,1960,46.53,Europe
+Hungary,1960,58.13,Europe
+Iceland,1960,24.65,Europe
+Ireland,1960,37.4,Europe
+Italy,1960,56.37,Europe
+Latvia,1960,36.28,Europe
+Lithuania,1960,51.67,Europe
+Luxembourg,1960,42.57,Europe
+Malta,1960,44.44,Europe
+Montenegro,1960,60.51,Europe
+Netherlands,1960,23.77,Europe
+Norway,1960,25.98,Europe
+Poland,1960,67.16,Europe
+Portugal,1960,110.36,Europe
+Romania,1960,93.08,Europe
+Serbia,1960,113.32,Europe
+Slovakia,1960,38.58,Europe
+Slovenia,1960,70.52,Europe
+Spain,1960,56.53,Europe
+Sweden,1960,22.35,Europe
+Switzerland,1960,29.81,Europe
+Ukraine,1960,56.46,Europe
+American Samoa,1960,58.59,Oceania
+Australia,1960,27.34,Oceania
+Fiji,1960,76.66,Oceania
+Guam,1960,38.48,Oceania
+Kiribati,1960,178.5,Oceania
+Marshall Islands,1960,110.81,Oceania
+New Zealand,1960,30.79,Oceania
+Northern Mariana Islands,1960,24.38,Oceania
+Papua New Guinea,1960,205.84,Oceania
+Samoa,1960,79.3,Oceania
+Solomon Islands,1960,186.21,Oceania
+Tonga,1960,57.38,Oceania
+Vanuatu,1960,123.11,Oceania
+Andean Latin America,1960,262.81,#N/A
+Australasia,1960,28.08,#N/A
+Bolivia,1960,302.36,#N/A
+Brunei,1960,128.2,#N/A
+Cape Verde,1960,169.73,#N/A
+Caribbean,1960,157.79,#N/A
+Central Asia,1960,156.84,#N/A
+Central Europe,1960,79.72,#N/A
+Central Latin America,1960,151.59,#N/A
+Central Sub-Saharan Africa,1960,252.61,#N/A
+Cote d'Ivoire,1960,301.99,#N/A
+Democratic Republic of Congo,1960,245.46,#N/A
+East Asia,1960,562.4,#N/A
+Eastern Europe,1960,54.41,#N/A
+Eastern Sub-Saharan Africa,1960,271.32,#N/A
+High SDI,1960,47.66,#N/A
+High-income,1960,47.53,#N/A
+High-income North America,1960,34.03,#N/A
+High-middle SDI,1960,209.46,#N/A
+Iran,1960,392.89,#N/A
+Laos,1960,360.55,#N/A
+Latin America and the Caribbean,1960,192.84,#N/A
+Low SDI,1960,295.81,#N/A
+Low-middle SDI,1960,306.3,#N/A
+Macedonia,1960,180.37,#N/A
+Micronesia,1960,134.13,#N/A
+Middle SDI,1960,539.14,#N/A
+Moldova,1960,128.19,#N/A
+North Africa and Middle East,1960,283.58,#N/A
+North Korea,1960,93.9,#N/A
+Oceania,1960,172.59,#N/A
+Palestine,1960,144.96,#N/A
+Russia,1960,51.12,#N/A
+South Asia,1960,253.21,#N/A
+South Korea,1960,96.3,#N/A
+Southeast Asia,1960,213.52,#N/A
+Southern Latin America,1960,110.8,#N/A
+Southern Sub-Saharan Africa,1960,149.78,#N/A
+Sub-Saharan Africa,1960,277.42,#N/A
+Syria,1960,143.01,#N/A
+Taiwan,1960,59.43,#N/A
+Tanzania,1960,254.25,#N/A
+Timor,1960,311.42,#N/A
+Tropical Latin America,1960,226.36,#N/A
+United Kingdom,1960,29.46,#N/A
+United States,1960,33.83,#N/A
+United States Virgin Islands,1960,53.68,#N/A
+Venezuela,1960,79.12,#N/A
+Vietnam,1960,152.63,
+Western Europe,1960,43.84,
+Western Sub-Saharan Africa,1960,314.9,
+World,1960,307.11,
+Yemen,1960,402.92,
+Zambia,1960,236.72,
+Zimbabwe,1960,131.11,
+Algeria,1955,146.32,Africa
+Angola,1955,300.39,Africa
+Benin,1955,333.05,Africa
+Botswana,1955,133.07,Africa
+Burkina Faso,1955,375.54,Africa
+Burundi,1955,306.99,Africa
+Cameroon,1955,303.72,Africa
+Central African Republic,1955,234.24,Africa
+Chad,2010,151.17,Africa
+Comoros,1955,289.94,Africa
+Congo,1955,254.44,Africa
+Djibouti,1955,175.12,Africa
+Egypt,1955,360.76,Africa
+Equatorial Guinea,1955,318.05,Africa
+Eritrea,1955,309.55,Africa
+Ethiopia,1955,321.2,Africa
+Gabon,1955,247.25,Africa
+Gambia,1955,261.46,Africa
+Ghana,1955,274.17,Africa
+Guinea,1955,348.26,Africa
+Guinea-Bissau,1955,426.46,Africa
+Kenya,1955,218.43,Africa
+Lesotho,1955,172.07,Africa
+Liberia,1955,404.79,Africa
+Libya,1955,301.9,Africa
+Madagascar,1955,218.25,Africa
+Malawi,1955,410.26,Africa
+Mali,1955,409.6,Africa
+Mauritania,1955,250.7,Africa
+Mauritius,1955,125.13,Africa
+Morocco,1955,311.92,Africa
+Mozambique,1955,315.82,Africa
+Namibia,1955,126.11,Africa
+Niger,1955,404.08,Africa
+Nigeria,1955,328.6,Africa
+Rwanda,1955,287.05,Africa
+Sao Tome and Principe,1955,310.61,Africa
+Senegal,1955,308.78,Africa
+Seychelles,1955,106.87,Africa
+Sierra Leone,1955,364.98,Africa
+Somalia,1955,255.95,Africa
+South Africa,1955,162.26,Africa
+South Sudan,1955,264.26,Africa
+Sudan,1955,242.58,Africa
+Swaziland,1955,252.33,Africa
+Togo,1955,330.85,Africa
+Tunisia,1955,305.8,Africa
+Uganda,1955,258.8,Africa
+Antigua and Barbuda,1955,101.24,Americas
+Argentina,1955,80.2,Americas
+Bahamas,1955,120.99,Americas
+Barbados,1955,132.25,Americas
+Belize,1955,180.7,Americas
+Bermuda,1955,57.19,Americas
+Brazil,1955,256.92,Americas
+Canada,1955,41.25,Americas
+Chile,1955,168.33,Americas
+Colombia,1955,154.19,Americas
+Costa Rica,1955,128.25,Americas
+Cuba,1955,62.01,Americas
+Dominica,1955,208.77,Americas
+Dominican Republic,1955,191.83,Americas
+Ecuador,1955,197.13,Americas
+El Salvador,1955,250.21,Americas
+Greenland,1955,128.23,Americas
+Grenada,1955,120.09,Americas
+Guatemala,1955,250.24,Americas
+Guyana,1955,160.66,Americas
+Haiti,1955,362.73,Americas
+Honduras,1955,215.23,Americas
+Jamaica,1955,123.63,Americas
+Mexico,1955,190.46,Americas
+Nicaragua,1955,296.4,Americas
+Panama,1955,108.52,Americas
+Paraguay,1955,112.67,Americas
+Peru,1955,312.86,Americas
+Puerto Rico,1955,78.54,Americas
+Saint Lucia,1955,174.3,Americas
+Saint Vincent and the Grenadines,1955,175.88,Americas
+Suriname,1955,108.55,Americas
+Trinidad and Tobago,1955,94.05,Americas
+Uruguay,1955,62.48,Americas
+Afghanistan,2010,74.67,Asia
+Armenia,1955,216.24,Asia
+Azerbaijan,1955,317.13,Asia
+Bahrain,1955,228.21,Asia
+Bangladesh,1955,325.51,Asia
+Bhutan,1955,387.72,Asia
+Cambodia,1955,240.57,Asia
+China,1955,191.91,Asia
+Cyprus,1955,84.17,Asia
+Georgia,1955,195.52,Asia
+India,1955,243.79,Asia
+Indonesia,1955,281.86,Asia
+Iraq,1955,210.54,Asia
+Israel,1955,48.37,Asia
+Japan,1955,58.74,Asia
+Jordan,1955,158.89,Asia
+Kazakhstan,1955,125.76,Asia
+Kuwait,1955,96.11,Asia
+Kyrgyzstan,1955,226.1,Asia
+Lebanon,1955,115.69,Asia
+Malaysia,1955,127.65,Asia
+Maldives,1955,374.6,Asia
+Mongolia,1955,284.59,Asia
+Myanmar,1955,384.34,Asia
+Nepal,1955,331.48,Asia
+Oman,1955,443.49,Asia
+Pakistan,1955,271.81,Asia
+Philippines,1955,170.23,Asia
+Qatar,1955,111.77,Asia
+Saudi Arabia,1955,205.49,Asia
+Singapore,1955,74.79,Asia
+Sri Lanka,1955,131.54,Asia
+Tajikistan,1955,285.54,Asia
+Thailand,1955,187.96,Asia
+Turkey,1955,327.96,Asia
+Turkmenistan,1955,190.76,Asia
+United Arab Emirates,1955,217.73,Asia
+Uzbekistan,1955,142.83,Asia
+Albania,1955,208.04,Europe
+Andorra,1955,21.52,Europe
+Austria,1955,60.25,Europe
+Belarus,1955,75.29,Europe
+Belgium,1955,52.03,Europe
+Bosnia and Herzegovina,1955,202.15,Europe
+Bulgaria,1955,109.68,Europe
+Croatia,1955,129.98,Europe
+Czech Republic,1955,36.88,Europe
+Denmark,1955,33.62,Europe
+Estonia,1955,49.19,Europe
+Finland,1955,40.26,Europe
+France,1955,44.84,Europe
+Germany,1955,56.33,Europe
+Greece,1955,52.55,Europe
+Hungary,1955,72.55,Europe
+Iceland,1955,27.84,Europe
+Ireland,1955,46.35,Europe
+Italy,1955,64.99,Europe
+Latvia,1955,44.11,Europe
+Lithuania,1955,74.79,Europe
+Luxembourg,1955,53,Europe
+Malta,1955,62.89,Europe
+Montenegro,1955,74.6,Europe
+Netherlands,1955,28.01,Europe
+Norway,1955,29.12,Europe
+Poland,1955,102.74,Europe
+Portugal,1955,136.35,Europe
+Romania,1955,105.31,Europe
+Serbia,1955,155.93,Europe
+Slovakia,1955,58.33,Europe
+Slovenia,1955,97.16,Europe
+Spain,1955,77.22,Europe
+Sweden,1955,24.11,Europe
+Switzerland,1955,36.84,Europe
+Ukraine,1955,67.76,Europe
+American Samoa,1955,72.6,Oceania
+Australia,1955,30.65,Oceania
+Fiji,1955,93.94,Oceania
+Guam,1955,46.24,Oceania
+Kiribati,1955,198.45,Oceania
+Marshall Islands,1955,132.7,Oceania
+New Zealand,1955,34.13,Oceania
+Northern Mariana Islands,1955,29.14,Oceania
+Papua New Guinea,1955,230.94,Oceania
+Samoa,1955,97.82,Oceania
+Solomon Islands,1955,218.96,Oceania
+Tonga,1955,70.1,Oceania
+Vanuatu,1955,137.64,Oceania
+Andean Latin America,1955,290.6,#N/A
+Australasia,1955,31.38,#N/A
+Bolivia,1955,322.45,#N/A
+Brunei,1955,170.78,#N/A
+Cape Verde,1955,156.61,#N/A
+Caribbean,1955,177.59,#N/A
+Central Asia,1955,189.43,#N/A
+Central Europe,1955,108.44,#N/A
+Central Latin America,1955,182.51,#N/A
+Central Sub-Saharan Africa,1955,266.39,#N/A
+Cote d'Ivoire,1955,328.85,#N/A
+Democratic Republic of Congo,1955,258.69,#N/A
+East Asia,1955,189.01,#N/A
+Eastern Europe,1955,67.25,#N/A
+Eastern Sub-Saharan Africa,1955,286.93,#N/A
+High SDI,1955,57.9,#N/A
+High-income,1955,55.62,#N/A
+High-income North America,1955,35.06,#N/A
+High-middle SDI,1955,150.43,#N/A
+Iran,1955,441.47,#N/A
+Laos,1955,378.94,#N/A
+Latin America and the Caribbean,1955,221.51,#N/A
+Low SDI,1955,304.58,#N/A
+Low-middle SDI,1955,270.93,#N/A
+Macedonia,1955,239.37,#N/A
+Micronesia,1955,154.01,#N/A
+Middle SDI,1955,216.58,#N/A
+Moldova,1955,158.4,#N/A
+North Africa and Middle East,1955,316.61,#N/A
+North Korea,1955,116.87,#N/A
+Oceania,1955,198.05,#N/A
+Palestine,1955,178.77,#N/A
+Russia,1955,64.13,#N/A
+South Asia,1955,256.66,#N/A
+South Korea,1955,129.35,#N/A
+Southeast Asia,1955,244.51,#N/A
+Southern Latin America,1955,105.44,#N/A
+Southern Sub-Saharan Africa,1955,157.87,#N/A
+Sub-Saharan Africa,1955,294.25,#N/A
+Syria,1955,175.87,#N/A
+Taiwan,1955,83.91,#N/A
+Tanzania,1955,265.55,#N/A
+Timor,1955,336.21,#N/A
+Tropical Latin America,1955,253.71,#N/A
+United Kingdom,1955,32.73,#N/A
+United States,1955,34.37,#N/A
+United States Virgin Islands,1955,66.93,#N/A
+Venezuela,1955,112.43,#N/A
+Vietnam,1955,177.16,
+Western Europe,1955,54.49,
+Western Sub-Saharan Africa,1955,333.98,
+World,1955,203.49,
+Yemen,1955,445.14,
+Zambia,1955,250.86,
+Zimbabwe,1955,138.05,
+Algeria,1950,156.83,Africa
+Angola,1950,301.46,Africa
+Benin,1950,343.02,Africa
+Botswana,1950,138.61,Africa
+Burkina Faso,1950,393.48,Africa
+Burundi,1950,322.08,Africa
+Cameroon,1950,342.09,Africa
+Central African Republic,1950,240.15,Africa
+Chad,2017,122.75,Africa
+Comoros,1950,304.8,Africa
+Congo,1950,259.16,Africa
+Djibouti,1950,182.84,Africa
+Egypt,1950,394.78,Africa
+Equatorial Guinea,1950,320.89,Africa
+Eritrea,1950,323.85,Africa
+Ethiopia,1950,337.01,Africa
+Gabon,1950,251.84,Africa
+Gambia,1950,275.02,Africa
+Ghana,1950,295.41,Africa
+Guinea,1950,361.59,Africa
+Guinea-Bissau,1950,459.14,Africa
+Kenya,1950,250.95,Africa
+Lesotho,1950,180.32,Africa
+Liberia,1950,428.84,Africa
+Libya,1950,382.43,Africa
+Madagascar,1950,230.83,Africa
+Malawi,1950,427.96,Africa
+Mali,1950,428.39,Africa
+Mauritania,1950,274.62,Africa
+Mauritius,1950,130.95,Africa
+Morocco,1950,329.94,Africa
+Mozambique,1950,327.55,Africa
+Namibia,1950,129.97,Africa
+Niger,1950,422.9,Africa
+Nigeria,1950,345.37,Africa
+Rwanda,1950,306.01,Africa
+Sao Tome and Principe,1950,320.27,Africa
+Senegal,1950,332.03,Africa
+Seychelles,1950,118.2,Africa
+Sierra Leone,1950,381.26,Africa
+Somalia,1950,267.19,Africa
+South Africa,1950,165.15,Africa
+South Sudan,1950,271.96,Africa
+Sudan,1950,249.9,Africa
+Swaziland,1950,271.24,Africa
+Togo,1950,350.84,Africa
+Tunisia,1950,342.7,Africa
+Uganda,1950,265.98,Africa
+Antigua and Barbuda,1950,122.55,Americas
+Argentina,1950,89,Americas
+Bahamas,1950,144.45,Americas
+Barbados,1950,164.21,Americas
+Belize,1950,203,Americas
+Bermuda,1950,74.45,Americas
+Brazil,1950,284.88,Americas
+Canada,1950,53.59,Americas
+Chile,1950,199.28,Americas
+Colombia,1950,178.3,Americas
+Costa Rica,1950,146.44,Americas
+Cuba,1950,70.84,Americas
+Dominica,1950,260.26,Americas
+Dominican Republic,1950,214.52,Americas
+Ecuador,1950,223.84,Americas
+El Salvador,1950,271.36,Americas
+Greenland,1950,155.36,Americas
+Grenada,1950,141.41,Americas
+Guatemala,1950,271.77,Americas
+Guyana,1950,187.1,Americas
+Haiti,1950,390.68,Americas
+Honduras,1950,250.37,Americas
+Jamaica,1950,154.61,Americas
+Mexico,1950,228.79,Americas
+Nicaragua,1950,339.37,Americas
+Panama,1950,119.74,Americas
+Paraguay,1950,140.92,Americas
+Peru,1950,367.92,Americas
+Puerto Rico,1950,115.22,Americas
+Saint Lucia,1950,209.03,Americas
+Saint Vincent and the Grenadines,1950,190.33,Americas
+Suriname,1950,119.09,Americas
+Trinidad and Tobago,1950,117.1,Americas
+Uruguay,1950,77.29,Americas
+Afghanistan,2017,55.77,Asia
+Armenia,1950,263.45,Asia
+Azerbaijan,1950,369.57,Asia
+Bahrain,1950,264.95,Asia
+Bangladesh,1950,354.49,Asia
+Bhutan,1950,420.52,Asia
+Cambodia,1950,253.75,Asia
+China,1950,220.23,Asia
+Cyprus,1950,94.29,Asia
+Georgia,1950,236.15,Asia
+India,1950,273.89,Asia
+Indonesia,1950,309.98,Asia
+Iraq,1950,244.01,Asia
+Israel,1950,44.54,Asia
+Japan,1950,97.75,Asia
+Jordan,1950,170.72,Asia
+Kazakhstan,1950,144.99,Asia
+Kuwait,1950,112.2,Asia
+Kyrgyzstan,1950,264.48,Asia
+Lebanon,1950,128.32,Asia
+Malaysia,1950,163.27,Asia
+Maldives,1950,427.24,Asia
+Mongolia,1950,319.44,Asia
+Myanmar,1950,415.31,Asia
+Nepal,1950,359.49,Asia
+Oman,1950,474.57,Asia
+Pakistan,1950,303.15,Asia
+Philippines,1950,200.24,Asia
+Qatar,1950,121.43,Asia
+Saudi Arabia,1950,222.36,Asia
+Singapore,1950,123.99,Asia
+Sri Lanka,1950,157.56,Asia
+Tajikistan,1950,317.66,Asia
+Thailand,1950,213.9,Asia
+Turkey,1950,377.25,Asia
+Turkmenistan,1950,216.71,Asia
+United Arab Emirates,1950,243.21,Asia
+Uzbekistan,1950,162.73,Asia
+Albania,1950,239.12,Europe
+Andorra,1950,25.4,Europe
+Austria,1950,85.47,Europe
+Belarus,1950,82.52,Europe
+Belgium,1950,67.35,Europe
+Bosnia and Herzegovina,1950,218.68,Europe
+Bulgaria,1950,130.57,Europe
+Croatia,1950,165.12,Europe
+Czech Republic,1950,81.27,Europe
+Denmark,1950,41.1,Europe
+Estonia,1950,58.35,Europe
+Finland,1950,57.1,Europe
+France,1950,62.06,Europe
+Germany,1950,72.49,Europe
+Greece,1950,66.94,Europe
+Hungary,1950,110.67,Europe
+Iceland,1950,33.23,Europe
+Ireland,1950,57.73,Europe
+Italy,1950,84.3,Europe
+Latvia,1950,51.84,Europe
+Lithuania,1950,85.61,Europe
+Luxembourg,1950,62.07,Europe
+Malta,1950,110.99,Europe
+Montenegro,1950,75.09,Europe
+Netherlands,1950,34.48,Europe
+Norway,1950,38.47,Europe
+Poland,1950,137.29,Europe
+Portugal,1950,146.75,Europe
+Romania,1950,118.84,Europe
+Serbia,1950,192.01,Europe
+Slovakia,1950,136.3,Europe
+Slovenia,1950,122.43,Europe
+Spain,1950,101.13,Europe
+Sweden,1950,28.54,Europe
+Switzerland,1950,42.58,Europe
+Ukraine,1950,76.88,Europe
+American Samoa,1950,93.05,Oceania
+Australia,1950,33.48,Oceania
+Fiji,1950,116.24,Oceania
+Guam,1950,52.6,Oceania
+Kiribati,1950,212.14,Oceania
+Marshall Islands,1950,154.59,Oceania
+New Zealand,1950,37.95,Oceania
+Northern Mariana Islands,1950,33.81,Oceania
+Papua New Guinea,1950,250.57,Oceania
+Samoa,1950,118.07,Oceania
+Solomon Islands,1950,242.44,Oceania
+Tonga,1950,83.41,Oceania
+Vanuatu,1950,151,Oceania
+Andean Latin America,1950,337.93,#N/A
+Australasia,1950,34.39,#N/A
+Bolivia,1950,355.75,#N/A
+Brunei,1950,176.57,#N/A
+Cape Verde,1950,167.65,#N/A
+Caribbean,1950,188.75,#N/A
+Central Asia,1950,223.47,#N/A
+Central Europe,1950,138.19,#N/A
+Central Latin America,1950,212.96,#N/A
+Central Sub-Saharan Africa,1950,277.65,#N/A
+Cote d'Ivoire,1950,344.78,#N/A
+Democratic Republic of Congo,1950,271.72,#N/A
+East Asia,1950,218.45,#N/A
+Eastern Europe,1950,73.86,#N/A
+Eastern Sub-Saharan Africa,1950,305.61,#N/A
+High SDI,1950,77.32,#N/A
+High-income,1950,73.9,#N/A
+High-income North America,1950,39.31,#N/A
+High-middle SDI,1950,170.1,#N/A
+Iran,1950,469.96,#N/A
+Laos,1950,395.89,#N/A
+Latin America and the Caribbean,1950,251.85,#N/A
+Low SDI,1950,333.68,#N/A
+Low-middle SDI,1950,295.59,#N/A
+Macedonia,1950,218.71,#N/A
+Micronesia,1950,173.21,#N/A
+Middle SDI,1950,246.12,#N/A
+Moldova,1950,188.8,#N/A
+North Africa and Middle East,1950,349.22,#N/A
+North Korea,1950,210.82,#N/A
+Oceania,1950,218.45,#N/A
+Palestine,1950,208.06,#N/A
+Russia,1950,69.1,#N/A
+South Asia,1950,288.42,#N/A
+South Korea,1950,189.02,#N/A
+Southeast Asia,1950,273.99,#N/A
+Southern Latin America,1950,119.55,#N/A
+Southern Sub-Saharan Africa,1950,162.14,#N/A
+Sub-Saharan Africa,1950,311.48,#N/A
+Syria,1950,203.32,#N/A
+Taiwan,1950,98.24,#N/A
+Tanzania,1950,279.81,#N/A
+Timor,1950,355.11,#N/A
+Tropical Latin America,1950,282.14,#N/A
+United Kingdom,1950,35.1,#N/A
+United States,1950,37.81,#N/A
+United States Virgin Islands,1950,80.03,#N/A
+Venezuela,1950,124.21,#N/A
+Vietnam,1950,204.53,
+Western Europe,1950,67.97,
+Western Sub-Saharan Africa,1950,349.03,
+World,1950,224.45,
+Yemen,1950,463.74,
+Zambia,1950,267.15,
+Zimbabwe,1950,142.91,

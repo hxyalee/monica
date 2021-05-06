@@ -4,14 +4,24 @@
     <meta charset="utf-8" />
     <title>Child Morality in Africa</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="./style.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="./fullpage.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.0/fullpage.extensions.min.js"
       integrity="sha512-2whoeiZFzA/g6YGH/nI7iXRQlMPYLECQYLFYKXxqigVzCQYAMvQ1v+oy8TYN5ccbyeyG55mjdMjI7CQSN25B0g=="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/regression/2.0.1/regression.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   </head>
   <script src="./fullpage.js"></script>
 
@@ -21,12 +31,84 @@
         <div class="landing-main">
           <div class="landing-page-main">
             <div class="landing-page-head">
-              <div
-                style="width: 400px; height: 400px; background-color: red"
-              ></div>
+              <div class="square-container">
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-01.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-02.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-04.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-05.png)"
+                  class="square"
+                ></div>
+                <div class="square-divider">
+                  <div
+                    style="background-image: url(./static/E-WEB-Goal-06.png)"
+                    class="square-inside"
+                  ></div>
+                  <div
+                    style="background-image: url(./static/E-WEB-Goal-07.png)"
+                    class="square-inside"
+                  ></div>
+                </div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-03.png)"
+                  class="square-big"
+                ></div>
+                <div class="square-divider">
+                  <div
+                    style="background-image: url(./static/E-WEB-Goal-08.png)"
+                    class="square-inside"
+                  ></div>
+                  <div
+                    style="background-image: url(./static/E-WEB-Goal-09.png)"
+                    class="square-inside"
+                  ></div>
+                </div>
+
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-10.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-11.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-12.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-13.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-14.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-15.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-16.png)"
+                  class="square"
+                ></div>
+                <div
+                  style="background-image: url(./static/E-WEB-Goal-17.png)"
+                  class="square"
+                ></div>
+              </div>
               <div class="landing-page-title">
-                <p>Getting closer to our Sustainable Development Goals</p>
-                <p class="bold">Good health and Well being</p>
+                <h1>Getting closer to our Sustainable Development Goals</h1>
+                <h3 class="bold">Good health and Wellbeing</h3>
               </div>
             </div>
             <div class="landing-page-body">
@@ -36,17 +118,17 @@
                 <div class="landing-page-link">What's the progress?</div>
               </div>
               <div class="landing-page-link-content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-                pulvinar feugiat justo vitae elementum. In lobortis malesuada
-                sem, a convallis mi varius sit amet. Morbi fermentum massa
-                lacus, vel sagittis nisi sagittis sed. Phasellus quam felis,
-                sagittis venenatis cursus id, tristique eget augue. Integer in
-                nisl vel eros auctor fermentum quis vel urna. Donec varius,
-                augue sit amet varius mollis, tortor urna porttitor odio, sit
-                amet faucibus neque lorem sit amet mauris. Duis ut tortor
-                condimentum, euismod tortor mattis, viverra felis. Aliquam nec
-                metus in ipsum venenatis vestibulum in id enim. Aenean non ante
-                sed sapien fermentum efficitur.
+                We have 9 years left to achieve the Sustainable Development
+                Goals (SDG), a 2030 agenda created by the United Nations to
+                achieve a sustainable future by combatting challenges including
+                poverty, climate change, environmental degradation, peace and
+                justice. Currently, child mortality is a major public health
+                problem in developing countries. As part of the SDG number 3,
+                Good Health and Wellbeing, the target is to reduce under-five
+                mortality rate (U5MR) to at least 25 per 1,000 live births in
+                every country ("Sustainable Development Goal 3: Health", 2021).
+                How can we ensure that we are taking the right plan of action to
+                reach this goal?
               </div>
             </div>
           </div>
@@ -57,74 +139,73 @@
         <div class="second-main">
           <div class="second-title">
             <h1>Africa is Falling Behind</h1>
-            <p>
+            <h3>
               Child mortality rates remain drastically higher then the global
               average
-            </p>
+            </h3>
           </div>
           <div class="second-content">
             <div class="second-graph"></div>
             <div class="second-text-content">
               <p>
-                We are using child moratlity rates as a key indicator to
-                understand healthcare standards because it reflects the access
-                to basic health interventions such as vaccinations, medical
-                treatments and nutrition.
-              </p>
-              <p>
                 As the map here shows, today the highest child mortality rates
-                are in Sub-Saharan Africa, where we still have countries with
-                child mortality rates greater than 10%.
+                are in Sub-Saharan Africa.
               </p>
               <p>
-                Despite this considerable progress, improving child survival
-                remains a matter of urgent concern. In 2019 alone, roughly
-                14,000 under-five deaths occurred every day, an intolerably high
-                number of largely preventable child deaths.
+                Though there has been accelerating progress, the U5MR across
+                Sub-Saharan Africa still remains drastically higher than the
+                target aim under SDG number 3, which is to reduce U5MR to at
+                least 25 per 1,000 live births in every country, however the
+                average U5MR in Sub-Saharan Africa is 76 deaths. Children under
+                the age of five in sub-Saharan Africa are also 16 times more
+                likely to die than in high-income countries due to poor access
+                to quality healthcare services ("Innovating for Maternal and
+                Child Health in Africa", 2021)
               </p>
             </div>
           </div>
         </div>
       </div>
       <div class="section">
-        <div class="third-content">
-          <div class="third-content-figures"></div>
-          <div class="third-content-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
-            lectus maximus, hendrerit ligula nec, blandit nunc. Proin blandit,
-            nisi sed pharetra efficitur, odio elit euismod felis, a scelerisque
-            lectus lorem vel erat. Curabitur et leo vitae odio cursus egestas.
-            Mauris in odio porta, convallis orci eu, auctor sapien. Proin
-            ultrices metus velit, eget mattis lacus tristique non. Donec
-            bibendum, neque eu fermentum gravida, nulla mi ultrices massa, vitae
-            vehicula tellus felis a justo. Proin at convallis est, ac tempor
-            orci. Morbi nec leo ut lectus molestie feugiat sit amet ut nibh.
-            Duis quis nibh iaculis, lobortis dolor sit amet, tincidunt velit.
-            Etiam ultrices pulvinar justo, id sagittis ligula imperdiet ac.
-            Nulla pretium volutpat condimentum. Sed lacus lacus, volutpat vitae
-            eros a, varius fringilla elit. Vivamus quam neque, gravida a neque
-            id, hendrerit pretium lorem.
+        <div class="third-main">
+          <div class="third-title">
+            <h1>Africa is Falling Behind</h1>
+            <h3>
+              Child mortality rates remain drastically higher then the global
+              average
+            </h3>
           </div>
-        </div>
-      </div>
-      <div class="section">
-        <div class="third-content">
-          <div class="third-content-figures"></div>
-          <div class="third-content-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
-            lectus maximus, hendrerit ligula nec, blandit nunc. Proin blandit,
-            nisi sed pharetra efficitur, odio elit euismod felis, a scelerisque
-            lectus lorem vel erat. Curabitur et leo vitae odio cursus egestas.
-            Mauris in odio porta, convallis orci eu, auctor sapien. Proin
-            ultrices metus velit, eget mattis lacus tristique non. Donec
-            bibendum, neque eu fermentum gravida, nulla mi ultrices massa, vitae
-            vehicula tellus felis a justo. Proin at convallis est, ac tempor
-            orci. Morbi nec leo ut lectus molestie feugiat sit amet ut nibh.
-            Duis quis nibh iaculis, lobortis dolor sit amet, tincidunt velit.
-            Etiam ultrices pulvinar justo, id sagittis ligula imperdiet ac.
-            Nulla pretium volutpat condimentum. Sed lacus lacus, volutpat vitae
-            eros a, varius fringilla elit. Vivamus quam neque, gravida a neque
-            id, hendrerit pretium lorem.
+          <div class="third-content">
+            <div class="third-content-figures">
+              <div>
+                <p><i>Sub-Saharan Africa</i></p>
+                <div class="third-africa"></div>
+              </div>
+              <div>
+                <p><i>Australia/New Zealand (World Average) </i></p>
+                <div class="third-aus"></div>
+              </div>
+            </div>
+            <div class="third-content-text">
+              <p>
+                In Sub-Saharan Africa, 1 in 13 children died before their fifth
+                birthday in 2019, a rate that is 20 times higher than the rate
+                of 1 in 264 in Australia ("Under 5 Mortality, 2020").
+                Sub-Saharan Africa’s child mortality rate is far behind the
+                current global average, indicating the urgency to take action in
+                accelerating progress towards improving their healthcare.
+              </p>
+              <p>
+                Acknowledging the importance of this issue, which area should
+                policy makers and orgnisations dedicate their action plan
+                towards?
+              </p>
+              <p>
+                We will explore regional differences in Africa to understand
+                what are the critical risk factors associated to child mortality
+                so prioritisation can be made to work towards the SDG target.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -132,61 +213,140 @@
         <div class="fifth-main">
           <div class="fifth-title">
             <h1>Under 5 Child Morality in Africa</h1>
-            <p>Inequality in various African Regions</p>
+            <h3>Inequality in various African Regions</h3>
           </div>
           <div class="fifth-body">
             <div class="fifth-graph"></div>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
-              lectus maximus, hendrerit ligula nec, blandit nunc. Proin blandit,
-              nisi sed pharetra efficitur, odio elit euismod felis, a
-              scelerisque lectus lorem vel erat.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
-              lectus maximus, hendrerit ligula nec, blandit nunc. Proin blandit,
-              nisi sed pharetra efficitur, odio elit euismod felis, a
-              scelerisque lectus lorem vel erat. Curabitur et leo vitae odio
-              cursus egestas. Mauris in odio porta, convallis orci eu, auctor
-              sapien. Proin ultrices metus velit, eget mattis lacus tristique
-              non. Donec bibendum, neque eu fermentum gravida, nulla mi ultrices
-              massa, vitae vehicula tellus felis a justo. Proin at convallis
-              est, ac tempor orci. Morbi nec leo ut lectus molestie feugiat sit
-              amet ut nibh. Duis quis nibh iaculis, lobortis dolor sit amet,
-              tincidunt velit. Etiam ultrices pulvinar justo, id sagittis ligula
-              imperdiet ac. Nulla pretium volutpat condimentum. Sed lacus lacus,
-              volutpat vitae eros a, varius fringilla elit. Vivamus quam neque,
-              gravida a neque id, hendrerit pretium lorem.
-            </p>
+            <div class="fifth-text">
+              <p>
+                The under 5 child mortality rate is the number of deaths per
+                1000 births before the child reaches the age of 5.
+              </p>
+              <p>
+                There is a vast difference in child mortality rates among
+                African countries as displayed in the bar graph above. Countries
+                in the northern region such as Tunisia and Morocco have already
+                reached the target mortality rate set in the SDGs, whereas sub
+                Saharan countries such as Chad and Central African Republic are
+                far from the target. Let’s take a closer look into select
+                countries and their demographics to understand such regional
+                disparities.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="section"></div>
+      <div class="section">
+        <div class="sixth-full">
+          <div class="sixth-main">
+            <div class="sixth-title">
+              <h1>North Africa</h1>
+              <h1>Sub-Saharan Africa</h1>
+            </div>
+            <div class="sixth-body">
+              <div class="sixth-text-content">
+                <div class="sixth-text-element" id="sixth-morocco">
+                  <p class="sixth-country">Morocco</p>
+                  <div class="sixth-number">21.93</div>
+                  <p>35.5 million population</p>
+                  <p>3,036.3 USD GDP per capita</p>
+                </div>
+                <div class="sixth-text-element" id="sixth-tunisia">
+                  <p class="sixth-country">Tunisia</p>
+                  <div class="sixth-number">11.72</div>
+                  <p>11.4 million population</p>
+                  <p>3,481.2 USD GDP per capita</p>
+                </div>
+              </div>
+              <div>
+                <div class="sixth-graph"></div>
+                <div
+                  style="
+                    margin-top: -80px;
+                    color: #eee;
+                    font-size: 0.7rem;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  "
+                >
+                  <img
+                    src="./icon.svg"
+                    style="fill: #eee; font-size: 0.7rem; margin-right: 10px"
+                  />
+                  Hover over the countries to view its child mortality rate and
+                  demographics
+                </div>
+              </div>
+              <div class="sixth-text-content">
+                <div class="sixth-text-element" id="sixth-car">
+                  <p class="sixth-country">Central African Republic</p>
+                  <div class="sixth-number-red">131.1</div>
+                  <p>4.6 million population</p>
+                  <p>450.9 USD GDP per capita</p>
+                </div>
+
+                <div class="sixth-text-element" id="sixth-chad">
+                  <p class="sixth-country">Chad</p>
+                  <div class="sixth-number-red">122.75</div>
+                  <p>15 million population</p>
+                  <p>665.9 USD GDP per capita</p>
+                </div>
+              </div>
+            </div>
+            <div class="sixth-footer">
+              <p>
+                Mortality rates in the northern region are substaintially lower
+                than the central region, displaying a large disparity among
+                regions in Africa. Comparing population and GDP per captita,
+                child mortality rates are highly affected by the country’s
+                economic state.
+              </p>
+
+              <p class="sixth-source">
+                GDP data source: World Bank national accounts data, and OECD
+                National Accounts data files. <br />Population data source:
+                United Nations World Population Prospects
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="section">
         <div class="seventh-main">
-          <div class="third-content-figures"></div>
-          <div class="seventh-content-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a
-            lectus maximus, hendrerit ligula nec, blandit nunc. Proin blandit,
-            nisi sed pharetra efficitur, odio elit euismod felis, a scelerisque
-            lectus lorem vel erat. Curabitur et leo vitae odio cursus egestas.
-            Mauris in odio porta, convallis orci eu, auctor sapien. Proin
-            ultrices metus velit, eget mattis lacus tristique non. Donec
-            bibendum, neque eu fermentum gravida, nulla mi ultrices massa, vitae
-            vehicula tellus felis a justo. Proin at convallis est, ac tempor
-            orci. Morbi nec leo ut lectus molestie feugiat sit amet ut nibh.
-            Duis quis nibh iaculis, lobortis dolor sit amet, tincidunt velit.
-            Etiam ultrices pulvinar justo, id sagittis ligula imperdiet ac.
-            Nulla pretium volutpat condimentum. Sed lacus lacus, volutpat vitae
-            eros a, varius fringilla elit. Vivamus quam neque, gravida a neque
-            id, hendrerit pretium lorem
+          <div class="seventh-title">
+            <h1>Predicted Child Mortality Rates</h1>
+          </div>
+          <div class="seventh-content">
+            <div class="seventh-content-figures">
+              <div class="g1"></div>
+              <div class="g2"></div>
+            </div>
+
+            <div class="seventh-content-text">
+              <p>
+                With the 2030 plan of achieving the target of 25 deaths per 1000
+                child as part of the SDG, Central African Republic and Chad are
+                most likely to fail the requirement without acceleration in
+                their progress. In that, what areas should we prioritise
+                improvement upon to reach the SDG requirement?
+              </p>
+              <p>
+                Comparing to countries in the northern region, what factors
+                differ and affect their mortality rates?
+              </p>
+              <p>
+                In that, what areas should we prioritise improvement upon to
+                reach the SDG requirement?
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <div class="section">
         <div class="eight-main">
           <div class="eight-title">
-            What are the critical risk factors associated to child mortality?
+            <h1>Critical risk factors associated to child mortality</h1>
           </div>
           <div class="eight-buttons">
             <div class="eight-button eight-selected">Maternal Health</div>
@@ -194,10 +354,120 @@
             <div class="eight-button">Female Education</div>
             <div class="eight-button">Aternatal/Postnateral Care</div>
           </div>
+          <div class="eight-content">
+            <div class="eight-graph-container"></div>
+            <div class="eight-text-content">
+              <div class="eight-happen">
+                <h6>What's happening?</h6>
+                <p>
+                  Sub-Saharan Africa has the highest maternal mortality rate
+                  (MMR) among the world, Chad being the most dangerous country
+                  to give birth in (Suzuki & Kashiwase, 2019). These deaths are
+                  caused by complications such as severe bleeding, infections,
+                  complications during delivery and unsafe abortion. “Fewer than
+                  half of all births (in this region) are assisted by such
+                  skilled health personnel” due to the lack of access to quality
+                  health services and emergency care ("Maternal mortality",
+                  2019).
+                </p>
+              </div>
+              <div class="eight-matter">
+                <h6>Why does it matter?</h6>
+                <p>
+                  As part of the SDG 3, they aim to “reduce the global MMR to
+                  less than 70 per 100 000 births”, which is far from where Sub
+                  Saharan Africa is currently at. The result of maternal death
+                  arise from complications that develop during pregnancy are
+                  mostly preventable or treatable by simply providing accessible
+                  health care solutions. ("Maternal mortality", 2019).
+                  Therefore, it is crucial to prioritise eliminating barriers in
+                  the healthcare system such as lack of information, poor
+                  quality services and distance to facilities to improve
+                  maternal health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="reference-main">
+          <h1>References</h1>
+          <div class="reference-body">
+            <p>
+              Acheampong, M., Ejiofor, C., Salinas-Miranda, A., Wall, B., & Yu,
+              Q. (2019). Priority setting towards achieving under-five mortality
+              target in Africa in context of sustainable development goals: an
+              ordinary least squares (OLS) analysis. Global Health Research And
+              Policy, 4(1). doi: 10.1186/s41256-019-0108-0
+            </p>
+            <p>
+              Bickton, F., Ndeketa, L., Sibande, G., Nkeramahame, J., Payesa,
+              C., & Milanzi, E. (2020). Household air pollution and under-five
+              mortality in sub-Saharan Africa: an analysis of 14 demographic and
+              health surveys. Environmental Health And Preventive Medicine,
+              25(1). doi: 10.1186/s12199-020-00902-4
+            </p>
+            <p>
+              Bryce, J., Boschi-Pinto, C., Shibuya, K., & Black, R. (2005). WHO
+              estimates of the causes of death in children. The Lancet,
+              365(9465), 1147-1152. doi: 10.1016/s0140-6736(05)71877-8
+            </p>
+            <p>
+              Delivery care. (2021). Retrieved 3 May 2021, from
+              https://data.unicef.org/topic/maternal-health/delivery-care/
+            </p>
+            <p>
+              Innovating for Maternal and Child Health in Africa. (2021).
+              Retrieved 3 May 2021, from https://www.idrc.ca/en/imcha
+            </p>
+            <p>
+              Kiross, G., Chojenta, C., Barker, D., Tiruye, T., & Loxton, D.
+              (2019). The effect of maternal education on infant mortality in
+              Ethiopia: A systematic review and meta-analysis. PLOS ONE, 14(7),
+              e0220076. doi: 10.1371/journal.pone.0220076
+            </p>
+            <p>
+              Maternal mortality. (2019). Retrieved 3 May 2021, from
+              https://www.who.int/news-room/fact-sheets/detail/maternal-mortality
+            </p>
+            <p>
+              Roser, M., Ritchie, H., & Dadonaite, B. (2021). Child and Infant
+              Mortality. Retrieved 3 May 2021, from
+              https://ourworldindata.org/child-mortality#pneumonia-is-the-leading-cause-of-child-mortality
+            </p>
+            <p>
+              Shoo, R. (2021). Reducing Child Mortality – The Challenges in
+              Africa. Retrieved 3 May 2021, from
+              https://www.un.org/en/chronicle/article/reducing-child-mortality-challenges-africa
+            </p>
+            <p>
+              Sustainable Development Goal 3: Health. (2021). Retrieved 3 May
+              2021, from
+              https://www.who.int/topics/sustainable-development-goals/targets/en/
+            </p>
+            <p>
+              Suzuki, E., & Kashiwase, H. (2019). Despite remarkable progress,
+              15,000 children and 800 women still die every day mostly of
+              preventable or treatable causes. Retrieved 3 May 2021, from
+              https://blogs.worldbank.org/opendata/despite-remarkable-progress-15000-children-and-800-women-still-die-every-day-mostly
+            </p>
+            <p>
+              Under 5 Mortality. (2020). Retrieved 3 May 2021, from
+              https://data.unicef.org/topic/child-survival/under-five-mortality/
+            </p>
+            <p>
+              Van Malderen, C., Amouzou, A., Barros, A., Masquelier, B., Van
+              Oyen, H., & Speybroeck, N. (2019). Socioeconomic factors
+              contributing to under-five mortality in sub-Saharan Africa: a
+              decomposition analysis. BMC Public Health, 19(1). doi:
+              10.1186/s12889-019-7111-8
+            </p>
+          </div>
         </div>
       </div>
     </div>
-
+    <script></script>
     <script src="./script.js"></script>
     <script>
       new fullpage("#fullpage", {
