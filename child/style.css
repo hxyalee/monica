@@ -101,14 +101,13 @@ div {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 80%;
 }
 
 .landing-page-links {
   display: flex;
   justify-content: space-between;
-  width: 710px;
-  margin-top: 50px;
+  width: 800px;
 }
 
 .landing-page-link {
@@ -128,7 +127,7 @@ div {
 .landing-page-link-content {
   color: #eee;
   margin-top: 30px;
-  width: 710px;
+  width: 800px;
   height: 300px;
 }
 
@@ -191,7 +190,7 @@ div {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: #fff;
 }
@@ -311,7 +310,7 @@ div {
   align-items: center;
   width: 70%;
   color: #e5e5e5;
-  margin-top: -40px;
+  margin-top: 20px;
   margin-bottom: 80px;
 }
 
@@ -342,7 +341,7 @@ div {
   margin-top: -100px;
 }
 .fifth-text {
-  width: 50vw;
+  width: 75vw;
 }
 
 .sixth-full {
@@ -524,7 +523,7 @@ div {
   justify-content: space-evenly;
   align-items: center;
   width: 90%;
-  margin: 50px 0;
+  /* margin: 50px 0; */
 }
 
 .eight-button {
@@ -535,9 +534,10 @@ div {
   align-items: center;
   height: 50px;
   border-radius: 10px;
+  opacity: 0.5;
 }
 .eight-button:hover {
-  opacity: 0.7;
+  opacity: 0.9;
   cursor: pointer;
 }
 

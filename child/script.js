@@ -171,13 +171,15 @@ const worldMap = () => {
         });
       }
 
+      const filtered = rows.filter((row) => row["Year"] == 2017);
+
       var data = [
         {
           type: "choropleth",
           locationmode: "country names",
-          locations: unpack(rows, "Country"), // Get all countries
-          z: unpack(rows, "Mortality"), // Get mortality rates
-          text: unpack(rows, "Country"),
+          locations: unpack(filtered, "Country"), // Get all countries
+          z: unpack(filtered, "Mortality"), // Get mortality rates
+          text: unpack(filtered, "Country"),
           autocolorscale: true,
         },
       ];
@@ -360,12 +362,15 @@ const predictor1 = () => {
     // Set data labels
     let data = arr.map((el, idx) => {
       let name;
+      let color;
       switch (idx) {
         case 0:
           name = "Morocco";
+          color = "#219EBC";
           break;
         case 1:
           name = "Tunisia";
+          color = "#58B4D1";
           break;
       }
       return {
@@ -373,16 +378,20 @@ const predictor1 = () => {
         y: el.map((d) => d["Mortality"]),
         name,
         mode: "lines",
+        line: { color, shape: "spline" },
       };
     });
     for (let i = 0; i < extension_x.length; i++) {
       let name;
+      let color;
       switch (i) {
         case 0:
           name = "Morocco";
+          color = "#219EBC";
           break;
         case 1:
           name = "Tunisia";
+          color = "#58B4D1";
           break;
       }
       data.push({
@@ -390,8 +399,24 @@ const predictor1 = () => {
         y: extension_y[i],
         name: name + " Predicted",
         mode: "lines",
+        line: { color, shape: "spline", dash: "dot" },
       });
     }
+    let target = arr.map((e) => {
+      let years = arr[0].map((d) => d["Year"]);
+      return {
+        x: [...years, ...extension_x[0]],
+        y: new Array(years.length + extension_x[0].length).fill(25),
+        name: "target",
+        mode: "lines",
+        line: {
+          color: "rgb(255,112,65)",
+        },
+      };
+    });
+    target = target[0];
+    console.log(target);
+    data.push(target);
     var layout = {
       height: 300,
       title: "Comparing Child Mortality Rates in North Africa (1950 - 2030)",
@@ -506,12 +531,17 @@ const predictor2 = () => {
     // Set label for graph
     let data = arr.map((el, idx) => {
       let name;
+      let color;
       switch (idx) {
         case 0:
           name = "Chad";
+          color = "#FB8500";
+
           break;
+
         case 1:
           name = "Central African Republic";
+          color = "#FFB703";
           break;
       }
       return {
@@ -519,16 +549,21 @@ const predictor2 = () => {
         y: el.map((d) => d["Mortality"]),
         name,
         mode: "lines",
+        line: { color, shape: "spline" },
       };
     });
+
     for (let i = 0; i < extension_x.length; i++) {
       let name;
+      let color;
       switch (i) {
         case 0:
           name = "Chad";
+          color = "#FB8500";
           break;
         case 1:
           name = "Central African Republic";
+          color = "#FFB703";
           break;
       }
       data.push({
@@ -536,8 +571,30 @@ const predictor2 = () => {
         y: extension_y[i],
         name: name + " Predicted",
         mode: "lines",
+        line: {
+          color,
+          dash: "dot",
+          shape: "spline",
+        },
       });
     }
+
+    let target = arr.map((e) => {
+      let years = arr[0].map((d) => d["Year"]);
+      return {
+        x: [...years, ...extension_x[0]],
+        y: new Array(years.length + extension_x[0].length).fill(25),
+        name: "target",
+        mode: "lines",
+        line: {
+          color: "rgb(255,112,65)",
+        },
+      };
+    });
+    target = target[0];
+    console.log(target);
+    data.push(target);
+
     var layout = {
       height: 300,
       title:
@@ -628,6 +685,7 @@ const underWeight = () => {
           mode: "lines",
         };
       });
+
       // Initialise layout
       var layout = {
         title:
@@ -925,7 +983,7 @@ const postnaternal = () => {
           clean.code.push(rows[i]["ISO"]);
         }
       }
-      // Initialise graph data 
+      // Initialise graph data
       var data = [
         {
           type: "choropleth",
@@ -1001,7 +1059,6 @@ const childMortalityAfrica = () => {
     ];
     // Initialise the layout of the graph
     var layout = {
-    
       title: "Under 5 Mortality Rate (per 1000 live births)",
       width: 600,
       height: 500,
