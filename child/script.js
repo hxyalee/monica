@@ -6,6 +6,8 @@ const pageOneButtonClicks = () => {
       buttons.forEach((btn) => btn.classList.remove("selected"));
       button.classList.add("selected");
       const contentBox = document.querySelector(".landing-page-link-content");
+      const newBox = document.createElement("p");
+      newBox.setAttribute("class", "landing-page-link-content animated fadeIn");
       if (idx == 0) {
         contentBox.innerText =
           'We have 9 years left to achieve the Sustainable Development Goals (SDG), a 2030 agenda created by the United Nations to achieve a sustainable future by combatting challenges including poverty, climate change, environmental degradation, peace and justice. Currently, child mortality is a major public health problem in developing countries. As part of the SDG number 3, Good Health and Wellbeing, the target is to reduce under-five mortality rate (U5MR) to at least 25 per 1,000 live births in every country ("Sustainable Development Goal 3: Health", 2021). How can we ensure that we are taking the right plan of action to reach this goal? ';
@@ -16,6 +18,8 @@ const pageOneButtonClicks = () => {
       if (idx == 2)
         contentBox.innerText =
           'There has been remarkable progress towards decreasing child mortality rates with the global under-five mortality rate declining by 59% ("Under 5 Mortality", 2020). These rates were reduced through increasing coverage of immunisation and reducing infectious diseases. However progress has been uneven because child mortality still remains a critical issue in health and well-being in low income countries.';
+
+      contentBox.parentElement.replaceChild(newBox, contentBox);
     });
   });
 };
@@ -126,6 +130,12 @@ const eightContentRender = () => {
       button.classList.add("eight-selected");
       const happen = document.querySelector(".eight-happen p");
       const matter = document.querySelector(".eight-matter p");
+      const container = document.querySelector(".eight-content");
+
+      const newContainer = document.createElement("div");
+      newContainer.setAttribute("class", "eight-content animated fadeIn");
+
+      container.classList.toggle("fadeIn");
       switch (idx) {
         case 0:
           maternalHealth();
@@ -154,8 +164,12 @@ const eightContentRender = () => {
             "Sub-Saharan regions have a drastically lower number of births that were assisted by healthcare professionals compared to other regions with a lower mortality rate. The inadequate attention to antenatal and/or postnatal care can be associated to poor maternal knowledge mothers employed in manual work, and low household wealth. For example, households with poorly built kitchens have high exposure to air pollution which creates adverse health effects to children under 5, thereby causing a higher mortality rate (Bickton et al., 2020). ";
           matter.innerText =
             'Having a skilled health personnel available to assist in child birth is essential and to reducing maternal and newborn mortality. They are able to prevent complications that occur during childbirth such as haemorrhages, which is one of the leading causes of maternal deaths ("Delivery care", 2021). Implementing a community newborn care package that offers support for breastfeeding mothers, extra care for underweight babies is a great cost-effective solution (Shoo, 2021). Increasing professional assistance for childbirth is also included under one of the targets for goal 3 of SDG.';
+
           break;
       }
+
+      newContainer.innerHTML = container.innerHTML;
+      container.parentElement.replaceChild(newContainer, container);
     });
   });
 };
@@ -186,12 +200,13 @@ const worldMap = () => {
 
       // Set layout stuff
       var layout = {
-        title: '<b> Global Under 5 Child mortality rates (2017) </b> <br>The number of deaths per 1000 births before the child reaches the age of 5. ',
+        title:
+          "<b> Global Under 5 Child mortality rates (2017) </b> <br>The number of deaths per 1000 births before the child reaches the age of 5. ",
         width: 800,
         height: 500,
         paper_bgcolor: "rgba(0,0,0,0)",
         geo: {
-          bgcolor: 'transparent',
+          bgcolor: "transparent",
           projection: {
             type: "robinson",
           },
@@ -895,7 +910,7 @@ const maternalHealth = () => {
           //     type: "robinson",
           //   },
           scope: "africa",
-          bgcolor: 'transparent',
+          bgcolor: "transparent",
           showlakes: false,
           showframe: false,
           lakecolor: "white",
@@ -1049,11 +1064,11 @@ const childMortalityAfrica = () => {
         z: countries.map((c) => c["Mortality"]),
         text: countries.map((c) => c["Country"]),
         colorscale: [
-          [0, 'rgba(80, 153, 180, 1)'],
-          [0.15, 'rgba(111, 178, 205, 1)'],
-          [0.3, 'rgba(188, 224, 240, 1);'],
-          [0.6, 'rgba(255, 156, 44, 1)'],
-          [1, 'rgba(255, 112, 67, 1)']
+          [0, "rgba(80, 153, 180, 1)"],
+          [0.15, "rgba(111, 178, 205, 1)"],
+          [0.3, "rgba(188, 224, 240, 1);"],
+          [0.6, "rgba(255, 156, 44, 1)"],
+          [1, "rgba(255, 112, 67, 1)"],
         ],
         showlegend: false,
         autocolorscale: false,
@@ -1077,13 +1092,13 @@ const childMortalityAfrica = () => {
         //     type: "robinson",
         //   },
         scope: "africa",
-        countrycolor: 'rgb (255,255,255)',
+        countrycolor: "rgb (255,255,255)",
         showland: true,
-        landcolor: '#E5E5E5',
+        landcolor: "#E5E5E5",
         showlakes: false,
         showframe: false,
         lakecolor: "white",
-        bgcolor: 'transparent',
+        bgcolor: "transparent",
         //bgColor: "rgba(0,0,0,0)",
         showlegend: false,
       },
