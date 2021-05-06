@@ -186,11 +186,12 @@ const worldMap = () => {
 
       // Set layout stuff
       var layout = {
-        title: "Global Under 5 Child mortality rates (2017)",
+        title: '<b> Global Under 5 Child mortality rates (2017) </b> <br>The number of deaths per 1000 births before the child reaches the age of 5. ',
         width: 800,
-        height: 400,
+        height: 500,
         paper_bgcolor: "rgba(0,0,0,0)",
         geo: {
+          bgcolor: 'transparent',
           projection: {
             type: "robinson",
           },
@@ -249,7 +250,7 @@ const barGraph = () => {
           color: "rgb(255,112,65)",
           width: 100,
         },
-        name: "target",
+        name: "target (25 deaths per 1000 births)",
       };
 
       var data = [trace1, trace2];
@@ -894,6 +895,7 @@ const maternalHealth = () => {
           //     type: "robinson",
           //   },
           scope: "africa",
+          bgcolor: 'transparent',
           showlakes: false,
           showframe: false,
           lakecolor: "white",
@@ -1047,11 +1049,11 @@ const childMortalityAfrica = () => {
         z: countries.map((c) => c["Mortality"]),
         text: countries.map((c) => c["Country"]),
         colorscale: [
-          [0, "#5099B4"],
-          [0.35, "#6FB2CD"],
-          [0.5, "#BCEOFO"],
-          [0.75, "#FFB703"],
-          [1, "#FB8500"],
+          [0, 'rgba(80, 153, 180, 1)'],
+          [0.15, 'rgba(111, 178, 205, 1)'],
+          [0.3, 'rgba(188, 224, 240, 1);'],
+          [0.6, 'rgba(255, 156, 44, 1)'],
+          [1, 'rgba(255, 112, 67, 1)']
         ],
         showlegend: false,
         autocolorscale: false,
@@ -1075,10 +1077,14 @@ const childMortalityAfrica = () => {
         //     type: "robinson",
         //   },
         scope: "africa",
+        countrycolor: 'rgb (255,255,255)',
+        showland: true,
+        landcolor: '#E5E5E5',
         showlakes: false,
         showframe: false,
         lakecolor: "white",
-        bgColor: "rgba(0,0,0,0)",
+        bgcolor: 'transparent',
+        //bgColor: "rgba(0,0,0,0)",
         showlegend: false,
       },
       legend: {
