@@ -9,14 +9,14 @@ const pageOneButtonClicks = () => {
       const newBox = document.createElement("p");
       newBox.setAttribute("class", "landing-page-link-content animated fadeIn");
       if (idx == 0) {
-        contentBox.innerText =
+        newBox.innerText =
           'We have 9 years left to achieve the Sustainable Development Goals (SDG), a 2030 agenda created by the United Nations to achieve a sustainable future by combatting challenges including poverty, climate change, environmental degradation, peace and justice. Currently, child mortality is a major public health problem in developing countries. As part of the SDG number 3, Good Health and Wellbeing, the target is to reduce under-five mortality rate (U5MR) to at least 25 per 1,000 live births in every country ("Sustainable Development Goal 3: Health", 2021). How can we ensure that we are taking the right plan of action to reach this goal? ';
       }
       if (idx == 1)
-        contentBox.innerText =
+        newBox.innerText =
           "Child mortality is a key indicator for healthcare systems such as access to basic health interventions such as vaccines, medical treatment, adequate nutrition and clean water and sanitation. It is also a valuable indicator for social and economic development in understanding government implementation on poverty alleviation and citizen's welfare (“Under 5 Mortality”, 2020). There is a large disparity of children deaths in developing countries compared to high income countries. Reducing these inequalities and strengthening health care systems will be essential for lessening easily preventable child deaths. ";
       if (idx == 2)
-        contentBox.innerText =
+        newBox.innerText =
           'There has been remarkable progress towards decreasing child mortality rates with the global under-five mortality rate declining by 59% ("Under 5 Mortality", 2020). These rates were reduced through increasing coverage of immunisation and reducing infectious diseases. However progress has been uneven because child mortality still remains a critical issue in health and well-being in low income countries.';
 
       contentBox.parentElement.replaceChild(newBox, contentBox);
@@ -709,6 +709,7 @@ const underWeight = () => {
         paper_bgcolor: "rgba(0, 0, 0,0)",
         plot_bgcolor: "rgba(0, 0, 0,0)",
         width: 700,
+        height: 450,
         font: {
           color: "#333",
         },
@@ -719,7 +720,11 @@ const underWeight = () => {
           color: "#333",
         },
       };
-
+      const caption = document.querySelector(".eight-caption");
+      caption.classList.remove("eight-caption-map");
+      caption.classList.add("eight-caption-bar");
+      caption.innerHTML =
+        "Percentage of children under age 5 who are underweight.<i class='eight-source'> <br /> Source: UNICEF, WHO, World Bank: Joint child malnutrition estimates (JME). </i>";
       const container = document.querySelector(".eight-graph-container");
       Plotly.newPlot(container, graphData, layout);
     }
@@ -795,7 +800,11 @@ const GPI = () => {
           color: "#333",
         },
       };
-
+      const caption = document.querySelector(".eight-caption");
+      caption.classList.remove("eight-caption-map");
+      caption.classList.add("eight-caption-bar");
+      caption.innerHTML =
+        "In general, a GPI value less than 1 indicates disparity in favor of males and a value greater than <br />1 indicates disparity in favor of females. <i class='eight-source'> <br /> Source: UNESCO Institute for Statistics </i>";
       const container = document.querySelector(".eight-graph-container");
       Plotly.newPlot(container, graphData, layout);
     }
@@ -877,7 +886,7 @@ const maternalHealth = () => {
       for (let i = 0; i < rows.length; i++) {
         if (AFRICA_COUNTRY.includes(rows[i]["Country"])) {
           clean.name.push(rows[i]["Country"]);
-          clean.z.push(parseFloat(rows[i]["Maternal mortality"]));
+          clean.z.push(parseFloat(rows[i]["Maternal Mortality"]));
         }
       }
       // Initialise map with the data given
@@ -889,18 +898,19 @@ const maternalHealth = () => {
           z: clean.z,
           text: clean.name,
           colorscale: [
-            [0, "#5099B4"],
-            [0.35, "#6FB2CD"],
-            [0.5, "#BCEOFO"],
-            [0.75, "#FFB703"],
-            [1, "#FB8500"],
+            [0, "rgba(80, 153, 180, 1)"],
+            [0.15, "rgba(111, 178, 205, 1)"],
+            [0.3, "rgba(188, 224, 240, 1);"],
+            [0.6, "rgba(255, 156, 44, 1)"],
+            [1, "rgba(255, 112, 67, 1)"],
           ],
           autocolorscale: false,
         },
       ];
       // Initialise kayout of the map
       var layout = {
-        title: "Maternal mortality rates (2017)",
+        title:
+          "<b>Maternal Mortality Ratio (2017)</b> <br /> maternal deaths per 100,000 live births",
         width: 600,
         height: 500,
         plot_bgcolor: "rgba(0,0,0,0)",
@@ -916,6 +926,14 @@ const maternalHealth = () => {
           lakecolor: "white",
         },
       };
+
+      const caption = document.querySelector(".eight-caption");
+      if (caption) {
+        caption.classList.remove("eight-caption-bar");
+        caption.classList.add("eight-caption-map");
+        caption.innerHTML =
+          ' Maternal morality is the deaths that occur due to complications of preganancy and child birth. <br /> <i class="eight-source"> Source: World Health Organization, UNICEF, United Nations Population Fund and The World Bank, Trends in Maternal Mortality: 2000 to 2017 WHO, Geneva, 2019 </i>';
+      }
       const container = document.querySelector(".eight-graph-container");
       Plotly.newPlot(container, data, layout, { showLink: false });
     }
@@ -1008,11 +1026,11 @@ const postnaternal = () => {
           z: clean.z,
           text: clean.name,
           colorscale: [
-            [0, "#5099B4"],
-            [0.35, "#6FB2CD"],
-            [0.5, "#BCEOFO"],
-            [0.75, "#FFB703"],
-            [1, "#FB8500"],
+            [0, "rgba(255, 112, 67, 1)"],
+            [0.3, "rgba(255, 156, 44, 1)"],
+            [0.6, "rgba(188, 224, 240, 1);"],
+            [0.85, "rgba(111, 178, 205, 1)"],
+            [1, "rgba(80, 153, 180, 1)"],
           ],
           autocolorscale: false,
         },
@@ -1035,6 +1053,11 @@ const postnaternal = () => {
           lakecolor: "white",
         },
       };
+      const caption = document.querySelector(".eight-caption");
+      caption.classList.remove("eight-caption-bar");
+      caption.classList.add("eight-caption-map");
+      caption.innerHTML =
+        "<i class='eight-source'> <br />Source: Joint UNICEF/WHO database 2021 of skilled health personnel</i>";
       const container = document.querySelector(".eight-graph-container");
       Plotly.newPlot(container, data, layout, { showLink: false });
     }
@@ -1109,6 +1132,7 @@ const childMortalityAfrica = () => {
       },
       showlegend: false,
     };
+
     const container = document.querySelector(".sixth-graph");
     Plotly.newPlot(container, data, layout, { showLink: false });
     const hoverLayer = document.querySelector(".sixth-graph .hoverlayer");
