@@ -68,6 +68,7 @@ const thirdContentFigure = () => {
     popup.style.left = x + "px";
     popup.style.top = y + "px";
   });
+  // Ensure the popup follows the cursor when moving around the visualisation
   africaContainer.addEventListener("mousemove", (event) => {
     const x = event.clientX;
     const y = event.clientY;
@@ -82,11 +83,13 @@ const thirdContentFigure = () => {
     popup.style.left = x + "px";
     popup.style.top = y + "px";
   });
+  // remove the popup when the cursor is outside the visualisation
   africaContainer.addEventListener("mouseleave", (event) => {
     let popup = document.querySelector(".popup-africa");
     popup.parentElement.removeChild(popup);
   });
 
+  // Do the same thing but for the bottom visualisation 
   // Bind mouse events for hovering on the "graph" container
   // Set the x and y coordinates of the popup
   worldContainer.addEventListener("mouseenter", (event) => {
@@ -124,7 +127,7 @@ const thirdContentFigure = () => {
 };
 
 
-
+// Rendering the eighth page
 const eightContentRender = () => {
   const buttons = document.querySelectorAll(".eight-button");
   // Bind click handlers for the buttons
@@ -132,15 +135,18 @@ const eightContentRender = () => {
   buttons.forEach((button, idx) => {
     button.addEventListener("click", () => {
       // Reset button style to default
-      buttons.forEach((btn) => btn.classList.remove("eight-selected"));
-      button.classList.add("eight-selected");
+      buttons.forEach((btn) => btn.classList.remove("eight-selected")); 
+      button.classList.add("eight-selected"); // make button selected orange
+      // get container of the text content 
       const happen = document.querySelector(".eight-happen p");
       const matter = document.querySelector(".eight-matter p");
       const container = document.querySelector(".eight-content");
 
+      // create fade in animation on toggle 
       const newContainer = document.createElement("div");
       newContainer.setAttribute("class", "eight-content animated fadeIn");
 
+      // include text content 
       container.classList.toggle("fadeIn");
       switch (idx) {
         case 0:
@@ -173,7 +179,7 @@ const eightContentRender = () => {
 
           break;
       }
-
+      // changing the content by attaching new created element 
       newContainer.innerHTML = container.innerHTML;
       container.parentElement.replaceChild(newContainer, container);
     });
@@ -191,8 +197,10 @@ const worldMap = () => {
         });
       }
 
+      // show only data that is in 2017
       const filtered = rows.filter((row) => row["Year"] == 2017);
 
+      // define the data 
       var data = [
         {
           type: "choropleth",
@@ -218,14 +226,14 @@ const worldMap = () => {
           },
         },
       };
-      // Append to container
+      // Creating the graph and append to container
       const container = document.querySelector(".second-graph");
       Plotly.newPlot(container, data, layout, { showLink: false });
     }
   );
 };
 
-// Generate bar graph
+// Create a bar graph
 const barGraph = () => {
   Plotly.d3.csv(
     "https://raw.githubusercontent.com/monicatsuii/childmortality/main/Child%20mortality%2C%201950-2017%20(IHME%2C%202017).csv",
@@ -261,7 +269,7 @@ const barGraph = () => {
           },
         },
       };
-      // "Threshold" line on the graph
+      // Create target line on the graph
       var trace2 = {
         x: allCountries,
         y: new Array(allCountries.length).fill(25),
@@ -270,7 +278,6 @@ const barGraph = () => {
           color: "rgb(255,112,65)",
           width: 100,
         },
-        // hoverinfo: "none",
         name: "target (25 deaths per 1000 births)",
       };
 
@@ -302,13 +309,19 @@ const barGraph = () => {
   );
 };
 
-// Linear regressor
+// Linear regressor for Morocco and Tunisia 
 const predictor1 = () => {
   function make_plot(csv_data) {
     const morocco = csv_data.filter((d) => d["Country"] == "Morocco");
     const tunisia = csv_data.filter((d) => d["Country"] == "Tunisia");
 
+    // put both countries in an array to create a 
+    // linear regression for both countries at the same time
+    // reduce code size 
     const arr = [morocco, tunisia];
+    //To normalise our data, we need to know the minimum and maximum values
+    //Math.min doesn't work with strings so we need to convert
+    // for Morocco and Tunisia get the min and max value and mortality rates 
     const mortality_data = arr.map((el) => {
       let mort = el.map((d) => Number(d["Mortality"]));
       let min = Math.min(...mort);
@@ -320,8 +333,7 @@ const predictor1 = () => {
         ...el,
       };
     });
-    //To normalise our data, we need to know the minimum and maximum values
-    //Math.min doesn't work with strings so we need to convert
+
 
     const regression_data = mortality_data.map((el) => {
       let obj = {};
@@ -365,12 +377,13 @@ const predictor1 = () => {
         //Make sure to un-normalise for displaying on the plot
         let min;
         let max;
+        // getting relevant data from Morocco and Tunisia 
         switch (idx) {
-          case 0:
+          case 0: // Morocco
             min = mortality_data[0]["min"];
             max = mortality_data[0]["max"];
             break;
-          case 1:
+          case 1: // Tunisia 
             min = mortality_data[1]["min"];
             max = mortality_data[1]["max"];
             break;
@@ -403,6 +416,7 @@ const predictor1 = () => {
         line: { color, shape: "spline" },
       };
     });
+    // Prediction data labelling
     for (let i = 0; i < extension_x.length; i++) {
       let name;
       let color;
@@ -424,6 +438,7 @@ const predictor1 = () => {
         line: { color, shape: "spline", dash: "dot" },
       });
     }
+    // Create target line at value of 25 
     let target = arr.map((e) => {
       let years = arr[0].map((d) => d["Year"]);
       return {
@@ -439,6 +454,7 @@ const predictor1 = () => {
     target = target[0];
     console.log(target);
     data.push(target);
+    // Initialise layout for target line 
     var layout = {
       height: 300,
       title: "Comparing Child Mortality Rates in North Africa (1950 - 2030)",
@@ -469,14 +485,17 @@ const predictor1 = () => {
   }
 };
 
+// Linear regressor for Chad and Central African Republic  
 const predictor2 = () => {
   function make_plot(csv_data) {
     const chad = csv_data.filter((d) => d["Country"] == "Chad");
     const centralAfrica = csv_data.filter(
       (d) => d["Country"] == "Central African Republic"
     );
+    // put both countries in an array to create a 
+    // linear regression for both countries at the same time
+    // reduce code size 
     const arr = [chad, centralAfrica];
-
     //To normalise our data, we need to know the minimum and maximum values
     //Math.min doesn't work with strings so we need to convert
     const mortality_data = arr.map((el) => {
@@ -534,11 +553,11 @@ const predictor2 = () => {
         let min;
         let max;
         switch (idx) {
-          case 0:
+          case 0: // Chad
             min = mortality_data[0]["min"];
             max = mortality_data[0]["max"];
             break;
-          case 1:
+          case 1: // Central African Republic 
             min = mortality_data[1]["min"];
             max = mortality_data[1]["max"];
             break;
@@ -575,6 +594,7 @@ const predictor2 = () => {
       };
     });
 
+    // Set predicition label 
     for (let i = 0; i < extension_x.length; i++) {
       let name;
       let color;
@@ -601,6 +621,7 @@ const predictor2 = () => {
       });
     }
 
+    // Create target line at value of 25 
     let target = arr.map((e) => {
       let years = arr[0].map((d) => d["Year"]);
       return {
@@ -617,6 +638,7 @@ const predictor2 = () => {
     console.log(target);
     data.push(target);
 
+    // Initialise layout for line graphs 
     var layout = {
       height: 300,
       title:
@@ -648,6 +670,8 @@ const predictor2 = () => {
   }
 };
 
+
+
 // Generate the underweight graph
 const underWeight = () => {
   Plotly.d3.csv(
@@ -661,13 +685,14 @@ const underWeight = () => {
           row["Entity"] == "Morocco" ||
           row["Entity"] == "Tunisia"
       );
-      // Extract the only relevant data: year and underweight percentage
+      // Initialise data structure to store relevant data 
       const clean = {
         Chad: { year: [], data: [] },
         Morocco: { year: [], data: [] },
         Tunisia: { year: [], data: [] },
         "Central African Republic": { year: [], data: [] },
       };
+      // Extract the only relevant data: year and underweight percentage
       data.forEach((country) => {
         clean[country["Entity"]].year.push(country.Year);
         clean[country["Entity"]].data.push(
@@ -737,7 +762,7 @@ const underWeight = () => {
   );
 };
 
-// Generate graph for GPI
+// Generate graph for female education (GPI graph)
 const GPI = () => {
   Plotly.d3.csv(
     "https://raw.githubusercontent.com/monicatsuii/childmortality/main/gpi-tertiary-education.csv",
@@ -750,13 +775,14 @@ const GPI = () => {
           row["Entity"] == "Morocco" ||
           row["Entity"] == "Tunisia"
       );
-      // Extract the only relevant data: year and underweight percentage
+      // Initialise data structure to store relevant data 
       const clean = {
         Chad: { year: [], data: [] },
         Morocco: { year: [], data: [] },
         Tunisia: { year: [], data: [] },
         "Central African Republic": { year: [], data: [] },
       };
+      // Extract the only relevant data: year and underweight percentage
       data.forEach((country) => {
         clean[country["Entity"]].year.push(country.Year);
         clean[country["Entity"]].data.push(
@@ -817,6 +843,7 @@ const GPI = () => {
   );
 };
 
+
 // Generate graph for maternal health
 const maternalHealth = () => {
   Plotly.d3.csv(
@@ -827,8 +854,9 @@ const maternalHealth = () => {
           return row[key];
         });
       }
-      let clean = { name: [], z: [] };
-      // List of all african countries
+      // Initialise data structure to store relevant data 
+      let clean = { name: [], z: [] }; // z = Maternal mortality 
+      // List of all african countries to show relevant data only 
       const AFRICA_COUNTRY = [
         "Algeria",
         "Angola",
@@ -922,9 +950,6 @@ const maternalHealth = () => {
         plot_bgcolor: "rgba(0,0,0,0)",
         paper_bgcolor: "rgba(0,0,0,0)",
         geo: {
-          //   projection: {
-          //     type: "robinson",
-          //   },
           scope: "africa",
           bgcolor: "transparent",
           showlakes: false,
@@ -933,6 +958,7 @@ const maternalHealth = () => {
         },
       };
 
+      // Create captions under the graph 
       const caption = document.querySelector(".eight-caption");
       if (caption) {
         caption.classList.remove("eight-caption-bar");
@@ -946,7 +972,7 @@ const maternalHealth = () => {
   );
 };
 
-// Generate postnaternal graph
+// Generate postnatal graph
 const postnaternal = () => {
   Plotly.d3.csv(
     "https://raw.githubusercontent.com/monicatsuii/childmortality/main/Births%20attended%20by%20skilled%20health%20personnel.csv",
@@ -956,7 +982,7 @@ const postnaternal = () => {
           return row[key];
         });
       }
-      let clean = { name: [], z: [], code: [] };
+      let clean = { name: [], z: [], code: [] }; // z = proportion of births attended by skilled birth attendant 
       const AFRICA_COUNTRY = [
         "Algeria",
         "Angola",
@@ -1050,15 +1076,14 @@ const postnaternal = () => {
         plot_bgcolor: "rgba(0,0,0,0)",
         paper_bgcolor: "rgba(0,0,0,0)",
         geo: {
-          //   projection: {
-          //     type: "robinson",
-          //   },
           scope: "africa",
           showlakes: false,
           showframe: false,
           lakecolor: "white",
         },
       };
+
+      // create caption under the graph 
       const caption = document.querySelector(".eight-caption");
       caption.classList.remove("eight-caption-bar");
       caption.classList.add("eight-caption-map");
@@ -1117,9 +1142,6 @@ const childMortalityAfrica = () => {
       },
       color: "#eee",
       geo: {
-        //   projection: {
-        //     type: "robinson",
-        //   },
         scope: "africa",
         countrycolor: "rgb (255,255,255)",
         showland: true,
@@ -1128,7 +1150,6 @@ const childMortalityAfrica = () => {
         showframe: false,
         lakecolor: "white",
         bgcolor: "transparent",
-        //bgColor: "rgba(0,0,0,0)",
         showlegend: false,
       },
       legend: {
@@ -1141,6 +1162,7 @@ const childMortalityAfrica = () => {
 
     const container = document.querySelector(".sixth-graph");
     Plotly.newPlot(container, data, layout, { showLink: false });
+    // get the hover layer of the graph
     const hoverLayer = document.querySelector(".sixth-graph .hoverlayer");
     const geoLayer = document.querySelector(".sixth-graph .geolayer");
 
@@ -1150,6 +1172,8 @@ const childMortalityAfrica = () => {
       const country = text[1].innerHTML;
       const els = document.querySelectorAll(".sixth-text-element");
       els.forEach((e) => e.classList.remove("sixth-selected"));
+      // check if cursor over country is either Morocco,
+      // Tunisia, Chad or Central African Republic, then highlight them 
       if (country == "Morocco") {
         els[0].classList.add("sixth-selected");
       } else if (country == "Tunisia") {
@@ -1163,6 +1187,7 @@ const childMortalityAfrica = () => {
   });
 };
 
+// Calling functions so that they work 
 pageOneButtonClicks();
 
 thirdContentFigure();
@@ -1179,3 +1204,5 @@ predictor2();
 childMortalityAfrica();
 
 maternalHealth();
+
+// thanks for reading britt :) 
