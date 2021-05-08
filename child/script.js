@@ -245,9 +245,8 @@ const barGraph = () => {
         y: allMortality,
         type: "bar",
         name: "country",
-        text: allMortality.map(String),
+        text: allCountries,
         textposition: "auto",
-        hoverinfo: "none",
         marker: {
           color: "#2ecee8",
           line: {
@@ -265,6 +264,7 @@ const barGraph = () => {
           color: "rgb(255,112,65)",
           width: 100,
         },
+        // hoverinfo: "none",
         name: "target (25 deaths per 1000 births)",
       };
 
