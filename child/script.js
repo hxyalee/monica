@@ -3,35 +3,35 @@ const pageOneButtonClicks = () => {
   // Bind event listeners for main event page buttons
   buttons.forEach((button, idx) => {
     button.addEventListener("click", () => {
+      // Convert all buttons to default style
       buttons.forEach((btn) => btn.classList.remove("selected"));
-      button.classList.add("selected");
+      button.classList.add("selected"); // Mark button as selceted
+      // Change the content of the text
       const contentBox = document.querySelector(".landing-page-link-content");
       const newBox = document.createElement("p");
       newBox.setAttribute("class", "landing-page-link-content animated fadeIn");
-      if (idx == 0) {
+      if (idx == 0)
         newBox.innerText =
           'We have 9 years left to achieve the Sustainable Development Goals (SDG), a 2030 agenda created by the United Nations to achieve a sustainable future by combatting challenges including poverty, climate change, environmental degradation, peace and justice. Currently, child mortality is a major public health problem in developing countries. As part of the SDG number 3, Good Health and Wellbeing, the target is to reduce under-five mortality rate (U5MR) to at least 25 per 1,000 live births in every country ("Sustainable Development Goal 3: Health", 2021). How can we ensure that we are taking the right plan of action to reach this goal? ';
-      }
       if (idx == 1)
         newBox.innerText =
           "Child mortality is a key indicator for healthcare systems such as access to basic health interventions such as vaccines, medical treatment, adequate nutrition and clean water and sanitation. It is also a valuable indicator for social and economic development in understanding government implementation on poverty alleviation and citizen's welfare (“Under 5 Mortality”, 2020). There is a large disparity of children deaths in developing countries compared to high income countries. Reducing these inequalities and strengthening health care systems will be essential for lessening easily preventable child deaths. ";
       if (idx == 2)
         newBox.innerText =
           'There has been remarkable progress towards decreasing child mortality rates with the global under-five mortality rate declining by 59% ("Under 5 Mortality", 2020). These rates were reduced through increasing coverage of immunisation and reducing infectious diseases. However progress has been uneven because child mortality still remains a critical issue in health and well-being in low income countries.';
-
       contentBox.parentElement.replaceChild(newBox, contentBox);
     });
   });
 };
 
-// Create circles for "graph" on the third page
+// Create circles for visualizations on the third page
 const thirdContentFigure = () => {
   const africaContainer = document.querySelector(".third-africa");
   // 13 circles
   for (let i = 0; i < 13; i++) {
     const circle = document.createElement("div");
     if (i == 0) {
-      circle.className = "circle-selected";
+      circle.className = "circle-selected"; // Orange circle (first)
     } else {
       circle.className = "circle";
     }
@@ -43,7 +43,7 @@ const thirdContentFigure = () => {
   for (let i = 0; i < 264; i++) {
     const circle = document.createElement("div");
     if (i == 0) {
-      circle.className = "small-circle-selected";
+      circle.className = "small-circle-selected"; // Orange circle (first)
     } else {
       circle.className = "small-circle";
     }
@@ -52,15 +52,18 @@ const thirdContentFigure = () => {
   // Bind mouse events for hovering on the "graph" container
   // Set the x and y coordinates of the popup
   africaContainer.addEventListener("mouseenter", (event) => {
+    // get x and y coordinates of the mouse
     const x = event.clientX;
     const y = event.clientY;
     let popup = document.querySelector(".popup-africa");
+    // Create popup
     if (!popup) {
       popup = document.createElement("div");
       popup.className = "popup-africa";
       popup.innerText = "1 in 13 children die before the age of 5";
       africaContainer.appendChild(popup);
-    }
+    } 
+    // set position
     popup.style.position = "absolute";
     popup.style.left = x + "px";
     popup.style.top = y + "px";
@@ -120,12 +123,15 @@ const thirdContentFigure = () => {
   });
 };
 
+
+
 const eightContentRender = () => {
   const buttons = document.querySelectorAll(".eight-button");
   // Bind click handlers for the buttons
   // And render respective graphs
   buttons.forEach((button, idx) => {
     button.addEventListener("click", () => {
+      // Reset button style to default
       buttons.forEach((btn) => btn.classList.remove("eight-selected"));
       button.classList.add("eight-selected");
       const happen = document.querySelector(".eight-happen p");
