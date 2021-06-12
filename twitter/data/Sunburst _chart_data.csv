@@ -1,1 +1,37 @@
-Sector,Industry,% of sector,Price Return,% of S&P500 IndexInformation Technology,,100%,42.41%,27.48%Information Technology,Software & Services,55%,52.18%,Information Technology,Technology Hardware & Equipment,30.00%,21.12%,Information Technology,Semiconductors & Semiconfuctor Equipment,15.00%,61.18%,Consumer Discretionary ,,100%,30.31%,11.18%Consumer Discretionary ,Retailing,55%,40.08%,Consumer Discretionary ,Consumer Services ,10.00%,28.61%,Consumer Discretionary ,Automobiles & Components,17.50%,125.52%,Consumer Discretionary ,Consumer Durables & Apparel ,17.50%,21.52%,Communication Services,,100%,22.18%,10.90%Communication Services,Interactive Media & Services,87%,41.54%,Communication Services,Telecommunication Services,13%,-6.47%,Health Care,,100%,11.43%,14.58%Health Care,"Pharmaceuticals, Biotechnology & Life Sciences",55%,-22.99%,Health Care,Healthcare Equipment,45%,32.83%,Consumer Staples,,100%,13.99%,7.05%Consumer Staples,Food & Beverage & Tabacco ,52%,17.86%,Consumer Staples,Household & Personal Products,26%,,Consumer Staples,Food & Staples Retailing ,22%,,Materials,,100%,18.10%,2.56%Materials,Materials,100%,18.10%,Real Estate,,100%,-5.09%,2.80%Real Estate,Real Estate,100%,-5.09%,Utilities,,100%,-2.83%,3.13%Utilities,Utilities,100%,-2.83%,Industrials,,100%,9.01%,7.90%Industrials,Capital Goods,70%,10.63%,Industrials,Transportation,20%,11.02%,Industrials,Commercial Services,10%,-3.42%,Financials,,100%,-4.10%,9.89%Financials,Diversified Financials,45%,36.41%,Financials,Banks,40%,-11.81%,Financials,Insurance,15%,-5.00%,Energy,,100%,-37.31%,2.53%Energy,Energy,100%,-37.31%,All Sectors,,100%,16.26%,100.00%
+Sector,value,Industry,Price Return
+Information Technology,27.48%,,42.41%
+Information Technology,55%,Software & Services,52.18%
+Information Technology,30.00%,Technology Hardware & Equipment,21.12%
+Information Technology,15.00%,Semiconductors & Semiconfuctor Equipment,61.18%
+Consumer Discretionary ,11.18%,,30.31%
+Consumer Discretionary ,55%,Retailing,40.08%
+Consumer Discretionary ,10.00%,Consumer Services ,28.61%
+Consumer Discretionary ,17.50%,Automobiles & Components,125.52%
+Consumer Discretionary ,17.50%,Consumer Durables & Apparel ,21.52%
+Communication Services,10.90%,,22.18%
+Communication Services,87%,Interactive Media & Services,41.54%
+Communication Services,13%,Telecommunication Services,-6.47%
+Health Care,14.58%,,11.43%
+Health Care,55%,"Pharmaceuticals, Biotechnology & Life Sciences",-22.99%
+Health Care,45%,Healthcare Equipment,32.83%
+Consumer Staples,7.05%,,13.99%
+Consumer Staples,52%,Food & Beverage & Tabacco ,17.86%
+Consumer Staples,26%,Household & Personal Products,
+Consumer Staples,22%,Food & Staples Retailing ,
+Materials,2.56%,,18.10%
+Materials,100%,Materials,18.10%
+Real Estate,2.80%,,-5.09%
+Real Estate,100%,Real Estate,-5.09%
+Utilities,3.13%,,-2.83%
+Utilities,100%,Utilities,-2.83%
+Industrials,7.90%,,9.01%
+Industrials,70%,Capital Goods,10.63%
+Industrials,20%,Transportation,11.02%
+Industrials,10%,Commercial Services,-3.42%
+Financials,9.89%,,-4.10%
+Financials,45%,Diversified Financials,36.41%
+Financials,40%,Banks,-11.81%
+Financials,15%,Insurance,-5.00%
+Energy,2.53%,,-37.31%
+Energy,100%,Energy,-37.31%
+All Sectors,1100.00%,,16.26%
