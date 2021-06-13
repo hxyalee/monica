@@ -1,6 +1,8 @@
+// Handle random tweet generation on document load
+// and handle generate button press
 const handleGenerateTweet = (data) => {
   let rand = getRandomInt(data.length);
-
+  // Look for tweet that is not a link (image)
   while (true) {
     if (data[rand].text.includes("http")) {
       rand = getRandomInt(data.length);
@@ -11,9 +13,9 @@ const handleGenerateTweet = (data) => {
   const container = document.querySelector(".twt-container");
   const body = document.querySelector(".twt-content");
   body.innerHTML = data[rand].text;
-
+  // Fade in animation
   container.classList.toggle("show");
-
+  // Convert datetime to human readable string
   const time = document.querySelector(".twt-header-date");
   time.innerHTML = new Date(data[rand].datetime)
     .toLocaleDateString("en-GB", {
@@ -22,7 +24,7 @@ const handleGenerateTweet = (data) => {
       year: "numeric",
     })
     .replace(/ /g, " ");
-
+  // Bind click event to generate button
   const btn = document.querySelector(".twt-generate-btn");
   btn.addEventListener("click", () => {
     let outer = document.querySelector(".twt-container-outer");
@@ -35,13 +37,12 @@ const handleGenerateTweet = (data) => {
         break;
       }
     }
-
+    // Set the content of the tweet box
     newElement = document.createElement("div");
     newElement.setAttribute(
       "class",
       "twt-container column-center-flex animated fadeIn"
     );
-    // newElement.classList.toggle("show");
     newElement.innerHTML = `<div class="twt-header">
         <img class="twt-avatar" src="./assets/profilephoto.jpeg" />
         <b>Donald J. Trump</b>
@@ -65,15 +66,18 @@ const handleGenerateTweet = (data) => {
         <img class="twt-footer-icon" src="./assets/Retweet.svg" />
         <img class="twt-footer-icon" src="./assets/Share.svg" />
     </div>`;
-
+    // Replcae new element as child
     prev.parentElement.replaceChild(newElement, prev);
   });
 };
 
+// Get random number between 0 and max
 const getRandomInt = (max) => {
   return Math.floor(Math.random() * (max - 0) + 0);
 };
 
+// Global variables to efficiently store data
+// prevent making request to csv all over again
 var STOCKTWEETS;
 
 var ALLTWEETS;
@@ -86,17 +90,20 @@ var ENERGY;
 Plotly.d3.csv(
   "https://raw.githubusercontent.com/hxyalee/monica/master/twitter/data/trump_stock_tweets.csv",
   (data) => {
+    // Handle random tweets
     handleGenerateTweet(data);
+    // Set global variable to data
     STOCKTWEETS = data;
   }
 );
 
-// All tweets
+// Handle all tweets
 Plotly.d3.csv(
   "https://raw.githubusercontent.com/hxyalee/monica/master/twitter/data/trump_presidential_tweets.csv",
   (data) => {
+    // Remove falsy data
     ALLTWEETS = data.map((e) => e);
-
+    // Filter words per industry
     INFOTECH = ALLTWEETS.filter(
       (e) =>
         e.text.toLowerCase().includes("technology") ||
@@ -127,6 +134,8 @@ Plotly.d3.csv(
 
     energy();
 
+    // Clean up data to categorize according to different time periods and
+    // Scatter plot sizes. Look at justification doc for more details
     data = dataCleanUp(data);
 
     let lookup = {};
@@ -152,7 +161,9 @@ Plotly.d3.csv(
       let year = date.getFullYear();
       let month = date.getMonth();
       let day = date.getDate();
+      // Average days in the period tweets
       let mondateFrac = parseInt(month) + parseInt(day) / 32;
+      // For sentiment colors
       let sentimentCat = entry.sentiment > 0 ? "positive" : "negative";
       trace = getData(year, sentimentCat);
       trace.x.push(mondateFrac);
@@ -328,6 +339,7 @@ Plotly.d3.csv(
 Plotly.d3.csv(
   "https://raw.githubusercontent.com/hxyalee/monica/master/twitter/data/SP500.csv",
   function (err, rows) {
+    // Key events for annotation
     const KEYEVENTS = [
       ["2017-1-20", "Inauguration", 2271.31],
       ["2017-12-22", "Corporate tax cuts signed into law", 2683.34, -60],
@@ -340,14 +352,8 @@ Plotly.d3.csv(
       ["2020-11-7", "Trump loses re-election bid", 3550, -70],
       ["2021-1-20", "Trump leaves office", 3800, 160],
     ];
-
+    // Add details for annotations
     const annotations = KEYEVENTS.map((el, idx) => {
-      let i = idx;
-      if (idx > 5) {
-        i = KEYEVENTS.length - idx;
-      }
-      let odd = true;
-      if (i % 2 == 0) odd = false;
       const annotation = {
         x: el[0],
         y: el[2],
@@ -362,6 +368,8 @@ Plotly.d3.csv(
       };
       return annotation;
     });
+
+    // Format date in yyyy-mm-dd format for consistency
     function formatDate(data, annotations) {
       for (let entry of data) {
         let date = entry["DATE"].split("/");
@@ -387,16 +395,19 @@ Plotly.d3.csv(
       line: { color: "#eee" },
     };
 
+    // Reload if empty variable bug (latency issues maybe)
     if (!STOCKTWEETS || STOCKTWEETS.length == 0) window.location.reload();
 
     let stocktwt = STOCKTWEETS.map((twt) => {
       const t = twt.text;
       let text = "";
+      // disregard tweets that are too long nor images
       if (t.length > 140) return;
       if (t.includes("http")) return;
       let flag = false;
       for (let i = 0; i < t.length; i++) {
         if (i % 50 == 0 && i != 0) flag = true;
+        // Set breaks for readability
         if (flag && t[i] == " ") {
           text += "<br>";
           flag = false;
